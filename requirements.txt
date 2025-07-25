@@ -31,3 +31,4 @@ google-generativeai
 
 plotly
 loguru
+opencv-python
