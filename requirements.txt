@@ -27,5 +27,7 @@ pathlib2>=2.3.0
 black>=22.0.0
 flake8>=5.0.0
 mypy>=0.950
+google-generativeai
+
 plotly
 loguru
