@@ -5,7 +5,7 @@ loguru>=0.7.0
 pandas>=2.0.0
 numpy>=1.24.0
 plotly>=5.15.0
-opencv-python>=4.8.0
+opencv-python-headless>=4.8.0.76
 Pillow>=10.0.0
 
 # LLM and AI Dependencies  
@@ -14,23 +14,15 @@ openai>=1.0.0
 anthropic>=0.7.0
 tiktoken>=0.5.0
 
-# Android Environment Dependencies (Optional - may not work on Python 3.13)
-# android-env>=1.2.3
-# dm-env>=1.6
-# absl-py>=1.4.0
-# gym>=0.26.0
-
 # Data Processing
 json5>=0.9.0
 pydantic>=2.0.0
-dataclasses-json>=0.6.0
 typing-extensions>=4.5.0
 
 # Web Scraping and UI Analysis
 beautifulsoup4>=4.12.0
 lxml>=4.9.0
 requests>=2.31.0
-selenium>=4.15.0
 
 # Image Processing and Computer Vision
 scikit-image>=0.21.0
@@ -46,33 +38,22 @@ pytest>=7.4.0
 pytest-asyncio>=0.21.0
 
 # Development and Debugging
-ipython>=8.15.0
 tqdm>=4.65.0
 
-# Data Science and Analysis - FIXED FOR PYTHON 3.13
-scipy>=1.14.0
-scikit-learn>=1.3.0  # FIXED: was sklearn>=1.3.0
-# torch>=2.0.0  # COMMENTED OUT: Limited Python 3.13 support
-# torchvision>=0.15.0  # COMMENTED OUT: Limited Python 3.13 support
+# Data Science and Analysis
+scipy>=1.11.0
+scikit-learn>=1.3.0
 
 # Configuration and Environment
 python-dotenv>=1.0.0
 pyyaml>=6.0
-configparser>=5.3.0
 
 # Networking and API
 httpx>=0.24.0
-websockets>=11.0.0
-
-# File Processing
-pathlib2>=2.3.7
-glob2>=0.7
 
 # Performance Monitoring
 psutil>=5.9.0
-memory-profiler>=0.61.0
 
 # Additional utility libraries
 rich>=13.5.0
 click>=8.1.0
-python-magic>=0.4.27
