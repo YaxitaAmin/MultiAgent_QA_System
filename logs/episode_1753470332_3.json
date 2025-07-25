@@ -1,0 +1,153 @@
+{
+  "episode_id": "episode_1753470332_3",
+  "task_description": "Open Settings and navigate to Display settings",
+  "start_time": 1753470332.0826848,
+  "end_time": 1753470332.1850564,
+  "total_steps": 9,
+  "success": false,
+  "final_result": "Analysis complete. Quality: 0.20",
+  "actions": [
+    {
+      "agent_type": "planner",
+      "action_type": "create_plan",
+      "input_data": {
+        "goal": "Open Settings and navigate to Display settings",
+        "subgoals_count": 1,
+        "estimated_steps": 1
+      },
+      "output_data": {},
+      "timestamp": 1753470332.0886981,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0039997100830078125,
+      "duration": 0.0039997100830078125
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 1,
+        "error": "'UIState' object has no attribute 'get'"
+      },
+      "output_data": {},
+      "timestamp": 1753470332.0946877,
+      "success": false,
+      "error_message": null,
+      "execution_time": 0.0010018348693847656,
+      "duration": 0.0010018348693847656
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 1,
+        "verification_type": "ui_state",
+        "execution_success": false
+      },
+      "output_data": {
+        "verification_passed": false,
+        "confidence": 0.3,
+        "issues_count": 1
+      },
+      "timestamp": 1753470332.1306844,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.001996755599975586,
+      "duration": 0.001996755599975586
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 1,
+        "error": "'UIState' object has no attribute 'get'"
+      },
+      "output_data": {},
+      "timestamp": 1753470332.133698,
+      "success": false,
+      "error_message": null,
+      "execution_time": 0.0,
+      "duration": 0.0
+    },
+    {
+      "agent_type": "planner",
+      "action_type": "adapt_plan",
+      "input_data": {
+        "issue": "Verification failed: UI state did not change after action",
+        "suggestion": "Check if correct element was targeted"
+      },
+      "output_data": {},
+      "timestamp": 1753470332.1346836,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0009856224060058594,
+      "duration": 0.0009856224060058594
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 1,
+        "error": "'UIState' object has no attribute 'get'"
+      },
+      "output_data": {},
+      "timestamp": 1753470332.1376827,
+      "success": false,
+      "error_message": null,
+      "execution_time": 0.0009987354278564453,
+      "duration": 0.0009987354278564453
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 1,
+        "verification_type": "ui_state",
+        "execution_success": false
+      },
+      "output_data": {
+        "verification_passed": false,
+        "confidence": 0.3,
+        "issues_count": 1
+      },
+      "timestamp": 1753470332.1730642,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.00099945068359375,
+      "duration": 0.00099945068359375
+    },
+    {
+      "agent_type": "planner",
+      "action_type": "adapt_plan",
+      "input_data": {
+        "issue": "Verification failed: UI state did not change after action",
+        "suggestion": "Check if correct element was targeted"
+      },
+      "output_data": {},
+      "timestamp": 1753470332.1760714,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0,
+      "duration": 0.0
+    },
+    {
+      "agent_type": "supervisor",
+      "action_type": "analyze_episode",
+      "input_data": {
+        "episode_id": "episode_1753470331_2",
+        "episode_success": true,
+        "total_steps": 3
+      },
+      "output_data": {
+        "overall_quality": 0.3166666666666667,
+        "issues_count": 7,
+        "suggestions_count": 7
+      },
+      "timestamp": 1753470332.1840582,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.001981973648071289,
+      "duration": 0.001981973648071289
+    }
+  ]
+}

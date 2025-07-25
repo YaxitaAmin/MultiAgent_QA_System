@@ -1,0 +1,105 @@
+{
+  "task_type": "calculator_operation",
+  "duration": 22.8,
+  "screen_sequence": [
+    "home",
+    "app_drawer",
+    "calculator",
+    "calculator"
+  ],
+  "user_actions": [
+    {
+      "type": "swipe",
+      "coordinates": [
+        [
+          200,
+          800
+        ],
+        [
+          200,
+          400
+        ]
+      ],
+      "timestamp": 0.5,
+      "target": "home_screen"
+    },
+    {
+      "type": "scroll",
+      "coordinates": [
+        200,
+        400
+      ],
+      "timestamp": 2.1,
+      "target": "app_drawer"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        150,
+        320
+      ],
+      "timestamp": 4.2,
+      "target": "calculator_icon"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        120,
+        580
+      ],
+      "timestamp": 6.5,
+      "target": "number_2"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        180,
+        580
+      ],
+      "timestamp": 7.2,
+      "target": "number_5"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        240,
+        520
+      ],
+      "timestamp": 8.1,
+      "target": "plus_button"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        120,
+        520
+      ],
+      "timestamp": 9.3,
+      "target": "number_1"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        180,
+        520
+      ],
+      "timestamp": 10.1,
+      "target": "number_3"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        240,
+        640
+      ],
+      "timestamp": 11.8,
+      "target": "equals_button"
+    }
+  ],
+  "success": true,
+  "app_package": "com.google.android.calculator",
+  "device_info": {
+    "model": "Samsung_S21",
+    "android_version": "11"
+  }
+}

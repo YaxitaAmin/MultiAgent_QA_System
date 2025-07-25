@@ -1,0 +1,36 @@
+{
+  "task_type": "bluetooth_configuration",
+  "duration": 18.6,
+  "screen_sequence": [
+    "home",
+    "settings",
+    "bluetooth_settings"
+  ],
+  "user_actions": [
+    {
+      "type": "touch",
+      "coordinates": [
+        200,
+        120
+      ],
+      "target": "settings"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        180,
+        300
+      ],
+      "target": "bluetooth_option"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        420,
+        160
+      ],
+      "target": "bluetooth_toggle"
+    }
+  ],
+  "success": false
+}

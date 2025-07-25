@@ -1,0 +1,83 @@
+{
+  "episode_id": "episode_1753470740_4",
+  "task_description": "Open Settings and navigate to Display settings",
+  "start_time": 1753470740.0034986,
+  "end_time": 1753470740.2590232,
+  "total_steps": 4,
+  "success": true,
+  "final_result": "Analysis complete. Quality: 1.00",
+  "actions": [
+    {
+      "agent_type": "planner",
+      "action_type": "create_plan",
+      "input_data": {
+        "goal": "Open Settings and navigate to Display settings",
+        "subgoals_count": 1,
+        "estimated_steps": 1
+      },
+      "output_data": {},
+      "timestamp": 1753470740.0154915,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.009009361267089844,
+      "duration": 0.009009361267089844
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 1,
+        "description": "Execute the requested task: \ncreate a detailed test plan f...",
+        "action_type": "touch",
+        "confidence": 0.5
+      },
+      "output_data": {
+        "success": true,
+        "execution_time": 0.1710505485534668
+      },
+      "timestamp": 1753470740.1936429,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.1710505485534668,
+      "duration": 0.1710505485534668
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 1,
+        "verification_type": "ui_state",
+        "execution_success": true
+      },
+      "output_data": {
+        "verification_passed": true,
+        "confidence": 0.9,
+        "issues_count": 0
+      },
+      "timestamp": 1753470740.2472074,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0010182857513427734,
+      "duration": 0.0010182857513427734
+    },
+    {
+      "agent_type": "supervisor",
+      "action_type": "analyze_episode",
+      "input_data": {
+        "episode_id": "episode_1753470739_3",
+        "episode_success": true,
+        "total_steps": 1
+      },
+      "output_data": {
+        "overall_quality": 0.9166666666666666,
+        "issues_count": 2,
+        "suggestions_count": 2
+      },
+      "timestamp": 1753470740.258028,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0020008087158203125,
+      "duration": 0.0020008087158203125
+    }
+  ]
+}

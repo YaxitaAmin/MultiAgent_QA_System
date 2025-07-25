@@ -1,0 +1,48 @@
+2025-07-25 13:29:54 | INFO | core.android_env_wrapper:__init__:36 | Using mock Android environment
+2025-07-25 13:29:57 | INFO | core.logger:start_episode:83 | Started episode episode_1753464597_0: Open Calculator app and perform basic calculation
+2025-07-25 13:29:57 | INFO | env_manager:execute_qa_task:81 | Starting QA task: Open Calculator app and perform basic calculation
+2025-07-25 13:29:57 | INFO | env_manager:execute_qa_task:88 | Phase 1: Creating test plan
+2025-07-25 13:29:57 | INFO | core.logger:log_agent_action:135 | Agent planner - create_plan: Success=True, Time=0.001s
+2025-07-25 13:29:57 | INFO | agents.planner_agent:create_plan:80 | Created plan with 1 subgoals for: Open Calculator app and perform basic calculation
+2025-07-25 13:29:57 | INFO | env_manager:execute_qa_task:95 | Phase 2: Executing test plan
+2025-07-25 13:29:57 | INFO | env_manager:execute_qa_task:106 | Step 1: Executing subgoal 1
+2025-07-25 13:29:57 | INFO | agents.executor_agent:execute_subgoal:44 | Executing subgoal 1: Execute requested task
+2025-07-25 13:29:57 | INFO | core.logger:log_ui_interaction:145 | UI Interaction: touch on unknown -> success
+2025-07-25 13:29:57 | INFO | core.logger:log_agent_action:135 | Agent executor - execute_subgoal: Success=True, Time=0.033s
+2025-07-25 13:29:57 | INFO | agents.executor_agent:execute_subgoal:102 | Successfully executed subgoal 1
+2025-07-25 13:29:57 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute requested task
+2025-07-25 13:29:57 | INFO | core.logger:log_agent_action:135 | Agent verifier - verify_execution: Success=True, Time=0.002s
+2025-07-25 13:29:57 | INFO | core.logger:log_verification_result:149 | Verification: Expected='UI state changed successfully', Actual='UI responded to action as expected', Passed=True
+2025-07-25 13:29:57 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.90)
+2025-07-25 13:29:57 | INFO | agents.planner_agent:mark_subgoal_completed:180 | Subgoal 1 completed: Execute requested task
+2025-07-25 13:29:57 | INFO | env_manager:execute_qa_task:124 | Subgoal 1 completed successfully
+2025-07-25 13:29:57 | INFO | env_manager:execute_qa_task:103 | All subgoals completed
+2025-07-25 13:29:57 | INFO | env_manager:execute_qa_task:148 | Test plan completed successfully
+2025-07-25 13:29:57 | INFO | env_manager:execute_qa_task:155 | Phase 3: Analyzing episode
+2025-07-25 13:29:57 | INFO | core.logger:end_episode:104 | Ended episode episode_1753464597_0: Success=True, Duration=0.09s, Steps=3
+2025-07-25 13:29:57 | INFO | env_manager:execute_qa_task:193 | QA task completed. Success: True, Time: 0.10s, Steps: 1
+2025-07-25 13:30:00 | INFO | core.logger:start_episode:83 | Started episode episode_1753464600_1: Open Calculator app and perform basic calculation
+2025-07-25 13:30:00 | INFO | env_manager:execute_qa_task:81 | Starting QA task: Open Calculator app and perform basic calculation
+2025-07-25 13:30:00 | INFO | env_manager:execute_qa_task:88 | Phase 1: Creating test plan
+2025-07-25 13:30:00 | INFO | core.logger:log_agent_action:135 | Agent planner - create_plan: Success=True, Time=0.000s
+2025-07-25 13:30:00 | INFO | agents.planner_agent:create_plan:80 | Created plan with 1 subgoals for: Open Calculator app and perform basic calculation
+2025-07-25 13:30:00 | INFO | env_manager:execute_qa_task:95 | Phase 2: Executing test plan
+2025-07-25 13:30:00 | INFO | env_manager:execute_qa_task:106 | Step 1: Executing subgoal 1
+2025-07-25 13:30:00 | INFO | agents.executor_agent:execute_subgoal:44 | Executing subgoal 1: Execute requested task
+2025-07-25 13:30:00 | INFO | core.logger:log_ui_interaction:145 | UI Interaction: touch on unknown -> success
+2025-07-25 13:30:00 | INFO | core.logger:log_agent_action:135 | Agent executor - execute_subgoal: Success=True, Time=0.035s
+2025-07-25 13:30:00 | INFO | agents.executor_agent:execute_subgoal:102 | Successfully executed subgoal 1
+2025-07-25 13:30:00 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute requested task
+2025-07-25 13:30:00 | INFO | core.logger:log_agent_action:135 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 13:30:00 | INFO | core.logger:log_verification_result:149 | Verification: Expected='UI state changed successfully', Actual='UI responded to action as expected', Passed=True
+2025-07-25 13:30:00 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.90)
+2025-07-25 13:30:00 | INFO | agents.planner_agent:mark_subgoal_completed:180 | Subgoal 1 completed: Execute requested task
+2025-07-25 13:30:00 | INFO | env_manager:execute_qa_task:124 | Subgoal 1 completed successfully
+2025-07-25 13:30:00 | INFO | env_manager:execute_qa_task:103 | All subgoals completed
+2025-07-25 13:30:00 | INFO | env_manager:execute_qa_task:148 | Test plan completed successfully
+2025-07-25 13:30:00 | INFO | env_manager:execute_qa_task:155 | Phase 3: Analyzing episode
+2025-07-25 13:30:00 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753464597_0
+2025-07-25 13:30:00 | INFO | core.logger:log_agent_action:135 | Agent supervisor - analyze_episode: Success=True, Time=0.002s
+2025-07-25 13:30:00 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 1.00
+2025-07-25 13:30:00 | INFO | core.logger:end_episode:104 | Ended episode episode_1753464600_1: Success=True, Duration=0.08s, Steps=4
+2025-07-25 13:30:00 | INFO | env_manager:execute_qa_task:193 | QA task completed. Success: True, Time: 0.09s, Steps: 1

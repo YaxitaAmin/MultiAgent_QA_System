@@ -1,0 +1,153 @@
+{
+  "episode_id": "episode_1753470337_12",
+  "task_description": "Test airplane mode toggle",
+  "start_time": 1753470337.014669,
+  "end_time": 1753470337.1192825,
+  "total_steps": 9,
+  "success": false,
+  "final_result": "Analysis complete. Quality: 0.20",
+  "actions": [
+    {
+      "agent_type": "planner",
+      "action_type": "create_plan",
+      "input_data": {
+        "goal": "Test airplane mode toggle",
+        "subgoals_count": 1,
+        "estimated_steps": 1
+      },
+      "output_data": {},
+      "timestamp": 1753470337.0176623,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0009999275207519531,
+      "duration": 0.0009999275207519531
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 1,
+        "error": "'UIState' object has no attribute 'get'"
+      },
+      "output_data": {},
+      "timestamp": 1753470337.0228963,
+      "success": false,
+      "error_message": null,
+      "execution_time": 0.002229928970336914,
+      "duration": 0.002229928970336914
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 1,
+        "verification_type": "ui_state",
+        "execution_success": false
+      },
+      "output_data": {
+        "verification_passed": false,
+        "confidence": 0.3,
+        "issues_count": 1
+      },
+      "timestamp": 1753470337.0662923,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.001504659652709961,
+      "duration": 0.001504659652709961
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 1,
+        "error": "'UIState' object has no attribute 'get'"
+      },
+      "output_data": {},
+      "timestamp": 1753470337.0687895,
+      "success": false,
+      "error_message": null,
+      "execution_time": 0.0,
+      "duration": 0.0
+    },
+    {
+      "agent_type": "planner",
+      "action_type": "adapt_plan",
+      "input_data": {
+        "issue": "Verification failed: UI state did not change after action",
+        "suggestion": "Check if correct element was targeted"
+      },
+      "output_data": {},
+      "timestamp": 1753470337.0718145,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0010137557983398438,
+      "duration": 0.0010137557983398438
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 1,
+        "error": "'UIState' object has no attribute 'get'"
+      },
+      "output_data": {},
+      "timestamp": 1753470337.0772834,
+      "success": false,
+      "error_message": null,
+      "execution_time": 0.001016378402709961,
+      "duration": 0.001016378402709961
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 1,
+        "verification_type": "ui_state",
+        "execution_success": false
+      },
+      "output_data": {
+        "verification_passed": false,
+        "confidence": 0.3,
+        "issues_count": 1
+      },
+      "timestamp": 1753470337.1072707,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.000993490219116211,
+      "duration": 0.000993490219116211
+    },
+    {
+      "agent_type": "planner",
+      "action_type": "adapt_plan",
+      "input_data": {
+        "issue": "Verification failed: UI state did not change after action",
+        "suggestion": "Check if correct element was targeted"
+      },
+      "output_data": {},
+      "timestamp": 1753470337.1112742,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.000997781753540039,
+      "duration": 0.000997781753540039
+    },
+    {
+      "agent_type": "supervisor",
+      "action_type": "analyze_episode",
+      "input_data": {
+        "episode_id": "episode_1753470336_11",
+        "episode_success": false,
+        "total_steps": 3
+      },
+      "output_data": {
+        "overall_quality": 0.3166666666666667,
+        "issues_count": 7,
+        "suggestions_count": 7
+      },
+      "timestamp": 1753470337.1182654,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.001993417739868164,
+      "duration": 0.001993417739868164
+    }
+  ]
+}

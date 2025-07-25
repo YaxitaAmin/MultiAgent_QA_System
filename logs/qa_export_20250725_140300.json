@@ -1,0 +1,431 @@
+{
+  "summary": {
+    "total_episodes": 1,
+    "successful_episodes": 0,
+    "success_rate": 0.0,
+    "episodes": [
+      {
+        "episode_id": "episode_1753466580_0",
+        "task": "Test turning Wi-Fi on and off",
+        "success": false,
+        "duration": 0.4091610908508301,
+        "steps": 13
+      }
+    ]
+  },
+  "episodes": [
+    {
+      "episode_id": "episode_1753466580_0",
+      "task_description": "Test turning Wi-Fi on and off",
+      "start_time": 1753466580.2891245,
+      "end_time": 1753466580.6982856,
+      "total_steps": 13,
+      "success": false,
+      "final_result": "Episode completed",
+      "actions": [
+        {
+          "agent_type": "planner",
+          "action_type": "create_plan",
+          "input_data": {
+            "goal": "Test turning Wi-Fi on and off",
+            "context": {
+              "initial_ui": {
+                "screenshot": "[[[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n ...\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]]",
+                "ui_state": {
+                  "elements": [
+                    {
+                      "element_id": "element_0",
+                      "bounds": [
+                        100,
+                        100,
+                        300,
+                        150
+                      ],
+                      "text": "Settings",
+                      "content_desc": "",
+                      "class_name": "android.widget.TextView",
+                      "clickable": true,
+                      "enabled": true,
+                      "focused": false,
+                      "scrollable": false,
+                      "checkable": false,
+                      "checked": false
+                    },
+                    {
+                      "element_id": "element_1",
+                      "bounds": [
+                        100,
+                        200,
+                        300,
+                        250
+                      ],
+                      "text": "Wi-Fi",
+                      "content_desc": "",
+                      "class_name": "android.widget.TextView",
+                      "clickable": true,
+                      "enabled": true,
+                      "focused": false,
+                      "scrollable": false,
+                      "checkable": false,
+                      "checked": false
+                    },
+                    {
+                      "element_id": "element_2",
+                      "bounds": [
+                        400,
+                        200,
+                        450,
+                        250
+                      ],
+                      "text": "",
+                      "content_desc": "",
+                      "class_name": "android.widget.Switch",
+                      "clickable": true,
+                      "enabled": true,
+                      "focused": false,
+                      "scrollable": false,
+                      "checkable": true,
+                      "checked": false
+                    }
+                  ],
+                  "hierarchy": {
+                    "tag": "hierarchy",
+                    "attrib": {
+                      "rotation": "0"
+                    },
+                    "depth": 0,
+                    "children": [
+                      {
+                        "tag": "node",
+                        "attrib": {
+                          "index": "0",
+                          "text": "Settings",
+                          "resource-id": "android:id/title",
+                          "class": "android.widget.TextView",
+                          "bounds": "[100,100][300,150]",
+                          "clickable": "true",
+                          "enabled": "true"
+                        },
+                        "depth": 1,
+                        "children": []
+                      },
+                      {
+                        "tag": "node",
+                        "attrib": {
+                          "index": "1",
+                          "text": "Wi-Fi",
+                          "resource-id": "com.android.settings:id/wifi_settings",
+                          "class": "android.widget.TextView",
+                          "bounds": "[100,200][300,250]",
+                          "clickable": "true",
+                          "enabled": "true"
+                        },
+                        "depth": 1,
+                        "children": []
+                      },
+                      {
+                        "tag": "node",
+                        "attrib": {
+                          "index": "2",
+                          "text": "",
+                          "resource-id": "com.android.settings:id/wifi_switch",
+                          "class": "android.widget.Switch",
+                          "bounds": "[400,200][450,250]",
+                          "clickable": "true",
+                          "enabled": "true",
+                          "checkable": "true",
+                          "checked": "false"
+                        },
+                        "depth": 1,
+                        "children": []
+                      }
+                    ]
+                  },
+                  "screenshot_path": null,
+                  "timestamp": 1753466580.2945523
+                },
+                "ui_dump": "<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\n        <hierarchy rotation=\"0\">\n            <node index=\"0\" text=\"Settings\" resource-id=\"android:id/title\" class=\"android.widget.TextView\" \n                  bounds=\"[100,100][300,150]\" clickable=\"true\" enabled=\"true\" />\n            <node index=\"1\" text=\"Wi-Fi\" resource-id=\"com.android.settings:id/wifi_settings\" \n                  class=\"android.widget.TextView\" bounds=\"[100,200][300,250]\" clickable=\"true\" enabled=\"true\" />\n            <node index=\"2\" text=\"\" resource-id=\"com.android.settings:id/wifi_switch\" \n                  class=\"android.widget.Switch\" bounds=\"[400,200][450,250]\" \n                  clickable=\"true\" enabled=\"true\" checkable=\"true\" checked=\"false\" />\n        </hierarchy>",
+                "timestamp": 1753466580.2945523,
+                "step": 0
+              }
+            }
+          },
+          "output_data": {
+            "subgoals_count": 5
+          },
+          "timestamp": 1753466580.2957733,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0006074905395507812
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 1,
+            "description": "Open Settings app",
+            "grounded_action": {
+              "action_type": "touch",
+              "element_id": "settings_icon",
+              "coordinates": [
+                172,
+                124
+              ],
+              "confidence": 0.7764123694755006,
+              "reasoning": "Located target element with 0.78 confidence"
+            }
+          },
+          "output_data": {
+            "success": true,
+            "action_type": "touch",
+            "screenshot": "screenshots\\step_001_1753466580.png"
+          },
+          "timestamp": 1753466580.3770921,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.07811760902404785
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 1,
+            "verification_type": "navigation",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753466580.4119194,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0010008811950683594
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 2,
+            "description": "Find and tap Wi-Fi option",
+            "grounded_action": {
+              "action_type": "failed",
+              "element_id": "element_not_found",
+              "coordinates": [
+                0,
+                0
+              ],
+              "confidence": 0.30157206229985445,
+              "reasoning": "Target element not visible or not clickable"
+            }
+          },
+          "output_data": {
+            "success": false,
+            "action_type": "failed",
+            "screenshot": "screenshots\\step_001_1753466580.png"
+          },
+          "timestamp": 1753466580.4536157,
+          "success": false,
+          "error_message": "Unknown action type: failed",
+          "execution_time": 0.03868412971496582
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 2,
+            "verification_type": "text_presence",
+            "execution_success": false
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753466580.4854102,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0013613700866699219
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 3,
+            "description": "Toggle Wi-Fi switch",
+            "grounded_action": {
+              "action_type": "touch",
+              "element_id": "ui_element_1",
+              "coordinates": [
+                486,
+                345
+              ],
+              "confidence": 0.8553456213318946,
+              "reasoning": "Located target element with 0.86 confidence"
+            }
+          },
+          "output_data": {
+            "success": true,
+            "action_type": "touch",
+            "screenshot": "screenshots\\step_002_1753466580.png"
+          },
+          "timestamp": 1753466580.516532,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.028744935989379883
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 3,
+            "verification_type": "element_state",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.95,
+            "issues_count": 0
+          },
+          "timestamp": 1753466580.5532365,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0005311965942382812
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 4,
+            "description": "Wait for toggle animation",
+            "grounded_action": {
+              "action_type": "touch",
+              "element_id": "ui_element_3",
+              "coordinates": [
+                316,
+                222
+              ],
+              "confidence": 0.8176473859111094,
+              "reasoning": "Located target element with 0.82 confidence"
+            }
+          },
+          "output_data": {
+            "success": true,
+            "action_type": "touch",
+            "screenshot": "screenshots\\step_003_1753466580.png"
+          },
+          "timestamp": 1753466580.5824091,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.027227401733398438
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 4,
+            "verification_type": "element_state",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.95,
+            "issues_count": 0
+          },
+          "timestamp": 1753466580.6067822,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0010006427764892578
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 5,
+            "description": "Verify Wi-Fi status changed",
+            "grounded_action": {
+              "action_type": "failed",
+              "element_id": "element_not_found",
+              "coordinates": [
+                0,
+                0
+              ],
+              "confidence": 0.24755673846274423,
+              "reasoning": "Target element not visible or not clickable"
+            }
+          },
+          "output_data": {
+            "success": false,
+            "action_type": "failed",
+            "screenshot": "screenshots\\step_003_1753466580.png"
+          },
+          "timestamp": 1753466580.6393754,
+          "success": false,
+          "error_message": "Unknown action type: failed",
+          "execution_time": 0.029983043670654297
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 5,
+            "verification_type": "functional",
+            "execution_success": false
+          },
+          "output_data": {
+            "verification_passed": false,
+            "confidence": 0.5,
+            "issues_count": 1
+          },
+          "timestamp": 1753466580.664442,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0010006427764892578
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 5,
+            "description": "Verify Wi-Fi status changed",
+            "grounded_action": {
+              "action_type": "failed",
+              "element_id": "element_not_found",
+              "coordinates": [
+                0,
+                0
+              ],
+              "confidence": 0.24755673846274423,
+              "reasoning": "Target element not visible or not clickable"
+            }
+          },
+          "output_data": {
+            "success": false,
+            "action_type": "failed",
+            "screenshot": "screenshots\\step_003_1753466580.png"
+          },
+          "timestamp": 1753466580.694287,
+          "success": false,
+          "error_message": "Unknown action type: failed",
+          "execution_time": 0.02781963348388672
+        },
+        {
+          "agent_type": "planner",
+          "action_type": "adapt_plan",
+          "input_data": {
+            "issue": "Verification failed: Execution failed",
+            "suggestion": "Check error message and retry"
+          },
+          "output_data": {
+            "adaptation_type": "unknown"
+          },
+          "timestamp": 1753466580.6964915,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0
+        }
+      ]
+    }
+  ]
+}

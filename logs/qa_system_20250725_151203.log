@@ -1,0 +1,517 @@
+2025-07-25 15:12:03 | INFO | core.android_env_wrapper:__init__:36 | Using mock Android environment
+2025-07-25 15:12:05 | INFO | core.logger:start_episode:94 | Started episode episode_1753470725_0: Test turning Wi-Fi on and off
+2025-07-25 15:12:05 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test turning Wi-Fi on and off
+2025-07-25 15:12:05 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:12:05 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.004s
+2025-07-25 15:12:05 | INFO | agents.planner_agent:create_plan:103 | Created plan with 4 subgoals for: Test turning Wi-Fi on and off
+2025-07-25 15:12:05 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:12:05 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:12:05 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Open Settings app from home screen
+2025-07-25 15:12:05 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.180s
+2025-07-25 15:12:05 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on com.android.settings:id/settings_icon -> success
+2025-07-25 15:12:05 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 1
+2025-07-25 15:12:05 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Open Settings app from home screen
+2025-07-25 15:12:05 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:05 | INFO | core.logger:log_verification_result:197 | Verification: Expected='On Settings screen', Actual='Successfully navigated to Settings', Passed=True
+2025-07-25 15:12:05 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.90)
+2025-07-25 15:12:05 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Open Settings app from home screen
+2025-07-25 15:12:05 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:12:05 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 2
+2025-07-25 15:12:05 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:12:05 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.170s
+2025-07-25 15:12:05 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: failed on element_not_found -> failed
+2025-07-25 15:12:05 | ERROR | agents.executor_agent:execute_subgoal:136 | Failed to execute subgoal 2: None
+2025-07-25 15:12:05 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:12:05 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:05 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Text present: []', Actual='Text verification complete', Passed=True
+2025-07-25 15:12:05 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 2 (confidence: 0.90)
+2025-07-25 15:12:05 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 2 completed: Find and tap Wi-Fi option in Settings
+2025-07-25 15:12:05 | INFO | env_manager:execute_qa_task:162 | Subgoal 2 completed successfully
+2025-07-25 15:12:05 | INFO | env_manager:execute_qa_task:137 | Step 3: Executing subgoal 3
+2025-07-25 15:12:05 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:12:05 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.162s
+2025-07-25 15:12:05 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on com.android.settings:id/wifi_toggle_switch -> success
+2025-07-25 15:12:05 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 3
+2025-07-25 15:12:05 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:12:05 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:05 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Element state changed as expected', Actual='Element interaction completed successfully', Passed=True
+2025-07-25 15:12:05 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 3 (confidence: 0.95)
+2025-07-25 15:12:05 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 3 completed: Toggle Wi-Fi switch to change state
+2025-07-25 15:12:05 | INFO | env_manager:execute_qa_task:162 | Subgoal 3 completed successfully
+2025-07-25 15:12:05 | INFO | env_manager:execute_qa_task:137 | Step 4: Executing subgoal 4
+2025-07-25 15:12:05 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:12:06 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.162s
+2025-07-25 15:12:06 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: failed on element_not_found -> success
+2025-07-25 15:12:06 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 4
+2025-07-25 15:12:06 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:12:06 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:06 | INFO | core.logger:log_verification_result:197 | Verification: Expected='No errors or loading states', Actual='System functioning correctly', Passed=True
+2025-07-25 15:12:06 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 4 (confidence: 0.90)
+2025-07-25 15:12:06 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 4 completed: Verify Wi-Fi state has changed successfully
+2025-07-25 15:12:06 | INFO | env_manager:execute_qa_task:162 | Subgoal 4 completed successfully
+2025-07-25 15:12:06 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:12:06 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:12:06 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470725_0: Success=True, Duration=0.99s, Steps=9
+2025-07-25 15:12:06 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 1.00s, Steps: 4
+2025-07-25 15:12:17 | INFO | core.logger:start_episode:94 | Started episode episode_1753470737_1: Test turning Wi-Fi on and off
+2025-07-25 15:12:17 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test turning Wi-Fi on and off
+2025-07-25 15:12:17 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:12:17 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.004s
+2025-07-25 15:12:17 | INFO | agents.planner_agent:create_plan:103 | Created plan with 4 subgoals for: Test turning Wi-Fi on and off
+2025-07-25 15:12:17 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:12:17 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:12:17 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Open Settings app from home screen
+2025-07-25 15:12:18 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.139s
+2025-07-25 15:12:18 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on com.android.settings:id/settings_icon -> success
+2025-07-25 15:12:18 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 1
+2025-07-25 15:12:18 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Open Settings app from home screen
+2025-07-25 15:12:18 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:18 | INFO | core.logger:log_verification_result:197 | Verification: Expected='On Settings screen', Actual='Successfully navigated to Settings', Passed=True
+2025-07-25 15:12:18 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.90)
+2025-07-25 15:12:18 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Open Settings app from home screen
+2025-07-25 15:12:18 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:12:18 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 2
+2025-07-25 15:12:18 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:12:18 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.152s
+2025-07-25 15:12:18 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: failed on element_not_found -> failed
+2025-07-25 15:12:18 | ERROR | agents.executor_agent:execute_subgoal:136 | Failed to execute subgoal 2: None
+2025-07-25 15:12:18 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:12:18 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:18 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Text present: []', Actual='Text verification complete', Passed=True
+2025-07-25 15:12:18 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 2 (confidence: 0.90)
+2025-07-25 15:12:18 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 2 completed: Find and tap Wi-Fi option in Settings
+2025-07-25 15:12:18 | INFO | env_manager:execute_qa_task:162 | Subgoal 2 completed successfully
+2025-07-25 15:12:18 | INFO | env_manager:execute_qa_task:137 | Step 3: Executing subgoal 3
+2025-07-25 15:12:18 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:12:18 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.156s
+2025-07-25 15:12:18 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on com.android.settings:id/wifi_toggle_switch -> success
+2025-07-25 15:12:18 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 3
+2025-07-25 15:12:18 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:12:18 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:18 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Element state changed as expected', Actual='Element interaction completed successfully', Passed=True
+2025-07-25 15:12:18 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 3 (confidence: 0.95)
+2025-07-25 15:12:18 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 3 completed: Toggle Wi-Fi switch to change state
+2025-07-25 15:12:18 | INFO | env_manager:execute_qa_task:162 | Subgoal 3 completed successfully
+2025-07-25 15:12:18 | INFO | env_manager:execute_qa_task:137 | Step 4: Executing subgoal 4
+2025-07-25 15:12:18 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:12:18 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.191s
+2025-07-25 15:12:18 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: failed on element_not_found -> success
+2025-07-25 15:12:18 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 4
+2025-07-25 15:12:18 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:12:18 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.002s
+2025-07-25 15:12:18 | INFO | core.logger:log_verification_result:197 | Verification: Expected='No errors or loading states', Actual='System functioning correctly', Passed=True
+2025-07-25 15:12:18 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 4 (confidence: 0.90)
+2025-07-25 15:12:18 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 4 completed: Verify Wi-Fi state has changed successfully
+2025-07-25 15:12:18 | INFO | env_manager:execute_qa_task:162 | Subgoal 4 completed successfully
+2025-07-25 15:12:18 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:12:18 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:12:18 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470725_0
+2025-07-25 15:12:18 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.005s
+2025-07-25 15:12:18 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 0.95
+2025-07-25 15:12:18 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470737_1: Success=True, Duration=0.92s, Steps=10
+2025-07-25 15:12:18 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 0.92s, Steps: 4
+2025-07-25 15:12:18 | INFO | core.logger:start_episode:94 | Started episode episode_1753470738_2: Test turning Wi-Fi on and off
+2025-07-25 15:12:18 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test turning Wi-Fi on and off
+2025-07-25 15:12:18 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:12:18 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.008s
+2025-07-25 15:12:18 | INFO | agents.planner_agent:create_plan:103 | Created plan with 4 subgoals for: Test turning Wi-Fi on and off
+2025-07-25 15:12:18 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:12:18 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:12:18 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Open Settings app from home screen
+2025-07-25 15:12:19 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.162s
+2025-07-25 15:12:19 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on com.android.settings:id/settings_icon -> success
+2025-07-25 15:12:19 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 1
+2025-07-25 15:12:19 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Open Settings app from home screen
+2025-07-25 15:12:19 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:19 | INFO | core.logger:log_verification_result:197 | Verification: Expected='On Settings screen', Actual='Successfully navigated to Settings', Passed=True
+2025-07-25 15:12:19 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.90)
+2025-07-25 15:12:19 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Open Settings app from home screen
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 2
+2025-07-25 15:12:19 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:12:19 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.138s
+2025-07-25 15:12:19 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: failed on element_not_found -> failed
+2025-07-25 15:12:19 | ERROR | agents.executor_agent:execute_subgoal:136 | Failed to execute subgoal 2: None
+2025-07-25 15:12:19 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:12:19 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:19 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Text present: []', Actual='Text verification complete', Passed=True
+2025-07-25 15:12:19 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 2 (confidence: 0.90)
+2025-07-25 15:12:19 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 2 completed: Find and tap Wi-Fi option in Settings
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:162 | Subgoal 2 completed successfully
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:137 | Step 3: Executing subgoal 3
+2025-07-25 15:12:19 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:12:19 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.155s
+2025-07-25 15:12:19 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on com.android.settings:id/wifi_toggle_switch -> success
+2025-07-25 15:12:19 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 3
+2025-07-25 15:12:19 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:12:19 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:19 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Element state changed as expected', Actual='Element interaction completed successfully', Passed=True
+2025-07-25 15:12:19 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 3 (confidence: 0.95)
+2025-07-25 15:12:19 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 3 completed: Toggle Wi-Fi switch to change state
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:162 | Subgoal 3 completed successfully
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:137 | Step 4: Executing subgoal 4
+2025-07-25 15:12:19 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:12:19 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.157s
+2025-07-25 15:12:19 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: failed on element_not_found -> success
+2025-07-25 15:12:19 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 4
+2025-07-25 15:12:19 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:12:19 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:19 | INFO | core.logger:log_verification_result:197 | Verification: Expected='No errors or loading states', Actual='System functioning correctly', Passed=True
+2025-07-25 15:12:19 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 4 (confidence: 0.90)
+2025-07-25 15:12:19 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 4 completed: Verify Wi-Fi state has changed successfully
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:162 | Subgoal 4 completed successfully
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:12:19 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470737_1
+2025-07-25 15:12:19 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.003s
+2025-07-25 15:12:19 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 0.95
+2025-07-25 15:12:19 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470738_2: Success=True, Duration=0.86s, Steps=10
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 0.86s, Steps: 4
+2025-07-25 15:12:19 | INFO | core.logger:start_episode:94 | Started episode episode_1753470739_3: Open Settings and navigate to Display settings
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Open Settings and navigate to Display settings
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:12:19 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.005s
+2025-07-25 15:12:19 | INFO | agents.planner_agent:create_plan:103 | Created plan with 1 subgoals for: Open Settings and navigate to Display settings
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:12:19 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:19 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.168s
+2025-07-25 15:12:19 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on unknown -> success
+2025-07-25 15:12:19 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 1
+2025-07-25 15:12:19 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:19 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:19 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI state changed successfully', Actual='UI responded to action as expected', Passed=True
+2025-07-25 15:12:19 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.90)
+2025-07-25 15:12:19 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:12:19 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470738_2
+2025-07-25 15:12:19 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.005s
+2025-07-25 15:12:19 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 1.00
+2025-07-25 15:12:19 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470739_3: Success=True, Duration=0.26s, Steps=4
+2025-07-25 15:12:19 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 0.27s, Steps: 1
+2025-07-25 15:12:20 | INFO | core.logger:start_episode:94 | Started episode episode_1753470740_4: Open Settings and navigate to Display settings
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Open Settings and navigate to Display settings
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:12:20 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.009s
+2025-07-25 15:12:20 | INFO | agents.planner_agent:create_plan:103 | Created plan with 1 subgoals for: Open Settings and navigate to Display settings
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:12:20 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:20 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.171s
+2025-07-25 15:12:20 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on unknown -> success
+2025-07-25 15:12:20 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 1
+2025-07-25 15:12:20 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:20 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:20 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI state changed successfully', Actual='UI responded to action as expected', Passed=True
+2025-07-25 15:12:20 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.90)
+2025-07-25 15:12:20 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:12:20 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470739_3
+2025-07-25 15:12:20 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.002s
+2025-07-25 15:12:20 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 1.00
+2025-07-25 15:12:20 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470740_4: Success=True, Duration=0.26s, Steps=4
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 0.26s, Steps: 1
+2025-07-25 15:12:20 | INFO | core.logger:start_episode:94 | Started episode episode_1753470740_5: Test airplane mode toggle
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test airplane mode toggle
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:12:20 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.002s
+2025-07-25 15:12:20 | INFO | agents.planner_agent:create_plan:103 | Created plan with 1 subgoals for: Test airplane mode toggle
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:12:20 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:20 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.163s
+2025-07-25 15:12:20 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on unknown -> success
+2025-07-25 15:12:20 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 1
+2025-07-25 15:12:20 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:20 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:20 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI state changed successfully', Actual='UI responded to action as expected', Passed=True
+2025-07-25 15:12:20 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.90)
+2025-07-25 15:12:20 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:12:20 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470740_4
+2025-07-25 15:12:20 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.005s
+2025-07-25 15:12:20 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 1.00
+2025-07-25 15:12:20 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470740_5: Success=True, Duration=0.25s, Steps=4
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 0.25s, Steps: 1
+2025-07-25 15:12:20 | INFO | core.logger:start_episode:94 | Started episode episode_1753470740_6: Test airplane mode toggle
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test airplane mode toggle
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:12:20 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.008s
+2025-07-25 15:12:20 | INFO | agents.planner_agent:create_plan:103 | Created plan with 1 subgoals for: Test airplane mode toggle
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:12:20 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:20 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.164s
+2025-07-25 15:12:20 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on unknown -> success
+2025-07-25 15:12:20 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 1
+2025-07-25 15:12:20 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:20 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:20 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI state changed successfully', Actual='UI responded to action as expected', Passed=True
+2025-07-25 15:12:20 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.90)
+2025-07-25 15:12:20 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:12:20 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470740_5
+2025-07-25 15:12:20 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.001s
+2025-07-25 15:12:20 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 1.00
+2025-07-25 15:12:20 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470740_6: Success=True, Duration=0.23s, Steps=4
+2025-07-25 15:12:20 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 0.23s, Steps: 1
+2025-07-25 15:12:26 | INFO | core.logger:start_episode:94 | Started episode episode_1753470746_7: Test turning Wi-Fi on and off
+2025-07-25 15:12:26 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test turning Wi-Fi on and off
+2025-07-25 15:12:26 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:12:26 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.003s
+2025-07-25 15:12:26 | INFO | agents.planner_agent:create_plan:103 | Created plan with 4 subgoals for: Test turning Wi-Fi on and off
+2025-07-25 15:12:26 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:12:26 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:12:26 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Open Settings app from home screen
+2025-07-25 15:12:26 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.163s
+2025-07-25 15:12:26 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on com.android.settings:id/settings_icon -> success
+2025-07-25 15:12:26 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 1
+2025-07-25 15:12:26 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Open Settings app from home screen
+2025-07-25 15:12:26 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.000s
+2025-07-25 15:12:26 | INFO | core.logger:log_verification_result:197 | Verification: Expected='On Settings screen', Actual='Successfully navigated to Settings', Passed=True
+2025-07-25 15:12:26 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.90)
+2025-07-25 15:12:26 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Open Settings app from home screen
+2025-07-25 15:12:26 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:12:26 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 2
+2025-07-25 15:12:26 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:12:26 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.161s
+2025-07-25 15:12:26 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: failed on element_not_found -> failed
+2025-07-25 15:12:26 | ERROR | agents.executor_agent:execute_subgoal:136 | Failed to execute subgoal 2: None
+2025-07-25 15:12:26 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:12:26 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:26 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Text present: []', Actual='Text verification complete', Passed=True
+2025-07-25 15:12:26 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 2 (confidence: 0.90)
+2025-07-25 15:12:26 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 2 completed: Find and tap Wi-Fi option in Settings
+2025-07-25 15:12:26 | INFO | env_manager:execute_qa_task:162 | Subgoal 2 completed successfully
+2025-07-25 15:12:26 | INFO | env_manager:execute_qa_task:137 | Step 3: Executing subgoal 3
+2025-07-25 15:12:26 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:12:27 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.150s
+2025-07-25 15:12:27 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on com.android.settings:id/wifi_toggle_switch -> success
+2025-07-25 15:12:27 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 3
+2025-07-25 15:12:27 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:12:27 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:27 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Element state changed as expected', Actual='Element interaction completed successfully', Passed=True
+2025-07-25 15:12:27 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 3 (confidence: 0.95)
+2025-07-25 15:12:27 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 3 completed: Toggle Wi-Fi switch to change state
+2025-07-25 15:12:27 | INFO | env_manager:execute_qa_task:162 | Subgoal 3 completed successfully
+2025-07-25 15:12:27 | INFO | env_manager:execute_qa_task:137 | Step 4: Executing subgoal 4
+2025-07-25 15:12:27 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:12:27 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.159s
+2025-07-25 15:12:27 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: failed on element_not_found -> success
+2025-07-25 15:12:27 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 4
+2025-07-25 15:12:27 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:12:27 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:27 | INFO | core.logger:log_verification_result:197 | Verification: Expected='No errors or loading states', Actual='System functioning correctly', Passed=True
+2025-07-25 15:12:27 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 4 (confidence: 0.90)
+2025-07-25 15:12:27 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 4 completed: Verify Wi-Fi state has changed successfully
+2025-07-25 15:12:27 | INFO | env_manager:execute_qa_task:162 | Subgoal 4 completed successfully
+2025-07-25 15:12:27 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:12:27 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:12:27 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470740_6
+2025-07-25 15:12:27 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.003s
+2025-07-25 15:12:27 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 0.95
+2025-07-25 15:12:27 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470746_7: Success=True, Duration=0.90s, Steps=10
+2025-07-25 15:12:27 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 0.91s, Steps: 4
+2025-07-25 15:12:27 | INFO | core.logger:start_episode:94 | Started episode episode_1753470747_8: Test turning Wi-Fi on and off
+2025-07-25 15:12:27 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test turning Wi-Fi on and off
+2025-07-25 15:12:27 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:12:27 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.004s
+2025-07-25 15:12:27 | INFO | agents.planner_agent:create_plan:103 | Created plan with 4 subgoals for: Test turning Wi-Fi on and off
+2025-07-25 15:12:27 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:12:27 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:12:27 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Open Settings app from home screen
+2025-07-25 15:12:27 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.203s
+2025-07-25 15:12:27 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on com.android.settings:id/settings_icon -> success
+2025-07-25 15:12:27 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 1
+2025-07-25 15:12:27 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Open Settings app from home screen
+2025-07-25 15:12:27 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:27 | INFO | core.logger:log_verification_result:197 | Verification: Expected='On Settings screen', Actual='Successfully navigated to Settings', Passed=True
+2025-07-25 15:12:27 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.90)
+2025-07-25 15:12:27 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Open Settings app from home screen
+2025-07-25 15:12:27 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:12:27 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 2
+2025-07-25 15:12:27 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:12:27 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.159s
+2025-07-25 15:12:27 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: failed on element_not_found -> failed
+2025-07-25 15:12:27 | ERROR | agents.executor_agent:execute_subgoal:136 | Failed to execute subgoal 2: None
+2025-07-25 15:12:27 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:12:27 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:27 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Text present: []', Actual='Text verification complete', Passed=True
+2025-07-25 15:12:27 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 2 (confidence: 0.90)
+2025-07-25 15:12:27 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 2 completed: Find and tap Wi-Fi option in Settings
+2025-07-25 15:12:27 | INFO | env_manager:execute_qa_task:162 | Subgoal 2 completed successfully
+2025-07-25 15:12:27 | INFO | env_manager:execute_qa_task:137 | Step 3: Executing subgoal 3
+2025-07-25 15:12:27 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:12:28 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.161s
+2025-07-25 15:12:28 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on com.android.settings:id/wifi_toggle_switch -> success
+2025-07-25 15:12:28 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 3
+2025-07-25 15:12:28 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:12:28 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:28 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Element state changed as expected', Actual='Element interaction completed successfully', Passed=True
+2025-07-25 15:12:28 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 3 (confidence: 0.95)
+2025-07-25 15:12:28 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 3 completed: Toggle Wi-Fi switch to change state
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:162 | Subgoal 3 completed successfully
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:137 | Step 4: Executing subgoal 4
+2025-07-25 15:12:28 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:12:28 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.165s
+2025-07-25 15:12:28 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: failed on element_not_found -> success
+2025-07-25 15:12:28 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 4
+2025-07-25 15:12:28 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:12:28 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:28 | INFO | core.logger:log_verification_result:197 | Verification: Expected='No errors or loading states', Actual='System functioning correctly', Passed=True
+2025-07-25 15:12:28 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 4 (confidence: 0.90)
+2025-07-25 15:12:28 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 4 completed: Verify Wi-Fi state has changed successfully
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:162 | Subgoal 4 completed successfully
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:12:28 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470746_7
+2025-07-25 15:12:28 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.004s
+2025-07-25 15:12:28 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 0.95
+2025-07-25 15:12:28 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470747_8: Success=True, Duration=0.97s, Steps=10
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 0.97s, Steps: 4
+2025-07-25 15:12:28 | INFO | core.logger:start_episode:94 | Started episode episode_1753470748_9: Open Settings and navigate to Display settings
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Open Settings and navigate to Display settings
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:12:28 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.012s
+2025-07-25 15:12:28 | INFO | agents.planner_agent:create_plan:103 | Created plan with 1 subgoals for: Open Settings and navigate to Display settings
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:12:28 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:28 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.150s
+2025-07-25 15:12:28 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on unknown -> success
+2025-07-25 15:12:28 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 1
+2025-07-25 15:12:28 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:28 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:28 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI state changed successfully', Actual='UI responded to action as expected', Passed=True
+2025-07-25 15:12:28 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.90)
+2025-07-25 15:12:28 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:12:28 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470747_8
+2025-07-25 15:12:28 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.003s
+2025-07-25 15:12:28 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 1.00
+2025-07-25 15:12:28 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470748_9: Success=True, Duration=0.25s, Steps=4
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 0.25s, Steps: 1
+2025-07-25 15:12:28 | INFO | core.logger:start_episode:94 | Started episode episode_1753470748_10: Open Settings and navigate to Display settings
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Open Settings and navigate to Display settings
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:12:28 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.002s
+2025-07-25 15:12:28 | INFO | agents.planner_agent:create_plan:103 | Created plan with 1 subgoals for: Open Settings and navigate to Display settings
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:12:28 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:28 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.152s
+2025-07-25 15:12:28 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on unknown -> success
+2025-07-25 15:12:28 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 1
+2025-07-25 15:12:28 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:28 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:28 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI state changed successfully', Actual='UI responded to action as expected', Passed=True
+2025-07-25 15:12:28 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.90)
+2025-07-25 15:12:28 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:12:28 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470748_9
+2025-07-25 15:12:28 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.002s
+2025-07-25 15:12:28 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 1.00
+2025-07-25 15:12:28 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470748_10: Success=True, Duration=0.22s, Steps=4
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 0.22s, Steps: 1
+2025-07-25 15:12:28 | INFO | core.logger:start_episode:94 | Started episode episode_1753470748_11: Test airplane mode toggle
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test airplane mode toggle
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:12:28 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.003s
+2025-07-25 15:12:28 | INFO | agents.planner_agent:create_plan:103 | Created plan with 1 subgoals for: Test airplane mode toggle
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:12:28 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:12:28 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:29 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.152s
+2025-07-25 15:12:29 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on unknown -> success
+2025-07-25 15:12:29 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 1
+2025-07-25 15:12:29 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:29 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:29 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI state changed successfully', Actual='UI responded to action as expected', Passed=True
+2025-07-25 15:12:29 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.90)
+2025-07-25 15:12:29 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:29 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:12:29 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:12:29 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:12:29 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470748_10
+2025-07-25 15:12:29 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.004s
+2025-07-25 15:12:29 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 1.00
+2025-07-25 15:12:29 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470748_11: Success=True, Duration=0.24s, Steps=4
+2025-07-25 15:12:29 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 0.25s, Steps: 1
+2025-07-25 15:12:29 | INFO | core.logger:start_episode:94 | Started episode episode_1753470749_12: Test airplane mode toggle
+2025-07-25 15:12:29 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test airplane mode toggle
+2025-07-25 15:12:29 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:12:29 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.005s
+2025-07-25 15:12:29 | INFO | agents.planner_agent:create_plan:103 | Created plan with 1 subgoals for: Test airplane mode toggle
+2025-07-25 15:12:29 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:12:29 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:12:29 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:29 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=True, Time=0.163s
+2025-07-25 15:12:29 | INFO | core.logger:log_ui_interaction:192 | UI Interaction: touch on unknown -> success
+2025-07-25 15:12:29 | INFO | agents.executor_agent:execute_subgoal:133 | Successfully executed subgoal 1
+2025-07-25 15:12:29 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:29 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:12:29 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI state changed successfully', Actual='UI responded to action as expected', Passed=True
+2025-07-25 15:12:29 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.90)
+2025-07-25 15:12:29 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:12:29 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:12:29 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:12:29 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:12:29 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470748_11
+2025-07-25 15:12:29 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.005s
+2025-07-25 15:12:29 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 1.00
+2025-07-25 15:12:29 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470749_12: Success=True, Duration=0.26s, Steps=4
+2025-07-25 15:12:29 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 0.28s, Steps: 1
+2025-07-25 15:12:34 | INFO | android_in_the_wild.integration_manager:run_evaluation:52 | Starting evaluation with 5 videos
+2025-07-25 15:12:34 | INFO | android_in_the_wild.dataset_handler:load_video_traces:138 | Loaded 5 video traces
+2025-07-25 15:12:34 | INFO | android_in_the_wild.integration_manager:run_evaluation:65 | Processing video 1/5
+2025-07-25 15:12:34 | ERROR | env_manager:execute_qa_task_sync:78 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 15:12:34 | INFO | android_in_the_wild.integration_manager:run_evaluation:106 | Video 1 completed - Success: False
+2025-07-25 15:12:34 | INFO | android_in_the_wild.integration_manager:run_evaluation:65 | Processing video 2/5
+2025-07-25 15:12:34 | ERROR | env_manager:execute_qa_task_sync:78 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 15:12:34 | INFO | android_in_the_wild.integration_manager:run_evaluation:106 | Video 2 completed - Success: False
+2025-07-25 15:12:34 | INFO | android_in_the_wild.integration_manager:run_evaluation:65 | Processing video 3/5
+2025-07-25 15:12:34 | ERROR | env_manager:execute_qa_task_sync:78 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 15:12:34 | INFO | android_in_the_wild.integration_manager:run_evaluation:106 | Video 3 completed - Success: False
+2025-07-25 15:12:34 | INFO | android_in_the_wild.integration_manager:run_evaluation:65 | Processing video 4/5
+2025-07-25 15:12:34 | ERROR | env_manager:execute_qa_task_sync:78 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 15:12:34 | INFO | android_in_the_wild.integration_manager:run_evaluation:106 | Video 4 completed - Success: False
+2025-07-25 15:12:34 | INFO | android_in_the_wild.integration_manager:run_evaluation:65 | Processing video 5/5
+2025-07-25 15:12:34 | ERROR | env_manager:execute_qa_task_sync:78 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 15:12:34 | INFO | android_in_the_wild.integration_manager:run_evaluation:106 | Video 5 completed - Success: False
+2025-07-25 15:12:34 | INFO | android_in_the_wild.integration_manager:run_evaluation:125 | Evaluation completed. Processed 5 videos

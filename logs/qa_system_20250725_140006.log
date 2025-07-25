@@ -1,0 +1,42 @@
+2025-07-25 14:00:06 | INFO | core.android_env_wrapper:__init__:36 | Using mock Android environment
+2025-07-25 14:00:10 | INFO | android_in_wild.dataset_handler:_create_sample_dataset:40 | Creating sample Android In The Wild dataset
+2025-07-25 14:00:10 | INFO | android_in_wild.dataset_handler:_create_sample_dataset:151 | Created 5 sample dataset files in android_in_wild_dataset
+2025-07-25 14:00:10 | INFO | android_in_wild.integration_manager:run_evaluation:49 | Starting Android In The Wild evaluation with 5 videos
+2025-07-25 14:00:10 | INFO | android_in_wild.dataset_handler:load_video_traces:155 | Loading 5 video traces from android_in_wild_dataset
+2025-07-25 14:00:11 | INFO | android_in_wild.dataset_handler:load_video_traces:172 | Loaded trace: android_in_wild_dataset\alarm_setup_session.mp4
+2025-07-25 14:00:11 | INFO | android_in_wild.dataset_handler:load_video_traces:172 | Loaded trace: android_in_wild_dataset\bluetooth_settings.mp4
+2025-07-25 14:00:12 | INFO | android_in_wild.dataset_handler:load_video_traces:172 | Loaded trace: android_in_wild_dataset\calculator_session.mp4
+2025-07-25 14:00:12 | INFO | android_in_wild.dataset_handler:load_video_traces:172 | Loaded trace: android_in_wild_dataset\storage_check_session.mp4
+2025-07-25 14:00:13 | INFO | android_in_wild.dataset_handler:load_video_traces:172 | Loaded trace: android_in_wild_dataset\wifi_toggle_session.mp4
+2025-07-25 14:00:13 | INFO | android_in_wild.dataset_handler:load_video_traces:176 | Successfully loaded 5 video traces
+2025-07-25 14:00:13 | INFO | android_in_wild.integration_manager:run_evaluation:62 | Processing video 1/5: alarm_setup_session.mp4
+2025-07-25 14:00:13 | INFO | android_in_wild.prompt_generator:generate_task_prompt:49 | Generating task prompt for video: android_in_wild_dataset\alarm_setup_session.mp4
+2025-07-25 14:00:13 | INFO | android_in_wild.prompt_generator:generate_task_prompt:59 | Generated prompt from template: Test alarm creation functionality
+2025-07-25 14:00:13 | INFO | android_in_wild.integration_manager:_process_single_video:105 | Generated prompt: Test alarm creation functionality
+2025-07-25 14:00:13 | ERROR | env_manager:execute_qa_task_sync:62 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 14:00:13 | INFO | android_in_wild.integration_manager:run_evaluation:68 | Video 1 completed - Success: False, Accuracy: 0.10, Time: 0.03s
+2025-07-25 14:00:13 | INFO | android_in_wild.integration_manager:run_evaluation:62 | Processing video 2/5: bluetooth_settings.mp4
+2025-07-25 14:00:13 | INFO | android_in_wild.prompt_generator:generate_task_prompt:49 | Generating task prompt for video: android_in_wild_dataset\bluetooth_settings.mp4
+2025-07-25 14:00:13 | INFO | android_in_wild.prompt_generator:generate_task_prompt:59 | Generated prompt from template: Test Bluetooth settings navigation
+2025-07-25 14:00:13 | INFO | android_in_wild.integration_manager:_process_single_video:105 | Generated prompt: Test Bluetooth settings navigation
+2025-07-25 14:00:13 | ERROR | env_manager:execute_qa_task_sync:62 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 14:00:13 | INFO | android_in_wild.integration_manager:run_evaluation:68 | Video 2 completed - Success: False, Accuracy: 0.10, Time: 0.01s
+2025-07-25 14:00:13 | INFO | android_in_wild.integration_manager:run_evaluation:62 | Processing video 3/5: calculator_session.mp4
+2025-07-25 14:00:13 | INFO | android_in_wild.prompt_generator:generate_task_prompt:49 | Generating task prompt for video: android_in_wild_dataset\calculator_session.mp4
+2025-07-25 14:00:13 | INFO | android_in_wild.prompt_generator:generate_task_prompt:59 | Generated prompt from template: Use Calculator app to add two numbers
+2025-07-25 14:00:13 | INFO | android_in_wild.integration_manager:_process_single_video:105 | Generated prompt: Use Calculator app to add two numbers
+2025-07-25 14:00:13 | ERROR | env_manager:execute_qa_task_sync:62 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 14:00:13 | INFO | android_in_wild.integration_manager:run_evaluation:68 | Video 3 completed - Success: False, Accuracy: 0.10, Time: 0.01s
+2025-07-25 14:00:13 | INFO | android_in_wild.integration_manager:run_evaluation:62 | Processing video 4/5: storage_check_session.mp4
+2025-07-25 14:00:13 | INFO | android_in_wild.prompt_generator:generate_task_prompt:49 | Generating task prompt for video: android_in_wild_dataset\storage_check_session.mp4
+2025-07-25 14:00:13 | INFO | android_in_wild.prompt_generator:generate_task_prompt:59 | Generated prompt from template: View storage usage details
+2025-07-25 14:00:13 | INFO | android_in_wild.integration_manager:_process_single_video:105 | Generated prompt: View storage usage details
+2025-07-25 14:00:13 | ERROR | env_manager:execute_qa_task_sync:62 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 14:00:13 | INFO | android_in_wild.integration_manager:run_evaluation:68 | Video 4 completed - Success: False, Accuracy: 0.10, Time: 0.01s
+2025-07-25 14:00:13 | INFO | android_in_wild.integration_manager:run_evaluation:62 | Processing video 5/5: wifi_toggle_session.mp4
+2025-07-25 14:00:13 | INFO | android_in_wild.prompt_generator:generate_task_prompt:49 | Generating task prompt for video: android_in_wild_dataset\wifi_toggle_session.mp4
+2025-07-25 14:00:13 | INFO | android_in_wild.prompt_generator:generate_task_prompt:59 | Generated prompt from template: Toggle Wi-Fi settings
+2025-07-25 14:00:13 | INFO | android_in_wild.integration_manager:_process_single_video:105 | Generated prompt: Toggle Wi-Fi settings
+2025-07-25 14:00:13 | ERROR | env_manager:execute_qa_task_sync:62 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 14:00:13 | INFO | android_in_wild.integration_manager:run_evaluation:68 | Video 5 completed - Success: False, Accuracy: 0.10, Time: 0.01s
+2025-07-25 14:00:13 | INFO | android_in_wild.integration_manager:run_evaluation:90 | Evaluation completed in 0.06s. Processed 5/5 videos successfully

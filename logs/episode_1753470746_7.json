@@ -1,0 +1,197 @@
+{
+  "episode_id": "episode_1753470746_7",
+  "task_description": "Test turning Wi-Fi on and off",
+  "start_time": 1753470746.4340508,
+  "end_time": 1753470747.3336751,
+  "total_steps": 10,
+  "success": true,
+  "final_result": "Analysis complete. Quality: 0.95",
+  "actions": [
+    {
+      "agent_type": "planner",
+      "action_type": "create_plan",
+      "input_data": {
+        "goal": "Test turning Wi-Fi on and off",
+        "subgoals_count": 4,
+        "estimated_steps": 4
+      },
+      "output_data": {},
+      "timestamp": 1753470746.4390712,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0030202865600585938,
+      "duration": 0.0030202865600585938
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 1,
+        "description": "Open Settings app from home screen",
+        "action_type": "touch",
+        "confidence": 0.8651603975760048
+      },
+      "output_data": {
+        "success": true,
+        "execution_time": 0.16306591033935547
+      },
+      "timestamp": 1753470746.6051168,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.16306591033935547,
+      "duration": 0.16306591033935547
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 1,
+        "verification_type": "navigation",
+        "execution_success": true
+      },
+      "output_data": {
+        "verification_passed": true,
+        "confidence": 0.9,
+        "issues_count": 0
+      },
+      "timestamp": 1753470746.6631546,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0,
+      "duration": 0.0
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 2,
+        "description": "Find and tap Wi-Fi option in Settings",
+        "action_type": "failed",
+        "confidence": 0.3206907080976204
+      },
+      "output_data": {
+        "success": false,
+        "execution_time": 0.16107773780822754
+      },
+      "timestamp": 1753470746.8292234,
+      "success": false,
+      "error_message": null,
+      "execution_time": 0.16107773780822754,
+      "duration": 0.16107773780822754
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 2,
+        "verification_type": "text_presence",
+        "execution_success": false
+      },
+      "output_data": {
+        "verification_passed": true,
+        "confidence": 0.9,
+        "issues_count": 0
+      },
+      "timestamp": 1753470746.8733811,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0011260509490966797,
+      "duration": 0.0011260509490966797
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 3,
+        "description": "Toggle Wi-Fi switch to change state",
+        "action_type": "touch",
+        "confidence": 0.9330428212199641
+      },
+      "output_data": {
+        "success": true,
+        "execution_time": 0.1502687931060791
+      },
+      "timestamp": 1753470747.0293028,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.1502687931060791,
+      "duration": 0.1502687931060791
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 3,
+        "verification_type": "element_state",
+        "execution_success": true
+      },
+      "output_data": {
+        "verification_passed": true,
+        "confidence": 0.95,
+        "issues_count": 0
+      },
+      "timestamp": 1753470747.0901794,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.001005411148071289,
+      "duration": 0.001005411148071289
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 4,
+        "description": "Verify Wi-Fi state has changed successfully",
+        "action_type": "failed",
+        "confidence": 0.3662761803582163
+      },
+      "output_data": {
+        "success": true,
+        "execution_time": 0.1590886116027832
+      },
+      "timestamp": 1753470747.2568223,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.1590886116027832,
+      "duration": 0.1590886116027832
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 4,
+        "verification_type": "functional",
+        "execution_success": true
+      },
+      "output_data": {
+        "verification_passed": true,
+        "confidence": 0.9,
+        "issues_count": 0
+      },
+      "timestamp": 1753470747.319686,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.001012563705444336,
+      "duration": 0.001012563705444336
+    },
+    {
+      "agent_type": "supervisor",
+      "action_type": "analyze_episode",
+      "input_data": {
+        "episode_id": "episode_1753470740_6",
+        "episode_success": true,
+        "total_steps": 4
+      },
+      "output_data": {
+        "overall_quality": 0.96875,
+        "issues_count": 1,
+        "suggestions_count": 1
+      },
+      "timestamp": 1753470747.3326757,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0029997825622558594,
+      "duration": 0.0029997825622558594
+    }
+  ]
+}

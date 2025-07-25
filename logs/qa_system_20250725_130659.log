@@ -1,0 +1,26 @@
+2025-07-25 13:06:59 | INFO | core.android_env_wrapper:__init__:36 | Using mock Android environment
+2025-07-25 13:06:59 | INFO | core.logger:start_episode:83 | Started episode episode_1753463219_0: Test turning Wi-Fi on and off
+2025-07-25 13:06:59 | INFO | env_manager:execute_qa_task:58 | Starting QA task: Test turning Wi-Fi on and off
+2025-07-25 13:06:59 | INFO | env_manager:execute_qa_task:65 | Phase 1: Creating test plan
+2025-07-25 13:06:59 | INFO | core.logger:log_agent_action:135 | Agent planner - create_plan: Success=True, Time=0.000s
+2025-07-25 13:06:59 | INFO | agents.planner_agent:create_plan:80 | Created plan with 4 subgoals for: Test turning Wi-Fi on and off
+2025-07-25 13:06:59 | INFO | env_manager:execute_qa_task:72 | Phase 2: Executing test plan
+2025-07-25 13:06:59 | INFO | env_manager:execute_qa_task:83 | Step 1: Executing subgoal 1
+2025-07-25 13:06:59 | INFO | agents.executor_agent:execute_subgoal:44 | Executing subgoal 1: Open Settings app
+2025-07-25 13:06:59 | INFO | core.logger:log_ui_interaction:145 | UI Interaction: touch on unknown -> success
+2025-07-25 13:06:59 | INFO | core.logger:log_agent_action:135 | Agent executor - execute_subgoal: Success=True, Time=0.017s
+2025-07-25 13:06:59 | INFO | agents.executor_agent:execute_subgoal:102 | Successfully executed subgoal 1
+2025-07-25 13:06:59 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Open Settings app
+2025-07-25 13:06:59 | INFO | core.logger:log_agent_action:135 | Agent verifier - verify_execution: Success=True, Time=0.000s
+2025-07-25 13:06:59 | INFO | core.logger:log_verification_result:149 | Verification: Expected='On expected screen', Actual='Screen verification complete', Passed=False
+2025-07-25 13:06:59 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.40)
+2025-07-25 13:06:59 | WARNING | env_manager:execute_qa_task:103 | Subgoal 1 verification failed
+2025-07-25 13:06:59 | INFO | env_manager:_handle_verification_failure:192 | Attempting recovery for subgoal 1
+2025-07-25 13:06:59 | INFO | core.logger:log_agent_action:135 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 13:06:59 | INFO | agents.planner_agent:adapt_plan:140 | Adapted plan due to: Verification failed: Not on Settings screen
+2025-07-25 13:06:59 | WARNING | agents.planner_agent:mark_subgoal_failed:190 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 13:06:59 | INFO | env_manager:execute_qa_task:80 | All subgoals completed
+2025-07-25 13:06:59 | WARNING | env_manager:execute_qa_task:128 | Test plan incomplete
+2025-07-25 13:06:59 | INFO | env_manager:execute_qa_task:132 | Phase 3: Analyzing episode
+2025-07-25 13:06:59 | INFO | core.logger:end_episode:104 | Ended episode episode_1753463219_0: Success=False, Duration=0.04s, Steps=4
+2025-07-25 13:06:59 | INFO | env_manager:execute_qa_task:166 | QA task completed. Success: False, Time: 0.04s, Steps: 1

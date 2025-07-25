@@ -1,0 +1,766 @@
+2025-07-25 15:05:17 | INFO | core.android_env_wrapper:__init__:36 | Using mock Android environment
+2025-07-25 15:05:19 | INFO | core.logger:start_episode:94 | Started episode episode_1753470319_0: Test turning Wi-Fi on and off
+2025-07-25 15:05:19 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test turning Wi-Fi on and off
+2025-07-25 15:05:19 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:05:19 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.005s
+2025-07-25 15:05:19 | INFO | agents.planner_agent:create_plan:103 | Created plan with 4 subgoals for: Test turning Wi-Fi on and off
+2025-07-25 15:05:19 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:05:19 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:05:19 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Open Settings app from home screen
+2025-07-25 15:05:19 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:19 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:19 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Open Settings app from home screen
+2025-07-25 15:05:19 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.002s
+2025-07-25 15:05:19 | INFO | core.logger:log_verification_result:197 | Verification: Expected='On expected screen', Actual='Screen verification complete', Passed=True
+2025-07-25 15:05:19 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.80)
+2025-07-25 15:05:19 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Open Settings app from home screen
+2025-07-25 15:05:19 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:05:19 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 2
+2025-07-25 15:05:19 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:05:19 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:19 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 2: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:19 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:05:19 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:19 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Text present: []', Actual='Text verification complete', Passed=True
+2025-07-25 15:05:19 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 2 (confidence: 0.90)
+2025-07-25 15:05:19 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 2 completed: Find and tap Wi-Fi option in Settings
+2025-07-25 15:05:19 | INFO | env_manager:execute_qa_task:162 | Subgoal 2 completed successfully
+2025-07-25 15:05:19 | INFO | env_manager:execute_qa_task:137 | Step 3: Executing subgoal 3
+2025-07-25 15:05:19 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:05:19 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:19 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 3: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:19 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:05:19 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:19 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Element state changed as expected', Actual='Found 0 issues', Passed=True
+2025-07-25 15:05:19 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 3 (confidence: 0.90)
+2025-07-25 15:05:19 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 3 completed: Toggle Wi-Fi switch to change state
+2025-07-25 15:05:19 | INFO | env_manager:execute_qa_task:162 | Subgoal 3 completed successfully
+2025-07-25 15:05:19 | INFO | env_manager:execute_qa_task:137 | Step 4: Executing subgoal 4
+2025-07-25 15:05:19 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:19 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:19 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 4: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:19 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:19 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:19 | INFO | core.logger:log_verification_result:197 | Verification: Expected='No errors or loading states', Actual='Found 1 functional issues', Passed=False
+2025-07-25 15:05:19 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 4 (confidence: 0.50)
+2025-07-25 15:05:19 | WARNING | env_manager:execute_qa_task:173 | Subgoal 4 verification failed
+2025-07-25 15:05:19 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 4
+2025-07-25 15:05:19 | INFO | env_manager:_handle_verification_failure:345 | Retrying execution
+2025-07-25 15:05:19 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:19 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:19 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 4: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:19 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 15:05:19 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: Execution failed
+2025-07-25 15:05:19 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 4 failed: Verification failed after recovery attempt
+2025-07-25 15:05:19 | INFO | env_manager:execute_qa_task:137 | Step 5: Executing subgoal 4
+2025-07-25 15:05:19 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:19 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:19 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 4: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:19 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:19 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:19 | INFO | core.logger:log_verification_result:197 | Verification: Expected='No errors or loading states', Actual='Found 1 functional issues', Passed=False
+2025-07-25 15:05:19 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 4 (confidence: 0.50)
+2025-07-25 15:05:19 | WARNING | env_manager:execute_qa_task:173 | Subgoal 4 verification failed
+2025-07-25 15:05:19 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 4
+2025-07-25 15:05:19 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 15:05:19 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: Execution failed
+2025-07-25 15:05:19 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 4 failed: Verification failed after recovery attempt
+2025-07-25 15:05:19 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:05:19 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:05:19 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470319_0: Success=True, Duration=0.29s, Steps=14
+2025-07-25 15:05:19 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 0.29s, Steps: 5
+2025-07-25 15:05:31 | INFO | core.logger:start_episode:94 | Started episode episode_1753470331_1: Test turning Wi-Fi on and off
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test turning Wi-Fi on and off
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.004s
+2025-07-25 15:05:31 | INFO | agents.planner_agent:create_plan:103 | Created plan with 4 subgoals for: Test turning Wi-Fi on and off
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:05:31 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Open Settings app from home screen
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:31 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:31 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Open Settings app from home screen
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:31 | INFO | core.logger:log_verification_result:197 | Verification: Expected='On expected screen', Actual='Screen verification complete', Passed=True
+2025-07-25 15:05:31 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.80)
+2025-07-25 15:05:31 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Open Settings app from home screen
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 2
+2025-07-25 15:05:31 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:31 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 2: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:31 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:31 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Text present: []', Actual='Text verification complete', Passed=True
+2025-07-25 15:05:31 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 2 (confidence: 0.90)
+2025-07-25 15:05:31 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 2 completed: Find and tap Wi-Fi option in Settings
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:162 | Subgoal 2 completed successfully
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:137 | Step 3: Executing subgoal 3
+2025-07-25 15:05:31 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:31 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 3: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:31 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:31 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Element state changed as expected', Actual='Found 0 issues', Passed=True
+2025-07-25 15:05:31 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 3 (confidence: 0.90)
+2025-07-25 15:05:31 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 3 completed: Toggle Wi-Fi switch to change state
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:162 | Subgoal 3 completed successfully
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:137 | Step 4: Executing subgoal 4
+2025-07-25 15:05:31 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:31 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 4: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:31 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:31 | INFO | core.logger:log_verification_result:197 | Verification: Expected='No errors or loading states', Actual='Found 1 functional issues', Passed=False
+2025-07-25 15:05:31 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 4 (confidence: 0.50)
+2025-07-25 15:05:31 | WARNING | env_manager:execute_qa_task:173 | Subgoal 4 verification failed
+2025-07-25 15:05:31 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 4
+2025-07-25 15:05:31 | INFO | env_manager:_handle_verification_failure:345 | Retrying execution
+2025-07-25 15:05:31 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:31 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 4: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.001s
+2025-07-25 15:05:31 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: Execution failed
+2025-07-25 15:05:31 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 4 failed: Verification failed after recovery attempt
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:137 | Step 5: Executing subgoal 4
+2025-07-25 15:05:31 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:31 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 4: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:31 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:31 | INFO | core.logger:log_verification_result:197 | Verification: Expected='No errors or loading states', Actual='Found 1 functional issues', Passed=False
+2025-07-25 15:05:31 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 4 (confidence: 0.50)
+2025-07-25 15:05:31 | WARNING | env_manager:execute_qa_task:173 | Subgoal 4 verification failed
+2025-07-25 15:05:31 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 4
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 15:05:31 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: Execution failed
+2025-07-25 15:05:31 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 4 failed: Verification failed after recovery attempt
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:05:31 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470319_0
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.003s
+2025-07-25 15:05:31 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 0.20
+2025-07-25 15:05:31 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470331_1: Success=True, Duration=0.23s, Steps=15
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 0.24s, Steps: 5
+2025-07-25 15:05:31 | INFO | core.logger:start_episode:94 | Started episode episode_1753470331_2: Test turning Wi-Fi on and off
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test turning Wi-Fi on and off
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.003s
+2025-07-25 15:05:31 | INFO | agents.planner_agent:create_plan:103 | Created plan with 4 subgoals for: Test turning Wi-Fi on and off
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:05:31 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Open Settings app from home screen
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:31 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:31 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Open Settings app from home screen
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.000s
+2025-07-25 15:05:31 | INFO | core.logger:log_verification_result:197 | Verification: Expected='On expected screen', Actual='Screen verification complete', Passed=True
+2025-07-25 15:05:31 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.80)
+2025-07-25 15:05:31 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Open Settings app from home screen
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 2
+2025-07-25 15:05:31 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:31 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 2: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:31 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:31 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Text present: []', Actual='Text verification complete', Passed=True
+2025-07-25 15:05:31 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 2 (confidence: 0.90)
+2025-07-25 15:05:31 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 2 completed: Find and tap Wi-Fi option in Settings
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:162 | Subgoal 2 completed successfully
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:137 | Step 3: Executing subgoal 3
+2025-07-25 15:05:31 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:31 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 3: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:31 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:31 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Element state changed as expected', Actual='Found 0 issues', Passed=True
+2025-07-25 15:05:31 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 3 (confidence: 0.90)
+2025-07-25 15:05:31 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 3 completed: Toggle Wi-Fi switch to change state
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:162 | Subgoal 3 completed successfully
+2025-07-25 15:05:31 | INFO | env_manager:execute_qa_task:137 | Step 4: Executing subgoal 4
+2025-07-25 15:05:31 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:31 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:31 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 4: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.002s
+2025-07-25 15:05:32 | INFO | core.logger:log_verification_result:197 | Verification: Expected='No errors or loading states', Actual='Found 1 functional issues', Passed=False
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 4 (confidence: 0.50)
+2025-07-25 15:05:32 | WARNING | env_manager:execute_qa_task:173 | Subgoal 4 verification failed
+2025-07-25 15:05:32 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 4
+2025-07-25 15:05:32 | INFO | env_manager:_handle_verification_failure:345 | Retrying execution
+2025-07-25 15:05:32 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:32 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 4: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 15:05:32 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: Execution failed
+2025-07-25 15:05:32 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 4 failed: Verification failed after recovery attempt
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:137 | Step 5: Executing subgoal 4
+2025-07-25 15:05:32 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:32 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 4: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:32 | INFO | core.logger:log_verification_result:197 | Verification: Expected='No errors or loading states', Actual='Found 1 functional issues', Passed=False
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 4 (confidence: 0.50)
+2025-07-25 15:05:32 | WARNING | env_manager:execute_qa_task:173 | Subgoal 4 verification failed
+2025-07-25 15:05:32 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 4
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 15:05:32 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: Execution failed
+2025-07-25 15:05:32 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 4 failed: Verification failed after recovery attempt
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:05:32 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470331_1
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.003s
+2025-07-25 15:05:32 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 0.20
+2025-07-25 15:05:32 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470331_2: Success=True, Duration=0.22s, Steps=15
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 0.22s, Steps: 5
+2025-07-25 15:05:32 | INFO | core.logger:start_episode:94 | Started episode episode_1753470332_3: Open Settings and navigate to Display settings
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Open Settings and navigate to Display settings
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.004s
+2025-07-25 15:05:32 | INFO | agents.planner_agent:create_plan:103 | Created plan with 1 subgoals for: Open Settings and navigate to Display settings
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:05:32 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:32 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.002s
+2025-07-25 15:05:32 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 15:05:32 | WARNING | env_manager:execute_qa_task:173 | Subgoal 1 verification failed
+2025-07-25 15:05:32 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 1
+2025-07-25 15:05:32 | INFO | env_manager:_handle_verification_failure:345 | Retrying execution
+2025-07-25 15:05:32 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:32 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.001s
+2025-07-25 15:05:32 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 15:05:32 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 1
+2025-07-25 15:05:32 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:32 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:32 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 15:05:32 | WARNING | env_manager:execute_qa_task:173 | Subgoal 1 verification failed
+2025-07-25 15:05:32 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 1
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 15:05:32 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 15:05:32 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:05:32 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470331_2
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.002s
+2025-07-25 15:05:32 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 0.20
+2025-07-25 15:05:32 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470332_3: Success=False, Duration=0.10s, Steps=9
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: False, Time: 0.11s, Steps: 2
+2025-07-25 15:05:32 | INFO | core.logger:start_episode:94 | Started episode episode_1753470332_4: Open Settings and navigate to Display settings
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Open Settings and navigate to Display settings
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.003s
+2025-07-25 15:05:32 | INFO | agents.planner_agent:create_plan:103 | Created plan with 1 subgoals for: Open Settings and navigate to Display settings
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:05:32 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:32 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.000s
+2025-07-25 15:05:32 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 15:05:32 | WARNING | env_manager:execute_qa_task:173 | Subgoal 1 verification failed
+2025-07-25 15:05:32 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 1
+2025-07-25 15:05:32 | INFO | env_manager:_handle_verification_failure:345 | Retrying execution
+2025-07-25 15:05:32 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:32 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.001s
+2025-07-25 15:05:32 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 15:05:32 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 1
+2025-07-25 15:05:32 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:32 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:32 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 15:05:32 | WARNING | env_manager:execute_qa_task:173 | Subgoal 1 verification failed
+2025-07-25 15:05:32 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 1
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.001s
+2025-07-25 15:05:32 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 15:05:32 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:05:32 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470332_3
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.002s
+2025-07-25 15:05:32 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 0.20
+2025-07-25 15:05:32 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470332_4: Success=False, Duration=0.10s, Steps=9
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: False, Time: 0.11s, Steps: 2
+2025-07-25 15:05:32 | INFO | core.logger:start_episode:94 | Started episode episode_1753470332_5: Test airplane mode toggle
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test airplane mode toggle
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.003s
+2025-07-25 15:05:32 | INFO | agents.planner_agent:create_plan:103 | Created plan with 1 subgoals for: Test airplane mode toggle
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:05:32 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:32 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:32 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 15:05:32 | WARNING | env_manager:execute_qa_task:173 | Subgoal 1 verification failed
+2025-07-25 15:05:32 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 1
+2025-07-25 15:05:32 | INFO | env_manager:_handle_verification_failure:345 | Retrying execution
+2025-07-25 15:05:32 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:32 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 15:05:32 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 15:05:32 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 1
+2025-07-25 15:05:32 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:32 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:32 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 15:05:32 | WARNING | env_manager:execute_qa_task:173 | Subgoal 1 verification failed
+2025-07-25 15:05:32 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 1
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 15:05:32 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 15:05:32 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:05:32 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470332_4
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.003s
+2025-07-25 15:05:32 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 0.20
+2025-07-25 15:05:32 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470332_5: Success=False, Duration=0.10s, Steps=9
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: False, Time: 0.11s, Steps: 2
+2025-07-25 15:05:32 | INFO | core.logger:start_episode:94 | Started episode episode_1753470332_6: Test airplane mode toggle
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test airplane mode toggle
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.004s
+2025-07-25 15:05:32 | INFO | agents.planner_agent:create_plan:103 | Created plan with 1 subgoals for: Test airplane mode toggle
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:05:32 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:32 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:32 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 15:05:32 | WARNING | env_manager:execute_qa_task:173 | Subgoal 1 verification failed
+2025-07-25 15:05:32 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 1
+2025-07-25 15:05:32 | INFO | env_manager:_handle_verification_failure:345 | Retrying execution
+2025-07-25 15:05:32 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:32 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 15:05:32 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 15:05:32 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 1
+2025-07-25 15:05:32 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:32 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:32 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 15:05:32 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 15:05:32 | WARNING | env_manager:execute_qa_task:173 | Subgoal 1 verification failed
+2025-07-25 15:05:32 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 1
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 15:05:32 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 15:05:32 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:05:32 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470332_5
+2025-07-25 15:05:32 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.001s
+2025-07-25 15:05:32 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 0.20
+2025-07-25 15:05:32 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470332_6: Success=False, Duration=0.11s, Steps=9
+2025-07-25 15:05:32 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: False, Time: 0.11s, Steps: 2
+2025-07-25 15:05:36 | INFO | core.logger:start_episode:94 | Started episode episode_1753470336_7: Test turning Wi-Fi on and off
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test turning Wi-Fi on and off
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.005s
+2025-07-25 15:05:36 | INFO | agents.planner_agent:create_plan:103 | Created plan with 4 subgoals for: Test turning Wi-Fi on and off
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Open Settings app from home screen
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Open Settings app from home screen
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | core.logger:log_verification_result:197 | Verification: Expected='On expected screen', Actual='Screen verification complete', Passed=True
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.80)
+2025-07-25 15:05:36 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Open Settings app from home screen
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 2
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 2: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Text present: []', Actual='Text verification complete', Passed=True
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 2 (confidence: 0.90)
+2025-07-25 15:05:36 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 2 completed: Find and tap Wi-Fi option in Settings
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:162 | Subgoal 2 completed successfully
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:137 | Step 3: Executing subgoal 3
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 3: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Element state changed as expected', Actual='Found 0 issues', Passed=True
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 3 (confidence: 0.90)
+2025-07-25 15:05:36 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 3 completed: Toggle Wi-Fi switch to change state
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:162 | Subgoal 3 completed successfully
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:137 | Step 4: Executing subgoal 4
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 4: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | core.logger:log_verification_result:197 | Verification: Expected='No errors or loading states', Actual='Found 1 functional issues', Passed=False
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 4 (confidence: 0.50)
+2025-07-25 15:05:36 | WARNING | env_manager:execute_qa_task:173 | Subgoal 4 verification failed
+2025-07-25 15:05:36 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 4
+2025-07-25 15:05:36 | INFO | env_manager:_handle_verification_failure:345 | Retrying execution
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 4: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: Execution failed
+2025-07-25 15:05:36 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 4 failed: Verification failed after recovery attempt
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:137 | Step 5: Executing subgoal 4
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 4: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | core.logger:log_verification_result:197 | Verification: Expected='No errors or loading states', Actual='Found 1 functional issues', Passed=False
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 4 (confidence: 0.50)
+2025-07-25 15:05:36 | WARNING | env_manager:execute_qa_task:173 | Subgoal 4 verification failed
+2025-07-25 15:05:36 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 4
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 15:05:36 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: Execution failed
+2025-07-25 15:05:36 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 4 failed: Verification failed after recovery attempt
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:05:36 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470332_6
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 0.20
+2025-07-25 15:05:36 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470336_7: Success=True, Duration=0.20s, Steps=15
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 0.20s, Steps: 5
+2025-07-25 15:05:36 | INFO | core.logger:start_episode:94 | Started episode episode_1753470336_8: Test turning Wi-Fi on and off
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test turning Wi-Fi on and off
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.004s
+2025-07-25 15:05:36 | INFO | agents.planner_agent:create_plan:103 | Created plan with 4 subgoals for: Test turning Wi-Fi on and off
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Open Settings app from home screen
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.002s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Open Settings app from home screen
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.000s
+2025-07-25 15:05:36 | INFO | core.logger:log_verification_result:197 | Verification: Expected='On expected screen', Actual='Screen verification complete', Passed=True
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.80)
+2025-07-25 15:05:36 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 1 completed: Open Settings app from home screen
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:162 | Subgoal 1 completed successfully
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 2
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 2: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 2: Find and tap Wi-Fi option in Settings
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Text present: []', Actual='Text verification complete', Passed=True
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 2 (confidence: 0.90)
+2025-07-25 15:05:36 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 2 completed: Find and tap Wi-Fi option in Settings
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:162 | Subgoal 2 completed successfully
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:137 | Step 3: Executing subgoal 3
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 3: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 3: Toggle Wi-Fi switch to change state
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | core.logger:log_verification_result:197 | Verification: Expected='Element state changed as expected', Actual='Found 0 issues', Passed=True
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 3 (confidence: 0.90)
+2025-07-25 15:05:36 | INFO | agents.planner_agent:mark_subgoal_completed:220 | Subgoal 3 completed: Toggle Wi-Fi switch to change state
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:162 | Subgoal 3 completed successfully
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:137 | Step 4: Executing subgoal 4
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 4: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.000s
+2025-07-25 15:05:36 | INFO | core.logger:log_verification_result:197 | Verification: Expected='No errors or loading states', Actual='Found 1 functional issues', Passed=False
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 4 (confidence: 0.50)
+2025-07-25 15:05:36 | WARNING | env_manager:execute_qa_task:173 | Subgoal 4 verification failed
+2025-07-25 15:05:36 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 4
+2025-07-25 15:05:36 | INFO | env_manager:_handle_verification_failure:345 | Retrying execution
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 4: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: Execution failed
+2025-07-25 15:05:36 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 4 failed: Verification failed after recovery attempt
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:137 | Step 5: Executing subgoal 4
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 4: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 4: Verify Wi-Fi state has changed successfully
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | core.logger:log_verification_result:197 | Verification: Expected='No errors or loading states', Actual='Found 1 functional issues', Passed=False
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 4 (confidence: 0.50)
+2025-07-25 15:05:36 | WARNING | env_manager:execute_qa_task:173 | Subgoal 4 verification failed
+2025-07-25 15:05:36 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 4
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 15:05:36 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: Execution failed
+2025-07-25 15:05:36 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 4 failed: Verification failed after recovery attempt
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:05:36 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470336_7
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.002s
+2025-07-25 15:05:36 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 0.20
+2025-07-25 15:05:36 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470336_8: Success=True, Duration=0.20s, Steps=15
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: True, Time: 0.20s, Steps: 5
+2025-07-25 15:05:36 | INFO | core.logger:start_episode:94 | Started episode episode_1753470336_9: Open Settings and navigate to Display settings
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Open Settings and navigate to Display settings
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.004s
+2025-07-25 15:05:36 | INFO | agents.planner_agent:create_plan:103 | Created plan with 1 subgoals for: Open Settings and navigate to Display settings
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 15:05:36 | WARNING | env_manager:execute_qa_task:173 | Subgoal 1 verification failed
+2025-07-25 15:05:36 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 1
+2025-07-25 15:05:36 | INFO | env_manager:_handle_verification_failure:345 | Retrying execution
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 15:05:36 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 15:05:36 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 1
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 15:05:36 | WARNING | env_manager:execute_qa_task:173 | Subgoal 1 verification failed
+2025-07-25 15:05:36 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 1
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 15:05:36 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 15:05:36 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:05:36 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470336_8
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 0.20
+2025-07-25 15:05:36 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470336_9: Success=False, Duration=0.11s, Steps=9
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: False, Time: 0.11s, Steps: 2
+2025-07-25 15:05:36 | INFO | core.logger:start_episode:94 | Started episode episode_1753470336_10: Open Settings and navigate to Display settings
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Open Settings and navigate to Display settings
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.003s
+2025-07-25 15:05:36 | INFO | agents.planner_agent:create_plan:103 | Created plan with 1 subgoals for: Open Settings and navigate to Display settings
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 15:05:36 | WARNING | env_manager:execute_qa_task:173 | Subgoal 1 verification failed
+2025-07-25 15:05:36 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 1
+2025-07-25 15:05:36 | INFO | env_manager:_handle_verification_failure:345 | Retrying execution
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 15:05:36 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 1
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 15:05:36 | WARNING | env_manager:execute_qa_task:173 | Subgoal 1 verification failed
+2025-07-25 15:05:36 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 1
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 15:05:36 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 15:05:36 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:05:36 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470336_9
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.002s
+2025-07-25 15:05:36 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 0.20
+2025-07-25 15:05:36 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470336_10: Success=False, Duration=0.10s, Steps=9
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: False, Time: 0.10s, Steps: 2
+2025-07-25 15:05:36 | INFO | core.logger:start_episode:94 | Started episode episode_1753470336_11: Test airplane mode toggle
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test airplane mode toggle
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.004s
+2025-07-25 15:05:36 | INFO | agents.planner_agent:create_plan:103 | Created plan with 1 subgoals for: Test airplane mode toggle
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.000s
+2025-07-25 15:05:36 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 15:05:36 | WARNING | env_manager:execute_qa_task:173 | Subgoal 1 verification failed
+2025-07-25 15:05:36 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 1
+2025-07-25 15:05:36 | INFO | env_manager:_handle_verification_failure:345 | Retrying execution
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 15:05:36 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 15:05:36 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 1
+2025-07-25 15:05:36 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:36 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 15:05:36 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 15:05:36 | WARNING | env_manager:execute_qa_task:173 | Subgoal 1 verification failed
+2025-07-25 15:05:36 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 1
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.001s
+2025-07-25 15:05:36 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 15:05:36 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:05:36 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:05:36 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470336_10
+2025-07-25 15:05:36 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.003s
+2025-07-25 15:05:36 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 0.20
+2025-07-25 15:05:36 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470336_11: Success=False, Duration=0.10s, Steps=9
+2025-07-25 15:05:37 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: False, Time: 0.10s, Steps: 2
+2025-07-25 15:05:37 | INFO | core.logger:start_episode:94 | Started episode episode_1753470337_12: Test airplane mode toggle
+2025-07-25 15:05:37 | INFO | env_manager:execute_qa_task:100 | Starting QA task: Test airplane mode toggle
+2025-07-25 15:05:37 | INFO | env_manager:execute_qa_task:109 | Phase 1: Creating test plan
+2025-07-25 15:05:37 | INFO | core.logger:log_agent_action:170 | Agent planner - create_plan: Success=True, Time=0.001s
+2025-07-25 15:05:37 | INFO | agents.planner_agent:create_plan:103 | Created plan with 1 subgoals for: Test airplane mode toggle
+2025-07-25 15:05:37 | INFO | env_manager:execute_qa_task:120 | Phase 2: Executing test plan
+2025-07-25 15:05:37 | INFO | env_manager:execute_qa_task:137 | Step 1: Executing subgoal 1
+2025-07-25 15:05:37 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:37 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.002s
+2025-07-25 15:05:37 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:37 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:37 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.002s
+2025-07-25 15:05:37 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 15:05:37 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 15:05:37 | WARNING | env_manager:execute_qa_task:173 | Subgoal 1 verification failed
+2025-07-25 15:05:37 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 1
+2025-07-25 15:05:37 | INFO | env_manager:_handle_verification_failure:345 | Retrying execution
+2025-07-25 15:05:37 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:37 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.000s
+2025-07-25 15:05:37 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:37 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.001s
+2025-07-25 15:05:37 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 15:05:37 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 15:05:37 | INFO | env_manager:execute_qa_task:137 | Step 2: Executing subgoal 1
+2025-07-25 15:05:37 | INFO | agents.executor_agent:execute_subgoal:48 | Executing subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:37 | INFO | core.logger:log_agent_action:170 | Agent executor - execute_subgoal: Success=False, Time=0.001s
+2025-07-25 15:05:37 | ERROR | agents.executor_agent:execute_subgoal:154 | Execution failed for subgoal 1: 'UIState' object has no attribute 'get'
+2025-07-25 15:05:37 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute the requested task: 
+create a detailed test plan f...
+2025-07-25 15:05:37 | INFO | core.logger:log_agent_action:170 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 15:05:37 | INFO | core.logger:log_verification_result:197 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 15:05:37 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 15:05:37 | WARNING | env_manager:execute_qa_task:173 | Subgoal 1 verification failed
+2025-07-25 15:05:37 | INFO | env_manager:_handle_verification_failure:340 | Attempting recovery for subgoal 1
+2025-07-25 15:05:37 | INFO | core.logger:log_agent_action:170 | Agent planner - adapt_plan: Success=True, Time=0.001s
+2025-07-25 15:05:37 | INFO | agents.planner_agent:adapt_plan:166 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 15:05:37 | WARNING | agents.planner_agent:mark_subgoal_failed:236 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 15:05:37 | INFO | env_manager:execute_qa_task:133 | All available subgoals processed
+2025-07-25 15:05:37 | INFO | env_manager:execute_qa_task:214 | Phase 3: Analyzing episode
+2025-07-25 15:05:37 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753470336_11
+2025-07-25 15:05:37 | INFO | core.logger:log_agent_action:170 | Agent supervisor - analyze_episode: Success=True, Time=0.002s
+2025-07-25 15:05:37 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 0.20
+2025-07-25 15:05:37 | INFO | core.logger:end_episode:119 | Ended episode episode_1753470337_12: Success=False, Duration=0.10s, Steps=9
+2025-07-25 15:05:37 | INFO | env_manager:execute_qa_task:267 | QA task completed. Success: False, Time: 0.11s, Steps: 2
+2025-07-25 15:05:47 | INFO | android_in_the_wild.dataset_handler:load_video_traces:138 | Loaded 5 video traces
+2025-07-25 15:05:52 | INFO | android_in_the_wild.integration_manager:run_evaluation:52 | Starting evaluation with 5 videos
+2025-07-25 15:05:52 | INFO | android_in_the_wild.dataset_handler:load_video_traces:138 | Loaded 5 video traces
+2025-07-25 15:05:52 | INFO | android_in_the_wild.integration_manager:run_evaluation:65 | Processing video 1/5
+2025-07-25 15:05:52 | ERROR | env_manager:execute_qa_task_sync:78 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 15:05:52 | INFO | android_in_the_wild.integration_manager:run_evaluation:106 | Video 1 completed - Success: False
+2025-07-25 15:05:52 | INFO | android_in_the_wild.integration_manager:run_evaluation:65 | Processing video 2/5
+2025-07-25 15:05:52 | ERROR | env_manager:execute_qa_task_sync:78 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 15:05:52 | INFO | android_in_the_wild.integration_manager:run_evaluation:106 | Video 2 completed - Success: False
+2025-07-25 15:05:52 | INFO | android_in_the_wild.integration_manager:run_evaluation:65 | Processing video 3/5
+2025-07-25 15:05:52 | ERROR | env_manager:execute_qa_task_sync:78 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 15:05:52 | INFO | android_in_the_wild.integration_manager:run_evaluation:106 | Video 3 completed - Success: False
+2025-07-25 15:05:52 | INFO | android_in_the_wild.integration_manager:run_evaluation:65 | Processing video 4/5
+2025-07-25 15:05:52 | ERROR | env_manager:execute_qa_task_sync:78 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 15:05:52 | INFO | android_in_the_wild.integration_manager:run_evaluation:106 | Video 4 completed - Success: False
+2025-07-25 15:05:52 | INFO | android_in_the_wild.integration_manager:run_evaluation:65 | Processing video 5/5
+2025-07-25 15:05:52 | ERROR | env_manager:execute_qa_task_sync:78 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 15:05:52 | INFO | android_in_the_wild.integration_manager:run_evaluation:106 | Video 5 completed - Success: False
+2025-07-25 15:05:52 | INFO | android_in_the_wild.integration_manager:run_evaluation:125 | Evaluation completed. Processed 5 videos

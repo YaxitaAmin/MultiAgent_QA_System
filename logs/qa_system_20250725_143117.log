@@ -1,0 +1,20 @@
+2025-07-25 14:31:17 | INFO | core.android_env_wrapper:__init__:36 | Using mock Android environment
+2025-07-25 14:31:19 | INFO | android_in_the_wild.dataset_handler:_create_sample_dataset:112 | Created 5 sample dataset files
+2025-07-25 14:31:19 | INFO | android_in_the_wild.integration_manager:run_evaluation:52 | Starting evaluation with 5 videos
+2025-07-25 14:31:19 | INFO | android_in_the_wild.dataset_handler:load_video_traces:138 | Loaded 5 video traces
+2025-07-25 14:31:19 | INFO | android_in_the_wild.integration_manager:run_evaluation:65 | Processing video 1/5
+2025-07-25 14:31:19 | ERROR | env_manager:execute_qa_task_sync:62 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 14:31:19 | INFO | android_in_the_wild.integration_manager:run_evaluation:106 | Video 1 completed - Success: False
+2025-07-25 14:31:19 | INFO | android_in_the_wild.integration_manager:run_evaluation:65 | Processing video 2/5
+2025-07-25 14:31:19 | ERROR | env_manager:execute_qa_task_sync:62 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 14:31:19 | INFO | android_in_the_wild.integration_manager:run_evaluation:106 | Video 2 completed - Success: False
+2025-07-25 14:31:19 | INFO | android_in_the_wild.integration_manager:run_evaluation:65 | Processing video 3/5
+2025-07-25 14:31:19 | ERROR | env_manager:execute_qa_task_sync:62 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 14:31:19 | INFO | android_in_the_wild.integration_manager:run_evaluation:106 | Video 3 completed - Success: False
+2025-07-25 14:31:19 | INFO | android_in_the_wild.integration_manager:run_evaluation:65 | Processing video 4/5
+2025-07-25 14:31:19 | ERROR | env_manager:execute_qa_task_sync:62 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 14:31:19 | INFO | android_in_the_wild.integration_manager:run_evaluation:106 | Video 4 completed - Success: False
+2025-07-25 14:31:19 | INFO | android_in_the_wild.integration_manager:run_evaluation:65 | Processing video 5/5
+2025-07-25 14:31:19 | ERROR | env_manager:execute_qa_task_sync:62 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 14:31:19 | INFO | android_in_the_wild.integration_manager:run_evaluation:106 | Video 5 completed - Success: False
+2025-07-25 14:31:19 | INFO | android_in_the_wild.integration_manager:run_evaluation:125 | Evaluation completed. Processed 5 videos

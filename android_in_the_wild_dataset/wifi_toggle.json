@@ -1,0 +1,36 @@
+{
+  "task_type": "wifi_configuration",
+  "duration": 15.2,
+  "screen_sequence": [
+    "home",
+    "settings",
+    "wifi_settings"
+  ],
+  "user_actions": [
+    {
+      "type": "touch",
+      "coordinates": [
+        200,
+        120
+      ],
+      "target": "settings"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        180,
+        240
+      ],
+      "target": "wifi_option"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        420,
+        180
+      ],
+      "target": "wifi_toggle"
+    }
+  ],
+  "success": true
+}

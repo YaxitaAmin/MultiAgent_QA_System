@@ -1,0 +1,534 @@
+{
+  "export_timestamp": "20250725_150823",
+  "summary": {
+    "total_episodes": 3,
+    "successful_episodes": 3,
+    "success_rate": 1.0,
+    "episodes": [
+      {
+        "episode_id": "episode_1753470483_0",
+        "task": "Test turning Wi-Fi on and off",
+        "success": true,
+        "duration": 0.2618370056152344,
+        "steps": 5
+      },
+      {
+        "episode_id": "episode_1753470496_1",
+        "task": "Test turning Wi-Fi on and off",
+        "success": true,
+        "duration": 0.94185471534729,
+        "steps": 10
+      },
+      {
+        "episode_id": "episode_1753470502_2",
+        "task": "Test turning Wi-Fi on and off",
+        "success": true,
+        "duration": 0.9139552116394043,
+        "steps": 10
+      }
+    ]
+  },
+  "episodes": [
+    {
+      "episode_id": "episode_1753470483_0",
+      "task_description": "Test turning Wi-Fi on and off",
+      "start_time": 1753470483.1455946,
+      "end_time": 1753470483.4074316,
+      "total_steps": 5,
+      "success": true,
+      "final_result": "Episode completed",
+      "actions": [
+        {
+          "agent_type": "planner",
+          "action_type": "create_plan",
+          "input_data": {
+            "goal": "Test turning Wi-Fi on and off",
+            "subgoals_count": 4,
+            "estimated_steps": 4
+          },
+          "output_data": {},
+          "timestamp": 1753470483.1515684,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.003991365432739258,
+          "duration": 0.003991365432739258
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 2,
+            "description": "Find and tap Wi-Fi option in Settings",
+            "action_type": "failed",
+            "confidence": 0.3206907080976204
+          },
+          "output_data": {
+            "success": true,
+            "execution_time": 0.16179609298706055
+          },
+          "timestamp": 1753470483.2888336,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.16179609298706055,
+          "duration": 0.16179609298706055
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 1,
+            "description": "Open Settings app from home screen",
+            "action_type": "touch",
+            "confidence": 0.8651603975760048
+          },
+          "output_data": {
+            "success": true,
+            "execution_time": 0.17325973510742188
+          },
+          "timestamp": 1753470483.3268278,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.17325973510742188,
+          "duration": 0.17325973510742188
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 2,
+            "verification_type": "text_presence",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753470483.377413,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0009920597076416016,
+          "duration": 0.0009920597076416016
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 1,
+            "verification_type": "navigation",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753470483.3974051,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0008778572082519531,
+          "duration": 0.0008778572082519531
+        }
+      ]
+    },
+    {
+      "episode_id": "episode_1753470496_1",
+      "task_description": "Test turning Wi-Fi on and off",
+      "start_time": 1753470496.2831235,
+      "end_time": 1753470497.2249782,
+      "total_steps": 10,
+      "success": true,
+      "final_result": "Analysis complete. Quality: 0.95",
+      "actions": [
+        {
+          "agent_type": "planner",
+          "action_type": "create_plan",
+          "input_data": {
+            "goal": "Test turning Wi-Fi on and off",
+            "subgoals_count": 4,
+            "estimated_steps": 4
+          },
+          "output_data": {},
+          "timestamp": 1753470496.2961295,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.009003400802612305,
+          "duration": 0.009003400802612305
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 1,
+            "description": "Open Settings app from home screen",
+            "action_type": "touch",
+            "confidence": 0.8651603975760048
+          },
+          "output_data": {
+            "success": true,
+            "execution_time": 0.15006685256958008
+          },
+          "timestamp": 1753470496.4542367,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.15006685256958008,
+          "duration": 0.15006685256958008
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 1,
+            "verification_type": "navigation",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753470496.5028489,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0014696121215820312,
+          "duration": 0.0014696121215820312
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 2,
+            "description": "Find and tap Wi-Fi option in Settings",
+            "action_type": "failed",
+            "confidence": 0.3206907080976204
+          },
+          "output_data": {
+            "success": false,
+            "execution_time": 0.1813974380493164
+          },
+          "timestamp": 1753470496.691279,
+          "success": false,
+          "error_message": null,
+          "execution_time": 0.1813974380493164,
+          "duration": 0.1813974380493164
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 2,
+            "verification_type": "text_presence",
+            "execution_success": false
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753470496.7539873,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0010142326354980469,
+          "duration": 0.0010142326354980469
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 3,
+            "description": "Toggle Wi-Fi switch to change state",
+            "action_type": "touch",
+            "confidence": 0.9330428212199641
+          },
+          "output_data": {
+            "success": true,
+            "execution_time": 0.16667604446411133
+          },
+          "timestamp": 1753470496.9286385,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.16667604446411133,
+          "duration": 0.16667604446411133
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 3,
+            "verification_type": "element_state",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.95,
+            "issues_count": 0
+          },
+          "timestamp": 1753470496.9998345,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0021963119506835938,
+          "duration": 0.0021963119506835938
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 4,
+            "description": "Verify Wi-Fi state has changed successfully",
+            "action_type": "failed",
+            "confidence": 0.3662761803582163
+          },
+          "output_data": {
+            "success": true,
+            "execution_time": 0.1565566062927246
+          },
+          "timestamp": 1753470497.1613736,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.1565566062927246,
+          "duration": 0.1565566062927246
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 4,
+            "verification_type": "functional",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753470497.2149644,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.002705097198486328,
+          "duration": 0.002705097198486328
+        },
+        {
+          "agent_type": "supervisor",
+          "action_type": "analyze_episode",
+          "input_data": {
+            "episode_id": "episode_1753470483_0",
+            "episode_success": true,
+            "total_steps": 4
+          },
+          "output_data": {
+            "overall_quality": 0.96875,
+            "issues_count": 1,
+            "suggestions_count": 1
+          },
+          "timestamp": 1753470497.2239919,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.002007007598876953,
+          "duration": 0.002007007598876953
+        }
+      ]
+    },
+    {
+      "episode_id": "episode_1753470502_2",
+      "task_description": "Test turning Wi-Fi on and off",
+      "start_time": 1753470502.1741192,
+      "end_time": 1753470503.0880744,
+      "total_steps": 10,
+      "success": true,
+      "final_result": "Analysis complete. Quality: 0.95",
+      "actions": [
+        {
+          "agent_type": "planner",
+          "action_type": "create_plan",
+          "input_data": {
+            "goal": "Test turning Wi-Fi on and off",
+            "subgoals_count": 4,
+            "estimated_steps": 4
+          },
+          "output_data": {},
+          "timestamp": 1753470502.1831188,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.005002260208129883,
+          "duration": 0.005002260208129883
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 1,
+            "description": "Open Settings app from home screen",
+            "action_type": "touch",
+            "confidence": 0.8651603975760048
+          },
+          "output_data": {
+            "success": true,
+            "execution_time": 0.16506290435791016
+          },
+          "timestamp": 1753470502.3541813,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.16506290435791016,
+          "duration": 0.16506290435791016
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 1,
+            "verification_type": "navigation",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753470502.4232044,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0009911060333251953,
+          "duration": 0.0009911060333251953
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 2,
+            "description": "Find and tap Wi-Fi option in Settings",
+            "action_type": "failed",
+            "confidence": 0.3206907080976204
+          },
+          "output_data": {
+            "success": false,
+            "execution_time": 0.17142200469970703
+          },
+          "timestamp": 1753470502.5996568,
+          "success": false,
+          "error_message": null,
+          "execution_time": 0.17142200469970703,
+          "duration": 0.17142200469970703
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 2,
+            "verification_type": "text_presence",
+            "execution_success": false
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753470502.6692028,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0010097026824951172,
+          "duration": 0.0010097026824951172
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 3,
+            "description": "Toggle Wi-Fi switch to change state",
+            "action_type": "touch",
+            "confidence": 0.9330428212199641
+          },
+          "output_data": {
+            "success": true,
+            "execution_time": 0.1547253131866455
+          },
+          "timestamp": 1753470502.8289328,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.1547253131866455,
+          "duration": 0.1547253131866455
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 3,
+            "verification_type": "element_state",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.95,
+            "issues_count": 0
+          },
+          "timestamp": 1753470502.8841143,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0010094642639160156,
+          "duration": 0.0010094642639160156
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 4,
+            "description": "Verify Wi-Fi state has changed successfully",
+            "action_type": "failed",
+            "confidence": 0.3662761803582163
+          },
+          "output_data": {
+            "success": true,
+            "execution_time": 0.1519169807434082
+          },
+          "timestamp": 1753470503.0450299,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.1519169807434082,
+          "duration": 0.1519169807434082
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 4,
+            "verification_type": "functional",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753470503.079918,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0011887550354003906,
+          "duration": 0.0011887550354003906
+        },
+        {
+          "agent_type": "supervisor",
+          "action_type": "analyze_episode",
+          "input_data": {
+            "episode_id": "episode_1753470496_1",
+            "episode_success": true,
+            "total_steps": 4
+          },
+          "output_data": {
+            "overall_quality": 0.96875,
+            "issues_count": 1,
+            "suggestions_count": 1
+          },
+          "timestamp": 1753470503.087403,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0016369819641113281,
+          "duration": 0.0016369819641113281
+        }
+      ]
+    }
+  ],
+  "system_info": {
+    "total_episodes": 3,
+    "log_directory": "logs",
+    "export_format": "json"
+  }
+}

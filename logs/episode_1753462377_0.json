@@ -1,0 +1,146 @@
+{
+  "episode_id": "episode_1753462377_0",
+  "task_description": "Test turning Wi-Fi on and off",
+  "start_time": 1753462377.1849012,
+  "end_time": 1753462377.1880405,
+  "total_steps": 1,
+  "success": false,
+  "final_result": "Task failed: Planning failed: No subgoals generated",
+  "actions": [
+    {
+      "agent_type": "planner",
+      "action_type": "create_plan",
+      "input_data": {
+        "goal": "Test turning Wi-Fi on and off",
+        "context": {
+          "initial_ui": {
+            "screenshot": "[[[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n ...\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]]",
+            "ui_state": {
+              "elements": [
+                {
+                  "element_id": "element_0",
+                  "bounds": [
+                    100,
+                    100,
+                    300,
+                    150
+                  ],
+                  "text": "Settings",
+                  "content_desc": "",
+                  "class_name": "android.widget.TextView",
+                  "clickable": true,
+                  "enabled": true,
+                  "focused": false,
+                  "scrollable": false,
+                  "checkable": false,
+                  "checked": false
+                },
+                {
+                  "element_id": "element_1",
+                  "bounds": [
+                    100,
+                    200,
+                    300,
+                    250
+                  ],
+                  "text": "Wi-Fi",
+                  "content_desc": "",
+                  "class_name": "android.widget.TextView",
+                  "clickable": true,
+                  "enabled": true,
+                  "focused": false,
+                  "scrollable": false,
+                  "checkable": false,
+                  "checked": false
+                },
+                {
+                  "element_id": "element_2",
+                  "bounds": [
+                    400,
+                    200,
+                    450,
+                    250
+                  ],
+                  "text": "",
+                  "content_desc": "",
+                  "class_name": "android.widget.Switch",
+                  "clickable": true,
+                  "enabled": true,
+                  "focused": false,
+                  "scrollable": false,
+                  "checkable": true,
+                  "checked": false
+                }
+              ],
+              "hierarchy": {
+                "tag": "hierarchy",
+                "attrib": {
+                  "rotation": "0"
+                },
+                "depth": 0,
+                "children": [
+                  {
+                    "tag": "node",
+                    "attrib": {
+                      "index": "0",
+                      "text": "Settings",
+                      "resource-id": "android:id/title",
+                      "class": "android.widget.TextView",
+                      "bounds": "[100,100][300,150]",
+                      "clickable": "true",
+                      "enabled": "true"
+                    },
+                    "depth": 1,
+                    "children": []
+                  },
+                  {
+                    "tag": "node",
+                    "attrib": {
+                      "index": "1",
+                      "text": "Wi-Fi",
+                      "resource-id": "com.android.settings:id/wifi_settings",
+                      "class": "android.widget.TextView",
+                      "bounds": "[100,200][300,250]",
+                      "clickable": "true",
+                      "enabled": "true"
+                    },
+                    "depth": 1,
+                    "children": []
+                  },
+                  {
+                    "tag": "node",
+                    "attrib": {
+                      "index": "2",
+                      "text": "",
+                      "resource-id": "com.android.settings:id/wifi_switch",
+                      "class": "android.widget.Switch",
+                      "bounds": "[400,200][450,250]",
+                      "clickable": "true",
+                      "enabled": "true",
+                      "checkable": "true",
+                      "checked": "false"
+                    },
+                    "depth": 1,
+                    "children": []
+                  }
+                ]
+              },
+              "screenshot_path": null,
+              "timestamp": 1753462377.1859004
+            },
+            "ui_dump": "<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\n        <hierarchy rotation=\"0\">\n            <node index=\"0\" text=\"Settings\" resource-id=\"android:id/title\" class=\"android.widget.TextView\" \n                  bounds=\"[100,100][300,150]\" clickable=\"true\" enabled=\"true\" />\n            <node index=\"1\" text=\"Wi-Fi\" resource-id=\"com.android.settings:id/wifi_settings\" \n                  class=\"android.widget.TextView\" bounds=\"[100,200][300,250]\" clickable=\"true\" enabled=\"true\" />\n            <node index=\"2\" text=\"\" resource-id=\"com.android.settings:id/wifi_switch\" \n                  class=\"android.widget.Switch\" bounds=\"[400,200][450,250]\" \n                  clickable=\"true\" enabled=\"true\" checkable=\"true\" checked=\"false\" />\n        </hierarchy>",
+            "timestamp": 1753462377.1859004,
+            "step": 0
+          }
+        }
+      },
+      "output_data": {
+        "subgoals_count": 0
+      },
+      "timestamp": 1753462377.1859004,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0
+    }
+  ]
+}

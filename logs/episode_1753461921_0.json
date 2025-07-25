@@ -1,0 +1,39 @@
+{
+  "episode_id": "episode_1753461921_0",
+  "task_description": "Test turning Wi-Fi on and off",
+  "start_time": 1753461921.2030447,
+  "end_time": 1753461921.2050447,
+  "total_steps": 1,
+  "success": false,
+  "final_result": "Task failed: Planning failed: No subgoals generated",
+  "actions": [
+    {
+      "agent_type": "planner",
+      "action_type": "create_plan",
+      "input_data": {
+        "goal": "Test turning Wi-Fi on and off",
+        "context": {
+          "initial_ui": {
+            "screenshot": "[[[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n ...\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]]",
+            "ui_state": {
+              "elements": [],
+              "hierarchy": {},
+              "screenshot_path": null,
+              "timestamp": 0.0
+            },
+            "ui_dump": "<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\n        <hierarchy rotation=\"0\">\n            <node index=\"0\" text=\"Settings\" resource-id=\"android:id/title\" class=\"android.widget.TextView\" \n                  bounds=\"[100,100][300,150]\" clickable=\"true\" enabled=\"true\" />\n            <node index=\"1\" text=\"Wi-Fi\" resource-id=\"com.android.settings:id/wifi_settings\" \n                  class=\"android.widget.TextView\" bounds=\"[100,200][300,250]\" clickable=\"true\" enabled=\"true\" />\n            <node index=\"2\" text=\"\" resource-id=\"com.android.settings:id/wifi_switch\" \n                  class=\"android.widget.Switch\" bounds=\"[400,200][450,250]\" \n                  clickable=\"true\" enabled=\"true\" checkable=\"true\" checked=\"false\" />\n        </hierarchy>",
+            "timestamp": 1753461921.2040563,
+            "step": 0
+          }
+        }
+      },
+      "output_data": {
+        "subgoals_count": 0
+      },
+      "timestamp": 1753461921.2050447,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0
+    }
+  ]
+}

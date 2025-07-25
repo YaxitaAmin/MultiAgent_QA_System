@@ -1,0 +1,82 @@
+2025-07-25 13:33:17 | INFO | core.android_env_wrapper:__init__:36 | Using mock Android environment
+2025-07-25 13:33:19 | INFO | core.logger:start_episode:83 | Started episode episode_1753464799_0: Test turning Wi-Fi on and off
+2025-07-25 13:33:19 | INFO | env_manager:execute_qa_task:81 | Starting QA task: Test turning Wi-Fi on and off
+2025-07-25 13:33:19 | INFO | env_manager:execute_qa_task:88 | Phase 1: Creating test plan
+2025-07-25 13:33:19 | ERROR | core.llm_interface:generate:128 | LLM generation error: 404 models/mock is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-07-25 13:33:19 | ERROR | agents.planner_agent:_parse_plan_response:338 | Failed to parse plan response: Expecting value: line 1 column 1 (char 0)
+2025-07-25 13:33:19 | INFO | core.logger:log_agent_action:135 | Agent planner - create_plan: Success=True, Time=0.353s
+2025-07-25 13:33:19 | INFO | agents.planner_agent:create_plan:80 | Created plan with 1 subgoals for: Test turning Wi-Fi on and off
+2025-07-25 13:33:19 | INFO | env_manager:execute_qa_task:95 | Phase 2: Executing test plan
+2025-07-25 13:33:19 | INFO | env_manager:execute_qa_task:106 | Step 1: Executing subgoal 1
+2025-07-25 13:33:19 | INFO | agents.executor_agent:execute_subgoal:44 | Executing subgoal 1: Execute: Test turning Wi-Fi on and off
+2025-07-25 13:33:20 | ERROR | core.llm_interface:generate:128 | LLM generation error: 404 models/mock is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-07-25 13:33:20 | ERROR | agents.executor_agent:_parse_grounding_response:366 | Failed to parse grounding response: Expecting value: line 1 column 1 (char 0)
+2025-07-25 13:33:20 | INFO | core.logger:log_agent_action:135 | Agent executor - execute_subgoal: Success=False, Time=0.744s
+2025-07-25 13:33:20 | ERROR | core.logger:log_agent_action:141 | Agent executor error: Could not ground subgoal to executable action: Execute: Test turning Wi-Fi on and off
+2025-07-25 13:33:20 | ERROR | agents.executor_agent:execute_subgoal:136 | Execution failed for subgoal 1: Could not ground subgoal to executable action: Execute: Test turning Wi-Fi on and off
+2025-07-25 13:33:20 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute: Test turning Wi-Fi on and off
+2025-07-25 13:33:20 | INFO | core.logger:log_agent_action:135 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 13:33:20 | INFO | core.logger:log_verification_result:149 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 13:33:20 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 13:33:20 | WARNING | env_manager:execute_qa_task:126 | Subgoal 1 verification failed
+2025-07-25 13:33:20 | INFO | env_manager:_handle_verification_failure:222 | Attempting recovery for subgoal 1
+2025-07-25 13:33:20 | INFO | env_manager:_handle_verification_failure:226 | Retrying execution
+2025-07-25 13:33:20 | INFO | agents.executor_agent:execute_subgoal:44 | Executing subgoal 1: Execute: Test turning Wi-Fi on and off
+2025-07-25 13:33:21 | ERROR | core.llm_interface:generate:128 | LLM generation error: 404 models/mock is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-07-25 13:33:21 | ERROR | agents.executor_agent:_parse_grounding_response:366 | Failed to parse grounding response: Expecting value: line 1 column 1 (char 0)
+2025-07-25 13:33:21 | INFO | core.logger:log_agent_action:135 | Agent executor - execute_subgoal: Success=False, Time=0.960s
+2025-07-25 13:33:21 | ERROR | core.logger:log_agent_action:141 | Agent executor error: Could not ground subgoal to executable action: Execute: Test turning Wi-Fi on and off
+2025-07-25 13:33:21 | ERROR | agents.executor_agent:execute_subgoal:136 | Execution failed for subgoal 1: Could not ground subgoal to executable action: Execute: Test turning Wi-Fi on and off
+2025-07-25 13:33:22 | ERROR | core.llm_interface:generate:128 | LLM generation error: 404 models/mock is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-07-25 13:33:22 | ERROR | agents.planner_agent:_parse_adaptation_response:352 | Failed to parse adaptation response: Expecting value: line 1 column 1 (char 0)
+2025-07-25 13:33:22 | INFO | core.logger:log_agent_action:135 | Agent planner - adapt_plan: Success=True, Time=0.983s
+2025-07-25 13:33:22 | INFO | agents.planner_agent:adapt_plan:140 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 13:33:22 | WARNING | agents.planner_agent:mark_subgoal_failed:190 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 13:33:22 | INFO | env_manager:execute_qa_task:103 | All subgoals completed
+2025-07-25 13:33:22 | WARNING | env_manager:execute_qa_task:151 | Test plan incomplete
+2025-07-25 13:33:22 | INFO | env_manager:execute_qa_task:155 | Phase 3: Analyzing episode
+2025-07-25 13:33:22 | INFO | core.logger:end_episode:104 | Ended episode episode_1753464799_0: Success=False, Duration=3.10s, Steps=5
+2025-07-25 13:33:22 | INFO | env_manager:execute_qa_task:193 | QA task completed. Success: False, Time: 3.10s, Steps: 1
+2025-07-25 13:33:33 | INFO | core.logger:start_episode:83 | Started episode episode_1753464813_1: Test turning Wi-Fi on and off
+2025-07-25 13:33:33 | INFO | env_manager:execute_qa_task:81 | Starting QA task: Test turning Wi-Fi on and off
+2025-07-25 13:33:33 | INFO | env_manager:execute_qa_task:88 | Phase 1: Creating test plan
+2025-07-25 13:33:33 | ERROR | core.llm_interface:generate:128 | LLM generation error: 404 models/mock is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-07-25 13:33:33 | ERROR | agents.planner_agent:_parse_plan_response:338 | Failed to parse plan response: Expecting value: line 1 column 1 (char 0)
+2025-07-25 13:33:33 | INFO | core.logger:log_agent_action:135 | Agent planner - create_plan: Success=True, Time=0.076s
+2025-07-25 13:33:33 | INFO | agents.planner_agent:create_plan:80 | Created plan with 1 subgoals for: Test turning Wi-Fi on and off
+2025-07-25 13:33:33 | INFO | env_manager:execute_qa_task:95 | Phase 2: Executing test plan
+2025-07-25 13:33:33 | INFO | env_manager:execute_qa_task:106 | Step 1: Executing subgoal 1
+2025-07-25 13:33:33 | INFO | agents.executor_agent:execute_subgoal:44 | Executing subgoal 1: Execute: Test turning Wi-Fi on and off
+2025-07-25 13:33:34 | ERROR | core.llm_interface:generate:128 | LLM generation error: 404 models/mock is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-07-25 13:33:34 | ERROR | agents.executor_agent:_parse_grounding_response:366 | Failed to parse grounding response: Expecting value: line 1 column 1 (char 0)
+2025-07-25 13:33:34 | INFO | core.logger:log_agent_action:135 | Agent executor - execute_subgoal: Success=False, Time=1.066s
+2025-07-25 13:33:34 | ERROR | core.logger:log_agent_action:141 | Agent executor error: Could not ground subgoal to executable action: Execute: Test turning Wi-Fi on and off
+2025-07-25 13:33:34 | ERROR | agents.executor_agent:execute_subgoal:136 | Execution failed for subgoal 1: Could not ground subgoal to executable action: Execute: Test turning Wi-Fi on and off
+2025-07-25 13:33:34 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Execute: Test turning Wi-Fi on and off
+2025-07-25 13:33:34 | INFO | core.logger:log_agent_action:135 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 13:33:34 | INFO | core.logger:log_verification_result:149 | Verification: Expected='UI with []', Actual='UI with 0 elements', Passed=False
+2025-07-25 13:33:34 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 1 (confidence: 0.30)
+2025-07-25 13:33:34 | WARNING | env_manager:execute_qa_task:126 | Subgoal 1 verification failed
+2025-07-25 13:33:34 | INFO | env_manager:_handle_verification_failure:222 | Attempting recovery for subgoal 1
+2025-07-25 13:33:34 | INFO | env_manager:_handle_verification_failure:226 | Retrying execution
+2025-07-25 13:33:34 | INFO | agents.executor_agent:execute_subgoal:44 | Executing subgoal 1: Execute: Test turning Wi-Fi on and off
+2025-07-25 13:33:35 | ERROR | core.llm_interface:generate:128 | LLM generation error: 404 models/mock is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-07-25 13:33:35 | ERROR | agents.executor_agent:_parse_grounding_response:366 | Failed to parse grounding response: Expecting value: line 1 column 1 (char 0)
+2025-07-25 13:33:35 | INFO | core.logger:log_agent_action:135 | Agent executor - execute_subgoal: Success=False, Time=0.870s
+2025-07-25 13:33:35 | ERROR | core.logger:log_agent_action:141 | Agent executor error: Could not ground subgoal to executable action: Execute: Test turning Wi-Fi on and off
+2025-07-25 13:33:35 | ERROR | agents.executor_agent:execute_subgoal:136 | Execution failed for subgoal 1: Could not ground subgoal to executable action: Execute: Test turning Wi-Fi on and off
+2025-07-25 13:33:36 | ERROR | core.llm_interface:generate:128 | LLM generation error: 404 models/mock is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-07-25 13:33:36 | ERROR | agents.planner_agent:_parse_adaptation_response:352 | Failed to parse adaptation response: Expecting value: line 1 column 1 (char 0)
+2025-07-25 13:33:36 | INFO | core.logger:log_agent_action:135 | Agent planner - adapt_plan: Success=True, Time=1.024s
+2025-07-25 13:33:36 | INFO | agents.planner_agent:adapt_plan:140 | Adapted plan due to: Verification failed: UI state did not change after action
+2025-07-25 13:33:36 | WARNING | agents.planner_agent:mark_subgoal_failed:190 | Subgoal 1 failed: Verification failed after recovery attempt
+2025-07-25 13:33:36 | INFO | env_manager:execute_qa_task:103 | All subgoals completed
+2025-07-25 13:33:36 | WARNING | env_manager:execute_qa_task:151 | Test plan incomplete
+2025-07-25 13:33:36 | INFO | env_manager:execute_qa_task:155 | Phase 3: Analyzing episode
+2025-07-25 13:33:36 | INFO | agents.supervisor_agent:analyze_episode:52 | Analyzing episode episode_1753464799_0
+2025-07-25 13:33:37 | ERROR | core.llm_interface:generate:128 | LLM generation error: 404 models/mock is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-07-25 13:33:37 | ERROR | agents.supervisor_agent:_parse_analysis_response:427 | Failed to parse analysis response: Expecting value: line 1 column 1 (char 0)
+2025-07-25 13:33:37 | INFO | core.logger:log_agent_action:135 | Agent supervisor - analyze_episode: Success=True, Time=0.971s
+2025-07-25 13:33:37 | INFO | agents.supervisor_agent:analyze_episode:103 | Episode analysis complete. Overall quality: 0.20
+2025-07-25 13:33:37 | INFO | core.logger:end_episode:104 | Ended episode episode_1753464813_1: Success=False, Duration=4.09s, Steps=6
+2025-07-25 13:33:37 | INFO | env_manager:execute_qa_task:193 | QA task completed. Success: False, Time: 4.10s, Steps: 1

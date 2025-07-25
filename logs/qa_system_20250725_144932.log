@@ -1,0 +1,6 @@
+2025-07-25 14:49:32 | INFO | core.android_env_wrapper:__init__:36 | Using mock Android environment
+2025-07-25 14:49:34 | INFO | core.logger:start_episode:83 | Started episode episode_1753469374_0: Test turning Wi-Fi on and off
+2025-07-25 14:49:34 | INFO | env_manager:execute_qa_task:81 | Starting QA task: Test turning Wi-Fi on and off
+2025-07-25 14:49:34 | INFO | env_manager:execute_qa_task:88 | Phase 1: Creating test plan
+2025-07-25 14:49:34 | ERROR | env_manager:execute_qa_task:200 | QA task failed: QALogger.log_agent_action() got an unexpected keyword argument 'agent_name'
+2025-07-25 14:49:34 | INFO | core.logger:end_episode:104 | Ended episode episode_1753469374_0: Success=False, Duration=0.01s, Steps=0

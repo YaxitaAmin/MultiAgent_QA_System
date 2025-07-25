@@ -1,0 +1,28 @@
+{
+  "summary": {
+    "total_episodes": 1,
+    "successful_episodes": 0,
+    "success_rate": 0.0,
+    "episodes": [
+      {
+        "episode_id": "episode_1753469374_0",
+        "task": "Test turning Wi-Fi on and off",
+        "success": false,
+        "duration": 0.011996984481811523,
+        "steps": 0
+      }
+    ]
+  },
+  "episodes": [
+    {
+      "episode_id": "episode_1753469374_0",
+      "task_description": "Test turning Wi-Fi on and off",
+      "start_time": 1753469374.7846632,
+      "end_time": 1753469374.7966602,
+      "total_steps": 0,
+      "success": false,
+      "final_result": "Task failed: QALogger.log_agent_action() got an unexpected keyword argument 'agent_name'",
+      "actions": []
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+2025-07-25 13:17:42 | WARNING | env_manager:__init__:29 | No Gemini API key provided, using mock LLM
+2025-07-25 13:17:42 | INFO | core.android_env_wrapper:__init__:36 | Using mock Android environment

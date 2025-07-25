@@ -1,0 +1,299 @@
+{
+  "episode_id": "episode_1753465416_2",
+  "task_description": "Navigate to Storage settings and check usage",
+  "start_time": 1753465416.3020267,
+  "end_time": 1753465416.5418606,
+  "total_steps": 8,
+  "success": true,
+  "final_result": "Analysis complete. Quality: 1.00",
+  "actions": [
+    {
+      "agent_type": "planner",
+      "action_type": "create_plan",
+      "input_data": {
+        "goal": "Navigate to Storage settings and check usage",
+        "context": {
+          "initial_ui": {
+            "screenshot": "[[[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n ...\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]\n\n [[0 0 0]\n  [0 0 0]\n  [0 0 0]\n  ...\n  [0 0 0]\n  [0 0 0]\n  [0 0 0]]]",
+            "ui_state": {
+              "elements": [
+                {
+                  "element_id": "element_24",
+                  "bounds": [
+                    100,
+                    100,
+                    300,
+                    150
+                  ],
+                  "text": "Settings",
+                  "content_desc": "",
+                  "class_name": "android.widget.TextView",
+                  "clickable": true,
+                  "enabled": true,
+                  "focused": false,
+                  "scrollable": false,
+                  "checkable": false,
+                  "checked": false
+                },
+                {
+                  "element_id": "element_25",
+                  "bounds": [
+                    100,
+                    200,
+                    300,
+                    250
+                  ],
+                  "text": "Wi-Fi",
+                  "content_desc": "",
+                  "class_name": "android.widget.TextView",
+                  "clickable": true,
+                  "enabled": true,
+                  "focused": false,
+                  "scrollable": false,
+                  "checkable": false,
+                  "checked": false
+                },
+                {
+                  "element_id": "element_26",
+                  "bounds": [
+                    400,
+                    200,
+                    450,
+                    250
+                  ],
+                  "text": "",
+                  "content_desc": "",
+                  "class_name": "android.widget.Switch",
+                  "clickable": true,
+                  "enabled": true,
+                  "focused": false,
+                  "scrollable": false,
+                  "checkable": true,
+                  "checked": false
+                }
+              ],
+              "hierarchy": {
+                "tag": "hierarchy",
+                "attrib": {
+                  "rotation": "0"
+                },
+                "depth": 0,
+                "children": [
+                  {
+                    "tag": "node",
+                    "attrib": {
+                      "index": "0",
+                      "text": "Settings",
+                      "resource-id": "android:id/title",
+                      "class": "android.widget.TextView",
+                      "bounds": "[100,100][300,150]",
+                      "clickable": "true",
+                      "enabled": "true"
+                    },
+                    "depth": 1,
+                    "children": []
+                  },
+                  {
+                    "tag": "node",
+                    "attrib": {
+                      "index": "1",
+                      "text": "Wi-Fi",
+                      "resource-id": "com.android.settings:id/wifi_settings",
+                      "class": "android.widget.TextView",
+                      "bounds": "[100,200][300,250]",
+                      "clickable": "true",
+                      "enabled": "true"
+                    },
+                    "depth": 1,
+                    "children": []
+                  },
+                  {
+                    "tag": "node",
+                    "attrib": {
+                      "index": "2",
+                      "text": "",
+                      "resource-id": "com.android.settings:id/wifi_switch",
+                      "class": "android.widget.Switch",
+                      "bounds": "[400,200][450,250]",
+                      "clickable": "true",
+                      "enabled": "true",
+                      "checkable": "true",
+                      "checked": "false"
+                    },
+                    "depth": 1,
+                    "children": []
+                  }
+                ]
+              },
+              "screenshot_path": null,
+              "timestamp": 1753465416.3030267
+            },
+            "ui_dump": "<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\n        <hierarchy rotation=\"0\">\n            <node index=\"0\" text=\"Settings\" resource-id=\"android:id/title\" class=\"android.widget.TextView\" \n                  bounds=\"[100,100][300,150]\" clickable=\"true\" enabled=\"true\" />\n            <node index=\"1\" text=\"Wi-Fi\" resource-id=\"com.android.settings:id/wifi_settings\" \n                  class=\"android.widget.TextView\" bounds=\"[100,200][300,250]\" clickable=\"true\" enabled=\"true\" />\n            <node index=\"2\" text=\"\" resource-id=\"com.android.settings:id/wifi_switch\" \n                  class=\"android.widget.Switch\" bounds=\"[400,200][450,250]\" \n                  clickable=\"true\" enabled=\"true\" checkable=\"true\" checked=\"false\" />\n        </hierarchy>",
+            "timestamp": 1753465416.3030267,
+            "step": 0
+          }
+        }
+      },
+      "output_data": {
+        "subgoals_count": 3
+      },
+      "timestamp": 1753465416.3050256,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0009982585906982422
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 1,
+        "description": "Open Settings app",
+        "grounded_action": {
+          "action_type": "touch",
+          "element_id": "settings_icon",
+          "coordinates": [
+            172,
+            124
+          ],
+          "confidence": 0.7764123694755006,
+          "reasoning": "Located target element with 0.78 confidence"
+        }
+      },
+      "output_data": {
+        "success": true,
+        "action_type": "touch",
+        "screenshot": "screenshots\\step_001_1753465416.png"
+      },
+      "timestamp": 1753465416.3410304,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0350039005279541
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 1,
+        "verification_type": "navigation",
+        "execution_success": true
+      },
+      "output_data": {
+        "verification_passed": true,
+        "confidence": 0.9,
+        "issues_count": 0
+      },
+      "timestamp": 1753465416.3825357,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0010101795196533203
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 2,
+        "description": "Find Storage & USB option",
+        "grounded_action": {
+          "action_type": "touch",
+          "element_id": "ui_element_5",
+          "coordinates": [
+            474,
+            267
+          ],
+          "confidence": 0.9008845679756697,
+          "reasoning": "Located target element with 0.90 confidence"
+        }
+      },
+      "output_data": {
+        "success": true,
+        "action_type": "touch",
+        "screenshot": "screenshots\\step_002_1753465416.png"
+      },
+      "timestamp": 1753465416.4247386,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.03920745849609375
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 2,
+        "verification_type": "text_presence",
+        "execution_success": true
+      },
+      "output_data": {
+        "verification_passed": true,
+        "confidence": 0.9,
+        "issues_count": 0
+      },
+      "timestamp": 1753465416.4660087,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0009996891021728516
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 3,
+        "description": "Check storage usage details",
+        "grounded_action": {
+          "action_type": "touch",
+          "element_id": "ui_element_9",
+          "coordinates": [
+            328,
+            219
+          ],
+          "confidence": 0.8298082371798013,
+          "reasoning": "Located target element with 0.83 confidence"
+        }
+      },
+      "output_data": {
+        "success": true,
+        "action_type": "touch",
+        "screenshot": "screenshots\\step_003_1753465416.png"
+      },
+      "timestamp": 1753465416.5008337,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.03182864189147949
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 3,
+        "verification_type": "functional",
+        "execution_success": true
+      },
+      "output_data": {
+        "verification_passed": true,
+        "confidence": 0.9,
+        "issues_count": 0
+      },
+      "timestamp": 1753465416.5348575,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.000997304916381836
+    },
+    {
+      "agent_type": "supervisor",
+      "action_type": "analyze_episode",
+      "input_data": {
+        "episode_id": "episode_1753465404_1",
+        "episode_success": false,
+        "total_steps": 3
+      },
+      "output_data": {
+        "overall_quality": 0.9833333333333334,
+        "issues_count": 0,
+        "suggestions_count": 0
+      },
+      "timestamp": 1753465416.540852,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.00199127197265625
+    }
+  ]
+}

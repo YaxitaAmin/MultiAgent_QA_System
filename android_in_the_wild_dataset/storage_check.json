@@ -1,0 +1,28 @@
+{
+  "task_type": "storage_management",
+  "duration": 12.4,
+  "screen_sequence": [
+    "home",
+    "settings",
+    "storage_settings"
+  ],
+  "user_actions": [
+    {
+      "type": "touch",
+      "coordinates": [
+        200,
+        120
+      ],
+      "target": "settings"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        180,
+        380
+      ],
+      "target": "storage_option"
+    }
+  ],
+  "success": true
+}

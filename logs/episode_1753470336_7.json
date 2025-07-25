@@ -1,0 +1,252 @@
+{
+  "episode_id": "episode_1753470336_7",
+  "task_description": "Test turning Wi-Fi on and off",
+  "start_time": 1753470336.187449,
+  "end_time": 1753470336.387994,
+  "total_steps": 15,
+  "success": true,
+  "final_result": "Analysis complete. Quality: 0.20",
+  "actions": [
+    {
+      "agent_type": "planner",
+      "action_type": "create_plan",
+      "input_data": {
+        "goal": "Test turning Wi-Fi on and off",
+        "subgoals_count": 4,
+        "estimated_steps": 4
+      },
+      "output_data": {},
+      "timestamp": 1753470336.1956139,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.005163669586181641,
+      "duration": 0.005163669586181641
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 1,
+        "error": "'UIState' object has no attribute 'get'"
+      },
+      "output_data": {},
+      "timestamp": 1753470336.1988964,
+      "success": false,
+      "error_message": null,
+      "execution_time": 0.0005319118499755859,
+      "duration": 0.0005319118499755859
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 1,
+        "verification_type": "navigation",
+        "execution_success": false
+      },
+      "output_data": {
+        "verification_passed": true,
+        "confidence": 0.8,
+        "issues_count": 0
+      },
+      "timestamp": 1753470336.2319527,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0011775493621826172,
+      "duration": 0.0011775493621826172
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 2,
+        "error": "'UIState' object has no attribute 'get'"
+      },
+      "output_data": {},
+      "timestamp": 1753470336.2398448,
+      "success": false,
+      "error_message": null,
+      "execution_time": 0.0,
+      "duration": 0.0
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 2,
+        "verification_type": "text_presence",
+        "execution_success": false
+      },
+      "output_data": {
+        "verification_passed": true,
+        "confidence": 0.9,
+        "issues_count": 0
+      },
+      "timestamp": 1753470336.2714407,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0009982585906982422,
+      "duration": 0.0009982585906982422
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 3,
+        "error": "'UIState' object has no attribute 'get'"
+      },
+      "output_data": {},
+      "timestamp": 1753470336.2764382,
+      "success": false,
+      "error_message": null,
+      "execution_time": 0.0009799003601074219,
+      "duration": 0.0009799003601074219
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 3,
+        "verification_type": "element_state",
+        "execution_success": false
+      },
+      "output_data": {
+        "verification_passed": true,
+        "confidence": 0.9,
+        "issues_count": 0
+      },
+      "timestamp": 1753470336.3064692,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.000982046127319336,
+      "duration": 0.000982046127319336
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 4,
+        "error": "'UIState' object has no attribute 'get'"
+      },
+      "output_data": {},
+      "timestamp": 1753470336.3114727,
+      "success": false,
+      "error_message": null,
+      "execution_time": 0.0010058879852294922,
+      "duration": 0.0010058879852294922
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 4,
+        "verification_type": "functional",
+        "execution_success": false
+      },
+      "output_data": {
+        "verification_passed": false,
+        "confidence": 0.5,
+        "issues_count": 1
+      },
+      "timestamp": 1753470336.338469,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.001003265380859375,
+      "duration": 0.001003265380859375
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 4,
+        "error": "'UIState' object has no attribute 'get'"
+      },
+      "output_data": {},
+      "timestamp": 1753470336.3444862,
+      "success": false,
+      "error_message": null,
+      "execution_time": 0.0009779930114746094,
+      "duration": 0.0009779930114746094
+    },
+    {
+      "agent_type": "planner",
+      "action_type": "adapt_plan",
+      "input_data": {
+        "issue": "Verification failed: Execution failed",
+        "suggestion": "Check error message and retry"
+      },
+      "output_data": {},
+      "timestamp": 1753470336.3464668,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0009829998016357422,
+      "duration": 0.0009829998016357422
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 4,
+        "error": "'UIState' object has no attribute 'get'"
+      },
+      "output_data": {},
+      "timestamp": 1753470336.3494818,
+      "success": false,
+      "error_message": null,
+      "execution_time": 0.0010151863098144531,
+      "duration": 0.0010151863098144531
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 4,
+        "verification_type": "functional",
+        "execution_success": false
+      },
+      "output_data": {
+        "verification_passed": false,
+        "confidence": 0.5,
+        "issues_count": 1
+      },
+      "timestamp": 1753470336.3792298,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0010020732879638672,
+      "duration": 0.0010020732879638672
+    },
+    {
+      "agent_type": "planner",
+      "action_type": "adapt_plan",
+      "input_data": {
+        "issue": "Verification failed: Execution failed",
+        "suggestion": "Check error message and retry"
+      },
+      "output_data": {},
+      "timestamp": 1753470336.3822289,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0,
+      "duration": 0.0
+    },
+    {
+      "agent_type": "supervisor",
+      "action_type": "analyze_episode",
+      "input_data": {
+        "episode_id": "episode_1753470332_6",
+        "episode_success": false,
+        "total_steps": 6
+      },
+      "output_data": {
+        "overall_quality": 0.62,
+        "issues_count": 2,
+        "suggestions_count": 2
+      },
+      "timestamp": 1753470336.3869948,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0010075569152832031,
+      "duration": 0.0010075569152832031
+    }
+  ]
+}

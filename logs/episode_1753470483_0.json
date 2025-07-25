@@ -1,0 +1,102 @@
+{
+  "episode_id": "episode_1753470483_0",
+  "task_description": "Test turning Wi-Fi on and off",
+  "start_time": 1753470483.1455946,
+  "end_time": 1753470483.4074316,
+  "total_steps": 5,
+  "success": true,
+  "final_result": "Episode completed",
+  "actions": [
+    {
+      "agent_type": "planner",
+      "action_type": "create_plan",
+      "input_data": {
+        "goal": "Test turning Wi-Fi on and off",
+        "subgoals_count": 4,
+        "estimated_steps": 4
+      },
+      "output_data": {},
+      "timestamp": 1753470483.1515684,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.003991365432739258,
+      "duration": 0.003991365432739258
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 2,
+        "description": "Find and tap Wi-Fi option in Settings",
+        "action_type": "failed",
+        "confidence": 0.3206907080976204
+      },
+      "output_data": {
+        "success": true,
+        "execution_time": 0.16179609298706055
+      },
+      "timestamp": 1753470483.2888336,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.16179609298706055,
+      "duration": 0.16179609298706055
+    },
+    {
+      "agent_type": "executor",
+      "action_type": "execute_subgoal",
+      "input_data": {
+        "subgoal_id": 1,
+        "description": "Open Settings app from home screen",
+        "action_type": "touch",
+        "confidence": 0.8651603975760048
+      },
+      "output_data": {
+        "success": true,
+        "execution_time": 0.17325973510742188
+      },
+      "timestamp": 1753470483.3268278,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.17325973510742188,
+      "duration": 0.17325973510742188
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 2,
+        "verification_type": "text_presence",
+        "execution_success": true
+      },
+      "output_data": {
+        "verification_passed": true,
+        "confidence": 0.9,
+        "issues_count": 0
+      },
+      "timestamp": 1753470483.377413,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0009920597076416016,
+      "duration": 0.0009920597076416016
+    },
+    {
+      "agent_type": "verifier",
+      "action_type": "verify_execution",
+      "input_data": {
+        "subgoal_id": 1,
+        "verification_type": "navigation",
+        "execution_success": true
+      },
+      "output_data": {
+        "verification_passed": true,
+        "confidence": 0.9,
+        "issues_count": 0
+      },
+      "timestamp": 1753470483.3974051,
+      "success": true,
+      "error_message": null,
+      "execution_time": 0.0008778572082519531,
+      "duration": 0.0008778572082519531
+    }
+  ]
+}

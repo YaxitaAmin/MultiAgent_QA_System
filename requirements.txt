@@ -1,0 +1,29 @@
+# Core dependencies
+streamlit>=1.28.0
+pandas>=1.5.0
+numpy>=1.21.0
+Pillow>=9.0.0
+
+# LLM and ML dependencies
+transformers>=4.20.0
+torch>=1.12.0
+tokenizers>=0.13.0
+
+# Optional: HuggingFace Hub
+huggingface-hub>=0.14.0
+
+# Testing dependencies
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Logging and utilities
+python-dateutil>=2.8.0
+pathlib2>=2.3.0
+
+# Optional: Real AndroidEnv dependencies (if available)
+# android-env>=1.0.0  # Uncomment if using real AndroidEnv
+
+# Development dependencies
+black>=22.0.0
+flake8>=5.0.0
+mypy>=0.950

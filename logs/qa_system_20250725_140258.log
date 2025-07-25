@@ -1,0 +1,115 @@
+2025-07-25 14:02:58 | WARNING | env_manager:__init__:29 | No Gemini API key provided, using mock LLM
+2025-07-25 14:02:58 | INFO | core.android_env_wrapper:__init__:36 | Using mock Android environment
+2025-07-25 14:03:00 | INFO | core.logger:start_episode:83 | Started episode episode_1753466580_0: Test turning Wi-Fi on and off
+2025-07-25 14:03:00 | INFO | env_manager:execute_qa_task:81 | Starting QA task: Test turning Wi-Fi on and off
+2025-07-25 14:03:00 | INFO | env_manager:execute_qa_task:88 | Phase 1: Creating test plan
+2025-07-25 14:03:00 | INFO | core.logger:log_agent_action:135 | Agent planner - create_plan: Success=True, Time=0.001s
+2025-07-25 14:03:00 | INFO | agents.planner_agent:create_plan:80 | Created plan with 5 subgoals for: Test turning Wi-Fi on and off
+2025-07-25 14:03:00 | INFO | env_manager:execute_qa_task:95 | Phase 2: Executing test plan
+2025-07-25 14:03:00 | INFO | env_manager:execute_qa_task:106 | Step 1: Executing subgoal 1
+2025-07-25 14:03:00 | INFO | agents.executor_agent:execute_subgoal:44 | Executing subgoal 1: Open Settings app
+2025-07-25 14:03:00 | INFO | core.logger:log_ui_interaction:145 | UI Interaction: touch on unknown -> success
+2025-07-25 14:03:00 | INFO | core.logger:log_agent_action:135 | Agent executor - execute_subgoal: Success=True, Time=0.078s
+2025-07-25 14:03:00 | INFO | agents.executor_agent:execute_subgoal:102 | Successfully executed subgoal 1
+2025-07-25 14:03:00 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 1: Open Settings app
+2025-07-25 14:03:00 | INFO | core.logger:log_agent_action:135 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 14:03:00 | INFO | core.logger:log_verification_result:149 | Verification: Expected='On Settings screen', Actual='Successfully navigated to Settings', Passed=True
+2025-07-25 14:03:00 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 1 (confidence: 0.90)
+2025-07-25 14:03:00 | INFO | agents.planner_agent:mark_subgoal_completed:180 | Subgoal 1 completed: Open Settings app
+2025-07-25 14:03:00 | INFO | env_manager:execute_qa_task:124 | Subgoal 1 completed successfully
+2025-07-25 14:03:00 | INFO | env_manager:execute_qa_task:106 | Step 2: Executing subgoal 2
+2025-07-25 14:03:00 | INFO | agents.executor_agent:execute_subgoal:44 | Executing subgoal 2: Find and tap Wi-Fi option
+2025-07-25 14:03:00 | INFO | core.logger:log_agent_action:135 | Agent executor - execute_subgoal: Success=False, Time=0.039s
+2025-07-25 14:03:00 | ERROR | core.logger:log_agent_action:141 | Agent executor error: Unknown action type: failed
+2025-07-25 14:03:00 | ERROR | agents.executor_agent:execute_subgoal:104 | Failed to execute subgoal 2: Unknown action type: failed
+2025-07-25 14:03:00 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 2: Find and tap Wi-Fi option
+2025-07-25 14:03:00 | INFO | core.logger:log_agent_action:135 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 14:03:00 | INFO | core.logger:log_verification_result:149 | Verification: Expected='Text present: []', Actual='Text verification complete', Passed=True
+2025-07-25 14:03:00 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 2 (confidence: 0.90)
+2025-07-25 14:03:00 | INFO | agents.planner_agent:mark_subgoal_completed:180 | Subgoal 2 completed: Find and tap Wi-Fi option
+2025-07-25 14:03:00 | INFO | env_manager:execute_qa_task:124 | Subgoal 2 completed successfully
+2025-07-25 14:03:00 | INFO | env_manager:execute_qa_task:106 | Step 3: Executing subgoal 3
+2025-07-25 14:03:00 | INFO | agents.executor_agent:execute_subgoal:44 | Executing subgoal 3: Toggle Wi-Fi switch
+2025-07-25 14:03:00 | INFO | core.logger:log_ui_interaction:145 | UI Interaction: touch on unknown -> success
+2025-07-25 14:03:00 | INFO | core.logger:log_agent_action:135 | Agent executor - execute_subgoal: Success=True, Time=0.029s
+2025-07-25 14:03:00 | INFO | agents.executor_agent:execute_subgoal:102 | Successfully executed subgoal 3
+2025-07-25 14:03:00 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 3: Toggle Wi-Fi switch
+2025-07-25 14:03:00 | INFO | core.logger:log_agent_action:135 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 14:03:00 | INFO | core.logger:log_verification_result:149 | Verification: Expected='Element state changed as expected', Actual='Element interaction completed successfully', Passed=True
+2025-07-25 14:03:00 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 3 (confidence: 0.95)
+2025-07-25 14:03:00 | INFO | agents.planner_agent:mark_subgoal_completed:180 | Subgoal 3 completed: Toggle Wi-Fi switch
+2025-07-25 14:03:00 | INFO | env_manager:execute_qa_task:124 | Subgoal 3 completed successfully
+2025-07-25 14:03:00 | INFO | env_manager:execute_qa_task:106 | Step 4: Executing subgoal 4
+2025-07-25 14:03:00 | INFO | agents.executor_agent:execute_subgoal:44 | Executing subgoal 4: Wait for toggle animation
+2025-07-25 14:03:00 | INFO | core.logger:log_ui_interaction:145 | UI Interaction: touch on unknown -> success
+2025-07-25 14:03:00 | INFO | core.logger:log_agent_action:135 | Agent executor - execute_subgoal: Success=True, Time=0.027s
+2025-07-25 14:03:00 | INFO | agents.executor_agent:execute_subgoal:102 | Successfully executed subgoal 4
+2025-07-25 14:03:00 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 4: Wait for toggle animation
+2025-07-25 14:03:00 | INFO | core.logger:log_agent_action:135 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 14:03:00 | INFO | core.logger:log_verification_result:149 | Verification: Expected='Element state changed as expected', Actual='Element interaction completed successfully', Passed=True
+2025-07-25 14:03:00 | INFO | agents.verifier_agent:verify_execution:99 | Verification PASSED for subgoal 4 (confidence: 0.95)
+2025-07-25 14:03:00 | INFO | agents.planner_agent:mark_subgoal_completed:180 | Subgoal 4 completed: Wait for toggle animation
+2025-07-25 14:03:00 | INFO | env_manager:execute_qa_task:124 | Subgoal 4 completed successfully
+2025-07-25 14:03:00 | INFO | env_manager:execute_qa_task:106 | Step 5: Executing subgoal 5
+2025-07-25 14:03:00 | INFO | agents.executor_agent:execute_subgoal:44 | Executing subgoal 5: Verify Wi-Fi status changed
+2025-07-25 14:03:00 | INFO | core.logger:log_agent_action:135 | Agent executor - execute_subgoal: Success=False, Time=0.030s
+2025-07-25 14:03:00 | ERROR | core.logger:log_agent_action:141 | Agent executor error: Unknown action type: failed
+2025-07-25 14:03:00 | ERROR | agents.executor_agent:execute_subgoal:104 | Failed to execute subgoal 5: Unknown action type: failed
+2025-07-25 14:03:00 | INFO | agents.verifier_agent:verify_execution:54 | Verifying execution of subgoal 5: Verify Wi-Fi status changed
+2025-07-25 14:03:00 | INFO | core.logger:log_agent_action:135 | Agent verifier - verify_execution: Success=True, Time=0.001s
+2025-07-25 14:03:00 | INFO | core.logger:log_verification_result:149 | Verification: Expected='No errors or loading states', Actual='Found 1 functional issues', Passed=False
+2025-07-25 14:03:00 | INFO | agents.verifier_agent:verify_execution:99 | Verification FAILED for subgoal 5 (confidence: 0.50)
+2025-07-25 14:03:00 | WARNING | env_manager:execute_qa_task:126 | Subgoal 5 verification failed
+2025-07-25 14:03:00 | INFO | env_manager:_handle_verification_failure:224 | Attempting recovery for subgoal 5
+2025-07-25 14:03:00 | INFO | env_manager:_handle_verification_failure:228 | Retrying execution
+2025-07-25 14:03:00 | INFO | agents.executor_agent:execute_subgoal:44 | Executing subgoal 5: Verify Wi-Fi status changed
+2025-07-25 14:03:00 | INFO | core.logger:log_agent_action:135 | Agent executor - execute_subgoal: Success=False, Time=0.028s
+2025-07-25 14:03:00 | ERROR | core.logger:log_agent_action:141 | Agent executor error: Unknown action type: failed
+2025-07-25 14:03:00 | ERROR | agents.executor_agent:execute_subgoal:104 | Failed to execute subgoal 5: Unknown action type: failed
+2025-07-25 14:03:00 | INFO | core.logger:log_agent_action:135 | Agent planner - adapt_plan: Success=True, Time=0.000s
+2025-07-25 14:03:00 | INFO | agents.planner_agent:adapt_plan:140 | Adapted plan due to: Verification failed: Execution failed
+2025-07-25 14:03:00 | WARNING | agents.planner_agent:mark_subgoal_failed:190 | Subgoal 5 failed: Verification failed after recovery attempt
+2025-07-25 14:03:00 | INFO | env_manager:execute_qa_task:103 | All subgoals completed
+2025-07-25 14:03:00 | WARNING | env_manager:execute_qa_task:151 | Test plan incomplete
+2025-07-25 14:03:00 | INFO | env_manager:execute_qa_task:155 | Phase 3: Analyzing episode
+2025-07-25 14:03:00 | INFO | core.logger:end_episode:104 | Ended episode episode_1753466580_0: Success=False, Duration=0.41s, Steps=13
+2025-07-25 14:03:00 | INFO | env_manager:execute_qa_task:195 | QA task completed. Success: False, Time: 0.42s, Steps: 5
+2025-07-25 14:03:05 | INFO | android_in_wild.integration_manager:run_evaluation:49 | Starting Android In The Wild evaluation with 5 videos
+2025-07-25 14:03:05 | INFO | android_in_wild.dataset_handler:load_video_traces:155 | Loading 5 video traces from android_in_wild_dataset
+2025-07-25 14:03:06 | INFO | android_in_wild.dataset_handler:load_video_traces:172 | Loaded trace: android_in_wild_dataset\alarm_setup_session.mp4
+2025-07-25 14:03:07 | INFO | android_in_wild.dataset_handler:load_video_traces:172 | Loaded trace: android_in_wild_dataset\bluetooth_settings.mp4
+2025-07-25 14:03:08 | INFO | android_in_wild.dataset_handler:load_video_traces:172 | Loaded trace: android_in_wild_dataset\calculator_session.mp4
+2025-07-25 14:03:08 | INFO | android_in_wild.dataset_handler:load_video_traces:172 | Loaded trace: android_in_wild_dataset\storage_check_session.mp4
+2025-07-25 14:03:09 | INFO | android_in_wild.dataset_handler:load_video_traces:172 | Loaded trace: android_in_wild_dataset\wifi_toggle_session.mp4
+2025-07-25 14:03:09 | INFO | android_in_wild.dataset_handler:load_video_traces:176 | Successfully loaded 5 video traces
+2025-07-25 14:03:09 | INFO | android_in_wild.integration_manager:run_evaluation:62 | Processing video 1/5: alarm_setup_session.mp4
+2025-07-25 14:03:09 | INFO | android_in_wild.prompt_generator:generate_task_prompt:49 | Generating task prompt for video: android_in_wild_dataset\alarm_setup_session.mp4
+2025-07-25 14:03:09 | INFO | android_in_wild.prompt_generator:generate_task_prompt:59 | Generated prompt from template: Create morning alarm in Clock app
+2025-07-25 14:03:09 | INFO | android_in_wild.integration_manager:_process_single_video:105 | Generated prompt: Create morning alarm in Clock app
+2025-07-25 14:03:09 | ERROR | env_manager:execute_qa_task_sync:62 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 14:03:09 | INFO | android_in_wild.integration_manager:run_evaluation:68 | Video 1 completed - Success: False, Accuracy: 0.10, Time: 0.01s
+2025-07-25 14:03:09 | INFO | android_in_wild.integration_manager:run_evaluation:62 | Processing video 2/5: bluetooth_settings.mp4
+2025-07-25 14:03:09 | INFO | android_in_wild.prompt_generator:generate_task_prompt:49 | Generating task prompt for video: android_in_wild_dataset\bluetooth_settings.mp4
+2025-07-25 14:03:09 | INFO | android_in_wild.prompt_generator:generate_task_prompt:59 | Generated prompt from template: Test Bluetooth toggle functionality
+2025-07-25 14:03:09 | INFO | android_in_wild.integration_manager:_process_single_video:105 | Generated prompt: Test Bluetooth toggle functionality
+2025-07-25 14:03:09 | ERROR | env_manager:execute_qa_task_sync:62 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 14:03:09 | INFO | android_in_wild.integration_manager:run_evaluation:68 | Video 2 completed - Success: False, Accuracy: 0.10, Time: 0.01s
+2025-07-25 14:03:09 | INFO | android_in_wild.integration_manager:run_evaluation:62 | Processing video 3/5: calculator_session.mp4
+2025-07-25 14:03:09 | INFO | android_in_wild.prompt_generator:generate_task_prompt:49 | Generating task prompt for video: android_in_wild_dataset\calculator_session.mp4
+2025-07-25 14:03:09 | INFO | android_in_wild.prompt_generator:generate_task_prompt:59 | Generated prompt from template: Use Calculator app to add two numbers
+2025-07-25 14:03:09 | INFO | android_in_wild.integration_manager:_process_single_video:105 | Generated prompt: Use Calculator app to add two numbers
+2025-07-25 14:03:09 | ERROR | env_manager:execute_qa_task_sync:62 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 14:03:09 | INFO | android_in_wild.integration_manager:run_evaluation:68 | Video 3 completed - Success: False, Accuracy: 0.10, Time: 0.01s
+2025-07-25 14:03:09 | INFO | android_in_wild.integration_manager:run_evaluation:62 | Processing video 4/5: storage_check_session.mp4
+2025-07-25 14:03:09 | INFO | android_in_wild.prompt_generator:generate_task_prompt:49 | Generating task prompt for video: android_in_wild_dataset\storage_check_session.mp4
+2025-07-25 14:03:09 | INFO | android_in_wild.prompt_generator:generate_task_prompt:59 | Generated prompt from template: Access storage management settings
+2025-07-25 14:03:09 | INFO | android_in_wild.integration_manager:_process_single_video:105 | Generated prompt: Access storage management settings
+2025-07-25 14:03:09 | ERROR | env_manager:execute_qa_task_sync:62 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 14:03:09 | INFO | android_in_wild.integration_manager:run_evaluation:68 | Video 4 completed - Success: False, Accuracy: 0.10, Time: 0.01s
+2025-07-25 14:03:09 | INFO | android_in_wild.integration_manager:run_evaluation:62 | Processing video 5/5: wifi_toggle_session.mp4
+2025-07-25 14:03:09 | INFO | android_in_wild.prompt_generator:generate_task_prompt:49 | Generating task prompt for video: android_in_wild_dataset\wifi_toggle_session.mp4
+2025-07-25 14:03:09 | INFO | android_in_wild.prompt_generator:generate_task_prompt:59 | Generated prompt from template: Toggle Wi-Fi settings
+2025-07-25 14:03:09 | INFO | android_in_wild.integration_manager:_process_single_video:105 | Generated prompt: Toggle Wi-Fi settings
+2025-07-25 14:03:09 | ERROR | env_manager:execute_qa_task_sync:62 | Sync execution failed: Cannot run the event loop while another loop is running
+2025-07-25 14:03:09 | INFO | android_in_wild.integration_manager:run_evaluation:68 | Video 5 completed - Success: False, Accuracy: 0.10, Time: 0.01s
+2025-07-25 14:03:09 | INFO | android_in_wild.integration_manager:run_evaluation:90 | Evaluation completed in 0.05s. Processed 5/5 videos successfully
