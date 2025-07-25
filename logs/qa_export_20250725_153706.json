@@ -1,0 +1,652 @@
+{
+  "export_timestamp": "20250725_153706",
+  "summary": {
+    "total_episodes": 6,
+    "successful_episodes": 6,
+    "success_rate": 1.0,
+    "episodes": [
+      {
+        "episode_id": "episode_1753472218_0",
+        "task": "Test turning Wi-Fi on and off",
+        "success": true,
+        "duration": 0.9435427188873291,
+        "steps": 9
+      },
+      {
+        "episode_id": "episode_1753472224_1",
+        "task": "Open Settings and navigate to system preferences",
+        "success": true,
+        "duration": 0.22146296501159668,
+        "steps": 4
+      },
+      {
+        "episode_id": "episode_1753472224_2",
+        "task": "Open Settings and navigate to system preferences",
+        "success": true,
+        "duration": 0.23985528945922852,
+        "steps": 4
+      },
+      {
+        "episode_id": "episode_1753472225_3",
+        "task": "Open Settings and navigate to system preferences",
+        "success": true,
+        "duration": 0.30044102668762207,
+        "steps": 4
+      },
+      {
+        "episode_id": "episode_1753472225_4",
+        "task": "Open Settings and navigate to system preferences",
+        "success": true,
+        "duration": 0.2650597095489502,
+        "steps": 4
+      },
+      {
+        "episode_id": "episode_1753472225_5",
+        "task": "Open Settings and navigate to system preferences",
+        "success": true,
+        "duration": 0.2800753116607666,
+        "steps": 4
+      }
+    ]
+  },
+  "episodes": [
+    {
+      "episode_id": "episode_1753472218_0",
+      "task_description": "Test turning Wi-Fi on and off",
+      "start_time": 1753472218.8409314,
+      "end_time": 1753472219.7844741,
+      "total_steps": 9,
+      "success": true,
+      "final_result": "Episode completed",
+      "actions": [
+        {
+          "agent_type": "planner",
+          "action_type": "create_plan",
+          "input_data": {
+            "goal": "Test turning Wi-Fi on and off",
+            "subgoals_count": 4,
+            "estimated_steps": 4
+          },
+          "output_data": {},
+          "timestamp": 1753472218.8519514,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0040204524993896484,
+          "duration": 0.0040204524993896484
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 1,
+            "description": "Open Settings app from home screen",
+            "action_type": "touch",
+            "confidence": 0.8651603975760048
+          },
+          "output_data": {
+            "success": true,
+            "execution_time": 0.23058819770812988
+          },
+          "timestamp": 1753472219.0865226,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.23058819770812988,
+          "duration": 0.23058819770812988
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 1,
+            "verification_type": "navigation",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753472219.1607366,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0008804798126220703,
+          "duration": 0.0008804798126220703
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 2,
+            "description": "Find and tap Wi-Fi option in Settings",
+            "action_type": "failed",
+            "confidence": 0.3206907080976204
+          },
+          "output_data": {
+            "success": false,
+            "execution_time": 0.13193774223327637
+          },
+          "timestamp": 1753472219.2978659,
+          "success": false,
+          "error_message": null,
+          "execution_time": 0.13193774223327637,
+          "duration": 0.13193774223327637
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 2,
+            "verification_type": "text_presence",
+            "execution_success": false
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753472219.3360581,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0010094642639160156,
+          "duration": 0.0010094642639160156
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 3,
+            "description": "Toggle Wi-Fi switch to change state",
+            "action_type": "touch",
+            "confidence": 0.9330428212199641
+          },
+          "output_data": {
+            "success": true,
+            "execution_time": 0.15135598182678223
+          },
+          "timestamp": 1753472219.4904141,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.15135598182678223,
+          "duration": 0.15135598182678223
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 3,
+            "verification_type": "element_state",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.95,
+            "issues_count": 0
+          },
+          "timestamp": 1753472219.5351055,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0,
+          "duration": 0.0
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 4,
+            "description": "Verify Wi-Fi state has changed successfully",
+            "action_type": "failed",
+            "confidence": 0.3662761803582163
+          },
+          "output_data": {
+            "success": true,
+            "execution_time": 0.17800474166870117
+          },
+          "timestamp": 1753472219.7182753,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.17800474166870117,
+          "duration": 0.17800474166870117
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 4,
+            "verification_type": "functional",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753472219.7774553,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0010046958923339844,
+          "duration": 0.0010046958923339844
+        }
+      ]
+    },
+    {
+      "episode_id": "episode_1753472224_1",
+      "task_description": "Open Settings and navigate to system preferences",
+      "start_time": 1753472224.7133272,
+      "end_time": 1753472224.9347901,
+      "total_steps": 4,
+      "success": true,
+      "final_result": "Analysis complete. Quality: 1.00",
+      "actions": [
+        {
+          "agent_type": "planner",
+          "action_type": "create_plan",
+          "input_data": {
+            "goal": "Open Settings and navigate to system preferences",
+            "subgoals_count": 1,
+            "estimated_steps": 1
+          },
+          "output_data": {},
+          "timestamp": 1753472224.7235699,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0030133724212646484,
+          "duration": 0.0030133724212646484
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 1,
+            "description": "Execute the requested task: \ncreate a detailed test plan f...",
+            "action_type": "touch",
+            "confidence": 0.5
+          },
+          "output_data": {
+            "success": true,
+            "execution_time": 0.15405535697937012
+          },
+          "timestamp": 1753472224.881921,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.15405535697937012,
+          "duration": 0.15405535697937012
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 1,
+            "verification_type": "ui_state",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753472224.925085,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.001508474349975586,
+          "duration": 0.001508474349975586
+        },
+        {
+          "agent_type": "supervisor",
+          "action_type": "analyze_episode",
+          "input_data": {
+            "episode_id": "episode_1753472218_0",
+            "episode_success": true,
+            "total_steps": 1
+          },
+          "output_data": {
+            "overall_quality": 0.9166666666666666,
+            "issues_count": 2,
+            "suggestions_count": 2
+          },
+          "timestamp": 1753472224.932783,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0020143985748291016,
+          "duration": 0.0020143985748291016
+        }
+      ]
+    },
+    {
+      "episode_id": "episode_1753472224_2",
+      "task_description": "Open Settings and navigate to system preferences",
+      "start_time": 1753472224.9485917,
+      "end_time": 1753472225.188447,
+      "total_steps": 4,
+      "success": true,
+      "final_result": "Analysis complete. Quality: 1.00",
+      "actions": [
+        {
+          "agent_type": "planner",
+          "action_type": "create_plan",
+          "input_data": {
+            "goal": "Open Settings and navigate to system preferences",
+            "subgoals_count": 1,
+            "estimated_steps": 1
+          },
+          "output_data": {},
+          "timestamp": 1753472224.9609194,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.003789663314819336,
+          "duration": 0.003789663314819336
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 1,
+            "description": "Execute the requested task: \ncreate a detailed test plan f...",
+            "action_type": "touch",
+            "confidence": 0.5
+          },
+          "output_data": {
+            "success": true,
+            "execution_time": 0.173842191696167
+          },
+          "timestamp": 1753472225.1374075,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.173842191696167,
+          "duration": 0.173842191696167
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 1,
+            "verification_type": "ui_state",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753472225.175844,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0010008811950683594,
+          "duration": 0.0010008811950683594
+        },
+        {
+          "agent_type": "supervisor",
+          "action_type": "analyze_episode",
+          "input_data": {
+            "episode_id": "episode_1753472224_1",
+            "episode_success": true,
+            "total_steps": 1
+          },
+          "output_data": {
+            "overall_quality": 0.9166666666666666,
+            "issues_count": 2,
+            "suggestions_count": 2
+          },
+          "timestamp": 1753472225.1859865,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.002002239227294922,
+          "duration": 0.002002239227294922
+        }
+      ]
+    },
+    {
+      "episode_id": "episode_1753472225_3",
+      "task_description": "Open Settings and navigate to system preferences",
+      "start_time": 1753472225.2044687,
+      "end_time": 1753472225.5049098,
+      "total_steps": 4,
+      "success": true,
+      "final_result": "Analysis complete. Quality: 1.00",
+      "actions": [
+        {
+          "agent_type": "planner",
+          "action_type": "create_plan",
+          "input_data": {
+            "goal": "Open Settings and navigate to system preferences",
+            "subgoals_count": 1,
+            "estimated_steps": 1
+          },
+          "output_data": {},
+          "timestamp": 1753472225.212524,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0020668506622314453,
+          "duration": 0.0020668506622314453
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 1,
+            "description": "Execute the requested task: \ncreate a detailed test plan f...",
+            "action_type": "touch",
+            "confidence": 0.5
+          },
+          "output_data": {
+            "success": true,
+            "execution_time": 0.19438672065734863
+          },
+          "timestamp": 1753472225.4089139,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.19438672065734863,
+          "duration": 0.19438672065734863
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 1,
+            "verification_type": "ui_state",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753472225.4939117,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0,
+          "duration": 0.0
+        },
+        {
+          "agent_type": "supervisor",
+          "action_type": "analyze_episode",
+          "input_data": {
+            "episode_id": "episode_1753472224_2",
+            "episode_success": true,
+            "total_steps": 1
+          },
+          "output_data": {
+            "overall_quality": 0.9166666666666666,
+            "issues_count": 2,
+            "suggestions_count": 2
+          },
+          "timestamp": 1753472225.5039308,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0009834766387939453,
+          "duration": 0.0009834766387939453
+        }
+      ]
+    },
+    {
+      "episode_id": "episode_1753472225_4",
+      "task_description": "Open Settings and navigate to system preferences",
+      "start_time": 1753472225.5219343,
+      "end_time": 1753472225.786994,
+      "total_steps": 4,
+      "success": true,
+      "final_result": "Analysis complete. Quality: 1.00",
+      "actions": [
+        {
+          "agent_type": "planner",
+          "action_type": "create_plan",
+          "input_data": {
+            "goal": "Open Settings and navigate to system preferences",
+            "subgoals_count": 1,
+            "estimated_steps": 1
+          },
+          "output_data": {},
+          "timestamp": 1753472225.530943,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.001986265182495117,
+          "duration": 0.001986265182495117
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 1,
+            "description": "Execute the requested task: \ncreate a detailed test plan f...",
+            "action_type": "touch",
+            "confidence": 0.5
+          },
+          "output_data": {
+            "success": true,
+            "execution_time": 0.16575121879577637
+          },
+          "timestamp": 1753472225.6996925,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.16575121879577637,
+          "duration": 0.16575121879577637
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 1,
+            "verification_type": "ui_state",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753472225.777995,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0010013580322265625,
+          "duration": 0.0010013580322265625
+        },
+        {
+          "agent_type": "supervisor",
+          "action_type": "analyze_episode",
+          "input_data": {
+            "episode_id": "episode_1753472225_3",
+            "episode_success": true,
+            "total_steps": 1
+          },
+          "output_data": {
+            "overall_quality": 0.9166666666666666,
+            "issues_count": 2,
+            "suggestions_count": 2
+          },
+          "timestamp": 1753472225.784986,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0020003318786621094,
+          "duration": 0.0020003318786621094
+        }
+      ]
+    },
+    {
+      "episode_id": "episode_1753472225_5",
+      "task_description": "Open Settings and navigate to system preferences",
+      "start_time": 1753472225.8009436,
+      "end_time": 1753472226.081019,
+      "total_steps": 4,
+      "success": true,
+      "final_result": "Analysis complete. Quality: 1.00",
+      "actions": [
+        {
+          "agent_type": "planner",
+          "action_type": "create_plan",
+          "input_data": {
+            "goal": "Open Settings and navigate to system preferences",
+            "subgoals_count": 1,
+            "estimated_steps": 1
+          },
+          "output_data": {},
+          "timestamp": 1753472225.8109174,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0040166378021240234,
+          "duration": 0.0040166378021240234
+        },
+        {
+          "agent_type": "executor",
+          "action_type": "execute_subgoal",
+          "input_data": {
+            "subgoal_id": 1,
+            "description": "Execute the requested task: \ncreate a detailed test plan f...",
+            "action_type": "touch",
+            "confidence": 0.5
+          },
+          "output_data": {
+            "success": true,
+            "execution_time": 0.18526387214660645
+          },
+          "timestamp": 1753472226.0030053,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.18526387214660645,
+          "duration": 0.18526387214660645
+        },
+        {
+          "agent_type": "verifier",
+          "action_type": "verify_execution",
+          "input_data": {
+            "subgoal_id": 1,
+            "verification_type": "ui_state",
+            "execution_success": true
+          },
+          "output_data": {
+            "verification_passed": true,
+            "confidence": 0.9,
+            "issues_count": 0
+          },
+          "timestamp": 1753472226.065021,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.0010178089141845703,
+          "duration": 0.0010178089141845703
+        },
+        {
+          "agent_type": "supervisor",
+          "action_type": "analyze_episode",
+          "input_data": {
+            "episode_id": "episode_1753472225_4",
+            "episode_success": true,
+            "total_steps": 1
+          },
+          "output_data": {
+            "overall_quality": 0.9166666666666666,
+            "issues_count": 2,
+            "suggestions_count": 2
+          },
+          "timestamp": 1753472226.079019,
+          "success": true,
+          "error_message": null,
+          "execution_time": 0.004001140594482422,
+          "duration": 0.004001140594482422
+        }
+      ]
+    }
+  ],
+  "system_info": {
+    "total_episodes": 6,
+    "log_directory": "logs",
+    "export_format": "json"
+  }
+}

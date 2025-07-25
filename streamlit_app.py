@@ -8,6 +8,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime
+from android_in_the_wild.integration_manager import AndroidInTheWildIntegration, EvaluationResult
 
 from env_manager import MultiAgentQAManager
 from main_orchestrator import load_config, get_default_config

@@ -13,7 +13,7 @@ Components:
 
 from .dataset_handler import AndroidInTheWildHandler, VideoTrace
 from .prompt_generator import TaskPromptGenerator
-from .integration_manager import AndroidInTheWildIntegration, ComparisonResult
+from .integration_manager import AndroidInTheWildIntegration, EvaluationResult
 
 __version__ = "1.0.0"
 __author__ = "Multi-Agent QA System"

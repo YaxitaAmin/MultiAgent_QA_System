@@ -1,0 +1,4 @@
+2025-07-25 15:28:47 | INFO | core.android_env_wrapper:__init__:45 | Using mock Android environment
+2025-07-25 15:28:51 | INFO | android_in_the_wild.dataset_handler:load_video_traces:138 | Loaded 5 video traces
+2025-07-25 15:29:00 | INFO | android_in_the_wild.dataset_handler:load_video_traces:138 | Loaded 5 video traces
+2025-07-25 15:29:05 | INFO | android_in_the_wild.dataset_handler:load_video_traces:138 | Loaded 5 video traces
