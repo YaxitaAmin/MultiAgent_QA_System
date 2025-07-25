@@ -4,18 +4,18 @@
 
 ## 📚 Table of Contents
 
-1. [System Overview](#system-overview)
-2. [Architecture](#architecture)
-3. [Installation Guide](#installation-guide)
-4. [Quick Start](#quick-start)
-5. [Core Components](#core-components)
-6. [Agent Details](#agent-details)
-7. [Configuration](#configuration)
-8. [API Reference](#api-reference)
-9. [Android In The Wild Integration](#android-in-the-wild-integration)
-10. [Development Guide](#development-guide)
-11. [Troubleshooting](#troubleshooting)
-12. [Performance Metrics](#performance-metrics)
+1. [System Overview](#-system-overview)
+2. [Architecture](#️-architecture)
+3. [Installation Guide](#-installation-guide)
+4. [Core Components](#-core-components)
+5. [Agent Details](#-agent-details)
+6. [Configuration](#️-configuration)
+7. [API Reference](#-api-reference)
+8. [Android In The Wild Integration](#-android-in-the-wild-integration)
+9. [Development Guide](#️-development-guide)
+10. [Troubleshooting](#-troubleshooting)
+11. [Performance Metrics](#-performance-metrics)
+12. [Future Enhancements](#-future-enhancements)
 
 ## 🎯 System Overview
 
@@ -103,7 +103,7 @@ This system extends the modular Agent-S architecture to create a comprehensive m
 
 ### Step 1: Clone Repository
 ```bash
-git clone 
+git clone <repository-url>
 cd multiagent_qa_system
 ```
 
@@ -148,7 +148,6 @@ python -c "from env_manager import MultiAgentQAManager; print('✅ Core system r
 # Test Streamlit app
 streamlit run streamlit_app.py
 ```
-
 
 ## 🧩 Core Components
 
