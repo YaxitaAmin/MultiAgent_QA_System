@@ -14,11 +14,11 @@ openai>=1.0.0
 anthropic>=0.7.0
 tiktoken>=0.5.0
 
-# Android Environment Dependencies
-android-env>=1.2.3
-dm-env>=1.6
-absl-py>=1.4.0
-gym>=0.26.0
+# Android Environment Dependencies (Optional - may not work on Python 3.13)
+# android-env>=1.2.3
+# dm-env>=1.6
+# absl-py>=1.4.0
+# gym>=0.26.0
 
 # Data Processing
 json5>=0.9.0
@@ -26,7 +26,7 @@ pydantic>=2.0.0
 dataclasses-json>=0.6.0
 typing-extensions>=4.5.0
 
-# Web Scraping and UI Analysis (for AndroidWorld integration)
+# Web Scraping and UI Analysis
 beautifulsoup4>=4.12.0
 lxml>=4.9.0
 requests>=2.31.0
@@ -40,23 +40,20 @@ seaborn>=0.12.0
 # Async and Concurrency
 aiohttp>=3.8.0
 aiofiles>=23.0.0
-asyncio>=3.4.3
 
 # Testing and Validation
 pytest>=7.4.0
 pytest-asyncio>=0.21.0
-mock>=5.1.0
 
 # Development and Debugging
 ipython>=8.15.0
-jupyter>=1.0.0
 tqdm>=4.65.0
 
-# Data Science and Analysis (for Android In The Wild)
-scipy>=1.11.0
-sklearn>=1.3.0
-torch>=2.0.0
-torchvision>=0.15.0
+# Data Science and Analysis - FIXED FOR PYTHON 3.13
+scipy>=1.14.0
+scikit-learn>=1.3.0  # FIXED: was sklearn>=1.3.0
+# torch>=2.0.0  # COMMENTED OUT: Limited Python 3.13 support
+# torchvision>=0.15.0  # COMMENTED OUT: Limited Python 3.13 support
 
 # Configuration and Environment
 python-dotenv>=1.0.0
@@ -71,22 +68,11 @@ websockets>=11.0.0
 pathlib2>=2.3.7
 glob2>=0.7
 
-# Database (optional - for logging persistence)
-sqlite3>=3.41.0
-
 # Performance Monitoring
 psutil>=5.9.0
 memory-profiler>=0.61.0
 
-# Agent-S Framework Dependencies
-# Note: These may need to be installed from source
-# git+https://github.com/simpleaiteam/agent-s.git
-
-# AndroidWorld Dependencies  
-# Note: These may need to be installed from source
-# git+https://github.com/google-research/android_world.git
-
 # Additional utility libraries
-rich>=13.5.0  # For better console output
-click>=8.1.0  # For CLI interfaces
-python-magic>=0.4.27  # For file type detection
+rich>=13.5.0
+click>=8.1.0
+python-magic>=0.4.27
