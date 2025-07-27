@@ -2,13 +2,12 @@
 gui-agents>=0.2.2
 pyautogui>=0.9.54
 pillow>=10.4.0
-opencv-python>=4.10.0.84  # keep this if you want GUI support
 numpy>=1.26.4
+
 # Core Framework Dependencies
 streamlit>=1.28.0
 asyncio-throttle>=1.0.2
 loguru>=0.7.0
-opencv-python
 pandas>=2.0.0
 numpy>=1.24.0
 plotly>=5.15.0
