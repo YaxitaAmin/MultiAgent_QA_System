@@ -1,0 +1,146 @@
+{
+  "test_id": "test_1753581497802",
+  "task_name": "unknown",
+  "start_time": 1753581497.802941,
+  "end_time": 1753581502.4533153,
+  "duration": 4.650374174118042,
+  "actions": [
+    {
+      "agent_name": "ExecutorAgent",
+      "action_type": "execute_step",
+      "input_data": {
+        "step_id": 1,
+        "action_type": "touch"
+      },
+      "output_data": {
+        "success": true,
+        "ui_changes": true
+      },
+      "timestamp": 1753581497.8459418,
+      "success": true,
+      "duration": 0.01888871192932129,
+      "error_message": null
+    },
+    {
+      "agent_name": "ExecutorAgent",
+      "action_type": "execute_step",
+      "input_data": {
+        "step_id": 2,
+        "action_type": "scroll"
+      },
+      "output_data": {
+        "success": true,
+        "ui_changes": true
+      },
+      "timestamp": 1753581498.430183,
+      "success": true,
+      "duration": 0.017989397048950195,
+      "error_message": null
+    },
+    {
+      "agent_name": "ExecutorAgent",
+      "action_type": "execute_step",
+      "input_data": {
+        "step_id": 3,
+        "action_type": "touch"
+      },
+      "output_data": {
+        "success": true,
+        "ui_changes": true
+      },
+      "timestamp": 1753581499.0117023,
+      "success": true,
+      "duration": 0.01802825927734375,
+      "error_message": null
+    },
+    {
+      "agent_name": "ExecutorAgent",
+      "action_type": "execute_step",
+      "input_data": {
+        "step_id": 4,
+        "action_type": "verify"
+      },
+      "output_data": {
+        "success": true,
+        "ui_changes": false
+      },
+      "timestamp": 1753581499.568686,
+      "success": true,
+      "duration": 0.005007028579711914,
+      "error_message": null
+    },
+    {
+      "agent_name": "ExecutorAgent",
+      "action_type": "execute_step",
+      "input_data": {
+        "step_id": 5,
+        "action_type": "touch"
+      },
+      "output_data": {
+        "success": true,
+        "ui_changes": true
+      },
+      "timestamp": 1753581500.1517465,
+      "success": true,
+      "duration": 0.016040563583374023,
+      "error_message": null
+    },
+    {
+      "agent_name": "ExecutorAgent",
+      "action_type": "execute_step",
+      "input_data": {
+        "step_id": 6,
+        "action_type": "verify"
+      },
+      "output_data": {
+        "success": true,
+        "ui_changes": false
+      },
+      "timestamp": 1753581500.7125714,
+      "success": true,
+      "duration": 0.004896640777587891,
+      "error_message": null
+    },
+    {
+      "agent_name": "ExecutorAgent",
+      "action_type": "execute_step",
+      "input_data": {
+        "step_id": 7,
+        "action_type": "touch"
+      },
+      "output_data": {
+        "success": true,
+        "ui_changes": true
+      },
+      "timestamp": 1753581501.306685,
+      "success": true,
+      "duration": 0.016018390655517578,
+      "error_message": null
+    },
+    {
+      "agent_name": "ExecutorAgent",
+      "action_type": "execute_step",
+      "input_data": {
+        "step_id": 8,
+        "action_type": "verify"
+      },
+      "output_data": {
+        "success": true,
+        "ui_changes": false
+      },
+      "timestamp": 1753581501.882538,
+      "success": true,
+      "duration": 0.004993438720703125,
+      "error_message": null
+    }
+  ],
+  "final_result": "PASS",
+  "bug_detected": true,
+  "supervisor_feedback": "Mock analysis completed successfully - System executed basic test workflow",
+  "metrics": {
+    "total_actions": 8,
+    "successful_actions": 8,
+    "success_rate": 1.0,
+    "duration": 4.650374174118042
+  }
+}

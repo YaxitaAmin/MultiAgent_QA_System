@@ -1,0 +1,22 @@
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [EnvironmentManager] QALogger initialized: EnvironmentManager
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [PlannerAgent] QALogger initialized: PlannerAgent
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [PlannerAgent] Using mock LLM configuration - Agent-S grounding disabled
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [PlannerAgent] Initialized PlannerAgent with Agent-S integration
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [PlannerAgent] PlannerAgent initialized with android_world integration
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [ExecutorAgent] QALogger initialized: ExecutorAgent
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [ExecutorAgent] Using mock LLM configuration - Agent-S grounding disabled
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [ExecutorAgent] Initialized ExecutorAgent with Agent-S integration
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [ExecutorAgent] ExecutorAgent initialized with android_world integration
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [VerifierAgent] QALogger initialized: VerifierAgent
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [VerifierAgent] Using mock LLM configuration - Agent-S grounding disabled
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [VerifierAgent] Initialized VerifierAgent with Agent-S integration
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [VerifierAgent] VerifierAgent initialized with Agent-S integration
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [SupervisorAgent] QALogger initialized: SupervisorAgent
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [SupervisorAgent] Using mock LLM configuration - Agent-S grounding disabled
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [SupervisorAgent] Initialized SupervisorAgent with Agent-S integration
+2025-07-26 19:01:46 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-26 19:01:47 | INFO | core.logger:info:221 | [SupervisorAgent] SupervisorAgent initialized with Agent-S integration
+2025-07-26 19:01:47 | INFO | core.logger:info:221 | [EnvironmentManager] EnvironmentManager initialized with Agent-S architecture

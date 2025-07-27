@@ -1,0 +1,50 @@
+{
+  "test_id": "test_1753580603865",
+  "task_name": "unknown",
+  "start_time": 1753580603.865738,
+  "end_time": 1753580604.9663417,
+  "duration": 1.1006038188934326,
+  "actions": [
+    {
+      "agent_name": "ExecutorAgent",
+      "action_type": "execute_step",
+      "input_data": {
+        "step_id": 1,
+        "action_type": "touch"
+      },
+      "output_data": {
+        "success": true,
+        "ui_changes": true
+      },
+      "timestamp": 1753580603.9175515,
+      "success": true,
+      "duration": 0.024417877197265625,
+      "error_message": null
+    },
+    {
+      "agent_name": "ExecutorAgent",
+      "action_type": "execute_step",
+      "input_data": {
+        "step_id": 2,
+        "action_type": "verify"
+      },
+      "output_data": {
+        "success": true,
+        "ui_changes": false
+      },
+      "timestamp": 1753580604.4444957,
+      "success": true,
+      "duration": 0.005648612976074219,
+      "error_message": null
+    }
+  ],
+  "final_result": "PASS",
+  "bug_detected": false,
+  "supervisor_feedback": "Mock analysis completed successfully - System executed basic test workflow",
+  "metrics": {
+    "total_actions": 2,
+    "successful_actions": 2,
+    "success_rate": 1.0,
+    "duration": 1.1006038188934326
+  }
+}

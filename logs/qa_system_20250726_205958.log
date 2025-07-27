@@ -1,0 +1,328 @@
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [EnvironmentManager] QALogger initialized: EnvironmentManager
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [PlannerAgent] QALogger initialized: PlannerAgent
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [PlannerAgent] [PlannerAgent] Using mock LLM - Agent-S integration disabled
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [PlannerAgent] Initialized PlannerAgent with Agent-S integration
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [PlannerAgent] PlannerAgent initialized with android_world integration
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [ExecutorAgent] QALogger initialized: ExecutorAgent
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [ExecutorAgent] [ExecutorAgent] Using mock LLM - Agent-S integration disabled
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [ExecutorAgent] Initialized ExecutorAgent with Agent-S integration
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [ExecutorAgent] ExecutorAgent initialized with android_world integration
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [VerifierAgent] QALogger initialized: VerifierAgent
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [VerifierAgent] [VerifierAgent] Using mock LLM - Agent-S integration disabled
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [VerifierAgent] Initialized VerifierAgent with Agent-S integration
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [VerifierAgent] VerifierAgent initialized with Agent-S integration
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [SupervisorAgent] QALogger initialized: SupervisorAgent
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [SupervisorAgent] [SupervisorAgent] Using mock LLM - Agent-S integration disabled
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [SupervisorAgent] Initialized SupervisorAgent with Agent-S integration
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [SupervisorAgent] SupervisorAgent initialized with Agent-S integration
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [EnvironmentManager] EnvironmentManager initialized with Agent-S architecture
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [EnvironmentManager] Initializing multi-agent QA system
+2025-07-26 20:59:58 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: heartbeat to system
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [PlannerAgent] [PlannerAgent] started successfully
+2025-07-26 20:59:58 | DEBUG | core.logger:debug:225 | [ExecutorAgent] [ExecutorAgent] sent message: heartbeat to system
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [ExecutorAgent] [ExecutorAgent] started successfully
+2025-07-26 20:59:58 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: heartbeat to system
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [VerifierAgent] [VerifierAgent] started successfully
+2025-07-26 20:59:58 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: heartbeat to system
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [SupervisorAgent] [SupervisorAgent] started successfully
+2025-07-26 20:59:58 | INFO | core.logger:info:221 | [EnvironmentManager] All agents initialized successfully
+2025-07-26 21:00:00 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: test_1753578000777 - unknown
+2025-07-26 21:00:00 | INFO | core.logger:info:221 | [EnvironmentManager] Starting QA test: test_1753578000777
+2025-07-26 21:00:00 | INFO | core.logger:info:221 | [EnvironmentManager] Goal: Test turning Wi-Fi on and off
+2025-07-26 21:00:00 | INFO | core.logger:info:221 | [EnvironmentManager] Android World Task: settings_wifi
+2025-07-26 21:00:00 | INFO | core.android_env_wrapper:__init__:92 | Using mock Android environment
+2025-07-26 21:00:00 | INFO | core.logger:info:221 | [EnvironmentManager] Android environment initialized for task: settings_wifi
+2025-07-26 21:00:00 | INFO | core.logger:info:221 | [EnvironmentManager] Starting planning phase
+2025-07-26 21:00:00 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update to all_agents
+2025-07-26 21:00:00 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan (0.000s)
+2025-07-26 21:00:00 | INFO | core.logger:info:221 | [EnvironmentManager] Plan created with 2 steps
+2025-07-26 21:00:00 | INFO | core.logger:info:221 | [EnvironmentManager] Starting execution phase with 2 planned steps
+2025-07-26 21:00:00 | INFO | core.logger:info:221 | [EnvironmentManager] Executing step 1: Execute main action
+2025-07-26 21:00:00 | INFO | core.android_env_wrapper:__init__:92 | Using mock Android environment
+2025-07-26 21:00:00 | INFO | core.logger:info:221 | [ExecutorAgent] Android environment initialized for task: settings_wifi
+2025-07-26 21:00:00 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1: Execute main action
+2025-07-26 21:00:00 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 3 UI elements
+2025-07-26 21:00:00 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step (0.038s)
+2025-07-26 21:00:00 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Action completed
+2025-07-26 21:00:00 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:00 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:00 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step (0.003s)
+2025-07-26 21:00:00 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification to all_agents
+2025-07-26 21:00:00 | INFO | core.logger:info:221 | [EnvironmentManager] Step 1 completed successfully
+2025-07-26 21:00:01 | INFO | core.logger:info:221 | [EnvironmentManager] Executing step 2: Verify result
+2025-07-26 21:00:01 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2: Verify result
+2025-07-26 21:00:01 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step (0.004s)
+2025-07-26 21:00:01 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Expected outcome achieved
+2025-07-26 21:00:01 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:01 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:01 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step (0.003s)
+2025-07-26 21:00:01 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification to all_agents
+2025-07-26 21:00:01 | INFO | core.logger:info:221 | [EnvironmentManager] Step 2 completed successfully
+2025-07-26 21:00:01 | INFO | core.logger:info:221 | [EnvironmentManager] No more steps to execute
+2025-07-26 21:00:01 | INFO | core.logger:info:221 | [EnvironmentManager] Execution phase completed. 2 steps successful
+2025-07-26 21:00:01 | INFO | core.logger:info:221 | [EnvironmentManager] Starting final verification phase
+2025-07-26 21:00:01 | INFO | core.logger:info:221 | [EnvironmentManager] Final verification: PASS (success rate: 100.0%)
+2025-07-26 21:00:01 | INFO | core.logger:info:221 | [EnvironmentManager] Starting supervisor analysis phase
+2025-07-26 21:00:01 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: temp_1753578001
+2025-07-26 21:00:01 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.000s)
+2025-07-26 21:00:01 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response to all_agents
+2025-07-26 21:00:01 | INFO | core.logger:info:221 | [EnvironmentManager] Supervisor analysis completed. Performance score: 0.17
+2025-07-26 21:00:01 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_test_1753578000777.json
+2025-07-26 21:00:01 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: test_1753578000777 - PASS - 1.10s
+2025-07-26 21:00:01 | INFO | core.logger:info:221 | [EnvironmentManager] QA test completed: test_1753578000777 - PASS
+2025-07-26 21:00:25 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: test_1753578025514 - unknown
+2025-07-26 21:00:25 | INFO | core.logger:info:221 | [EnvironmentManager] Starting QA test: test_1753578025514
+2025-07-26 21:00:25 | INFO | core.logger:info:221 | [EnvironmentManager] Goal: Test turning Wi-Fi on and off
+2025-07-26 21:00:25 | INFO | core.logger:info:221 | [EnvironmentManager] Android World Task: settings_wifi
+2025-07-26 21:00:25 | INFO | core.android_env_wrapper:__init__:92 | Using mock Android environment
+2025-07-26 21:00:25 | INFO | core.logger:info:221 | [EnvironmentManager] Android environment initialized for task: settings_wifi
+2025-07-26 21:00:25 | INFO | core.logger:info:221 | [EnvironmentManager] Starting planning phase
+2025-07-26 21:00:25 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update to all_agents
+2025-07-26 21:00:25 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan (0.000s)
+2025-07-26 21:00:25 | INFO | core.logger:info:221 | [EnvironmentManager] Plan created with 2 steps
+2025-07-26 21:00:25 | INFO | core.logger:info:221 | [EnvironmentManager] Starting execution phase with 2 planned steps
+2025-07-26 21:00:25 | INFO | core.logger:info:221 | [EnvironmentManager] Executing step 1: Execute main action
+2025-07-26 21:00:25 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1: Execute main action
+2025-07-26 21:00:25 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:25 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step (0.008s)
+2025-07-26 21:00:25 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Action completed
+2025-07-26 21:00:25 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:25 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:25 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step (0.002s)
+2025-07-26 21:00:25 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification to all_agents
+2025-07-26 21:00:25 | INFO | core.logger:info:221 | [EnvironmentManager] Step 1 completed successfully
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Executing step 2: Verify result
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2: Verify result
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step (0.002s)
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Expected outcome achieved
+2025-07-26 21:00:26 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:26 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step (0.001s)
+2025-07-26 21:00:26 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification to all_agents
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Step 2 completed successfully
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] No more steps to execute
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Execution phase completed. 2 steps successful
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Starting final verification phase
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Final verification: PASS (success rate: 100.0%)
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Starting supervisor analysis phase
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: temp_1753578026
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.001s)
+2025-07-26 21:00:26 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response to all_agents
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Supervisor analysis completed. Performance score: 0.17
+2025-07-26 21:00:26 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_test_1753578025514.json
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: test_1753578025514 - PASS - 1.05s
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] QA test completed: test_1753578025514 - PASS
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: test_1753578026564 - unknown
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Starting QA test: test_1753578026564
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Goal: Test turning Wi-Fi on and off
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Android World Task: settings_wifi
+2025-07-26 21:00:26 | INFO | core.android_env_wrapper:__init__:92 | Using mock Android environment
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Android environment initialized for task: settings_wifi
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Starting planning phase
+2025-07-26 21:00:26 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update to all_agents
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan (0.001s)
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Plan created with 2 steps
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Starting execution phase with 2 planned steps
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Executing step 1: Execute main action
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1: Execute main action
+2025-07-26 21:00:26 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step (0.007s)
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Action completed
+2025-07-26 21:00:26 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:26 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step (0.000s)
+2025-07-26 21:00:26 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification to all_agents
+2025-07-26 21:00:26 | INFO | core.logger:info:221 | [EnvironmentManager] Step 1 completed successfully
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Executing step 2: Verify result
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2: Verify result
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step (0.003s)
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Expected outcome achieved
+2025-07-26 21:00:27 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:27 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step (0.001s)
+2025-07-26 21:00:27 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification to all_agents
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Step 2 completed successfully
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] No more steps to execute
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Execution phase completed. 2 steps successful
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Starting final verification phase
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Final verification: PASS (success rate: 100.0%)
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Starting supervisor analysis phase
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: temp_1753578027
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.001s)
+2025-07-26 21:00:27 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response to all_agents
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Supervisor analysis completed. Performance score: 0.17
+2025-07-26 21:00:27 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_test_1753578026564.json
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: test_1753578026564 - PASS - 1.04s
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] QA test completed: test_1753578026564 - PASS
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: test_1753578027614 - unknown
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Starting QA test: test_1753578027614
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Goal: Open Settings and navigate to Display settings
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Android World Task: settings_wifi
+2025-07-26 21:00:27 | INFO | core.android_env_wrapper:__init__:92 | Using mock Android environment
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Android environment initialized for task: settings_wifi
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Starting planning phase
+2025-07-26 21:00:27 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update to all_agents
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan (0.000s)
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Plan created with 2 steps
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Starting execution phase with 2 planned steps
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Executing step 1: Execute main action
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1: Execute main action
+2025-07-26 21:00:27 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step (0.007s)
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Action completed
+2025-07-26 21:00:27 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:27 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step (0.001s)
+2025-07-26 21:00:27 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification to all_agents
+2025-07-26 21:00:27 | INFO | core.logger:info:221 | [EnvironmentManager] Step 1 completed successfully
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Executing step 2: Verify result
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2: Verify result
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step (0.003s)
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Expected outcome achieved
+2025-07-26 21:00:28 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:28 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step (0.002s)
+2025-07-26 21:00:28 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification to all_agents
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Step 2 completed successfully
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] No more steps to execute
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Execution phase completed. 2 steps successful
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Starting final verification phase
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Final verification: PASS (success rate: 100.0%)
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Starting supervisor analysis phase
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: temp_1753578028
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.000s)
+2025-07-26 21:00:28 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response to all_agents
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Supervisor analysis completed. Performance score: 0.17
+2025-07-26 21:00:28 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_test_1753578027614.json
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: test_1753578027614 - PASS - 1.05s
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] QA test completed: test_1753578027614 - PASS
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: test_1753578028671 - unknown
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Starting QA test: test_1753578028671
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Goal: Open Settings and navigate to Display settings
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Android World Task: settings_wifi
+2025-07-26 21:00:28 | INFO | core.android_env_wrapper:__init__:92 | Using mock Android environment
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Android environment initialized for task: settings_wifi
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Starting planning phase
+2025-07-26 21:00:28 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update to all_agents
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan (0.000s)
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Plan created with 2 steps
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Starting execution phase with 2 planned steps
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Executing step 1: Execute main action
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1: Execute main action
+2025-07-26 21:00:28 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step (0.006s)
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Action completed
+2025-07-26 21:00:28 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:28 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step (0.002s)
+2025-07-26 21:00:28 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification to all_agents
+2025-07-26 21:00:28 | INFO | core.logger:info:221 | [EnvironmentManager] Step 1 completed successfully
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Executing step 2: Verify result
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2: Verify result
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step (0.002s)
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Expected outcome achieved
+2025-07-26 21:00:29 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:29 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step (0.001s)
+2025-07-26 21:00:29 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification to all_agents
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Step 2 completed successfully
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] No more steps to execute
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Execution phase completed. 2 steps successful
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Starting final verification phase
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Final verification: PASS (success rate: 100.0%)
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Starting supervisor analysis phase
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: temp_1753578029
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.000s)
+2025-07-26 21:00:29 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response to all_agents
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Supervisor analysis completed. Performance score: 0.17
+2025-07-26 21:00:29 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_test_1753578028671.json
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: test_1753578028671 - PASS - 1.05s
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] QA test completed: test_1753578028671 - PASS
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: test_1753578029727 - unknown
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Starting QA test: test_1753578029727
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Goal: Test airplane mode toggle
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Android World Task: settings_wifi
+2025-07-26 21:00:29 | INFO | core.android_env_wrapper:__init__:92 | Using mock Android environment
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Android environment initialized for task: settings_wifi
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Starting planning phase
+2025-07-26 21:00:29 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update to all_agents
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan (0.000s)
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Plan created with 2 steps
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Starting execution phase with 2 planned steps
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Executing step 1: Execute main action
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1: Execute main action
+2025-07-26 21:00:29 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step (0.009s)
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Action completed
+2025-07-26 21:00:29 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:29 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step (0.001s)
+2025-07-26 21:00:29 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification to all_agents
+2025-07-26 21:00:29 | INFO | core.logger:info:221 | [EnvironmentManager] Step 1 completed successfully
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Executing step 2: Verify result
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2: Verify result
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step (0.003s)
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Expected outcome achieved
+2025-07-26 21:00:30 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:30 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step (0.001s)
+2025-07-26 21:00:30 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification to all_agents
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Step 2 completed successfully
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] No more steps to execute
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Execution phase completed. 2 steps successful
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Starting final verification phase
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Final verification: PASS (success rate: 100.0%)
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Starting supervisor analysis phase
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: temp_1753578030
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.001s)
+2025-07-26 21:00:30 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response to all_agents
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Supervisor analysis completed. Performance score: 0.17
+2025-07-26 21:00:30 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_test_1753578029727.json
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: test_1753578029727 - PASS - 1.06s
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] QA test completed: test_1753578029727 - PASS
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: test_1753578030786 - unknown
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Starting QA test: test_1753578030786
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Goal: Test airplane mode toggle
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Android World Task: settings_wifi
+2025-07-26 21:00:30 | INFO | core.android_env_wrapper:__init__:92 | Using mock Android environment
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Android environment initialized for task: settings_wifi
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Starting planning phase
+2025-07-26 21:00:30 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update to all_agents
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan (0.001s)
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Plan created with 2 steps
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Starting execution phase with 2 planned steps
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Executing step 1: Execute main action
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1: Execute main action
+2025-07-26 21:00:30 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step (0.008s)
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Action completed
+2025-07-26 21:00:30 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:30 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step (0.001s)
+2025-07-26 21:00:30 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification to all_agents
+2025-07-26 21:00:30 | INFO | core.logger:info:221 | [EnvironmentManager] Step 1 completed successfully
+2025-07-26 21:00:31 | INFO | core.logger:info:221 | [EnvironmentManager] Executing step 2: Verify result
+2025-07-26 21:00:31 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2: Verify result
+2025-07-26 21:00:31 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step (0.004s)
+2025-07-26 21:00:31 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Expected outcome achieved
+2025-07-26 21:00:31 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:31 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 21:00:31 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step (0.001s)
+2025-07-26 21:00:31 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification to all_agents
+2025-07-26 21:00:31 | INFO | core.logger:info:221 | [EnvironmentManager] Step 2 completed successfully
+2025-07-26 21:00:31 | INFO | core.logger:info:221 | [EnvironmentManager] No more steps to execute
+2025-07-26 21:00:31 | INFO | core.logger:info:221 | [EnvironmentManager] Execution phase completed. 2 steps successful
+2025-07-26 21:00:31 | INFO | core.logger:info:221 | [EnvironmentManager] Starting final verification phase
+2025-07-26 21:00:31 | INFO | core.logger:info:221 | [EnvironmentManager] Final verification: PASS (success rate: 100.0%)
+2025-07-26 21:00:31 | INFO | core.logger:info:221 | [EnvironmentManager] Starting supervisor analysis phase
+2025-07-26 21:00:31 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: temp_1753578031
+2025-07-26 21:00:31 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.001s)
+2025-07-26 21:00:31 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response to all_agents
+2025-07-26 21:00:31 | INFO | core.logger:info:221 | [EnvironmentManager] Supervisor analysis completed. Performance score: 0.17
+2025-07-26 21:00:31 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_test_1753578030786.json
+2025-07-26 21:00:31 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: test_1753578030786 - PASS - 1.05s
+2025-07-26 21:00:31 | INFO | core.logger:info:221 | [EnvironmentManager] QA test completed: test_1753578030786 - PASS

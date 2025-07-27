@@ -1,0 +1,82 @@
+{
+  "task_type": "alarm_management",
+  "duration": 28.3,
+  "screen_sequence": [
+    "home",
+    "clock_app",
+    "alarm_list",
+    "alarm_setup",
+    "alarm_list"
+  ],
+  "user_actions": [
+    {
+      "type": "touch",
+      "coordinates": [
+        120,
+        680
+      ],
+      "timestamp": 1.2,
+      "target": "clock_icon"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        350,
+        100
+      ],
+      "timestamp": 3.5,
+      "target": "add_alarm_button"
+    },
+    {
+      "type": "scroll",
+      "coordinates": [
+        200,
+        300
+      ],
+      "timestamp": 5.8,
+      "target": "time_picker"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        180,
+        280
+      ],
+      "timestamp": 8.2,
+      "target": "hour_7"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        220,
+        320
+      ],
+      "timestamp": 9.1,
+      "target": "minute_30"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        300,
+        450
+      ],
+      "timestamp": 12.5,
+      "target": "am_pm_toggle"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        280,
+        550
+      ],
+      "timestamp": 15.8,
+      "target": "save_button"
+    }
+  ],
+  "success": true,
+  "app_package": "com.google.android.deskclock",
+  "device_info": {
+    "model": "Xiaomi_Mi11",
+    "android_version": "12"
+  }
+}

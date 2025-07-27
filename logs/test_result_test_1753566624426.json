@@ -1,0 +1,17 @@
+{
+  "test_id": "test_1753566624426",
+  "task_name": "unknown",
+  "start_time": 1753566624.4268827,
+  "end_time": 1753566624.474936,
+  "duration": 0.04805326461791992,
+  "actions": [],
+  "final_result": "FAIL",
+  "bug_detected": false,
+  "supervisor_feedback": "Analysis failed",
+  "metrics": {
+    "total_actions": 0,
+    "successful_actions": 0,
+    "success_rate": 0,
+    "duration": 0.04805326461791992
+  }
+}

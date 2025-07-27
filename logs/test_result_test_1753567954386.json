@@ -1,0 +1,17 @@
+{
+  "test_id": "test_1753567954386",
+  "task_name": "unknown",
+  "start_time": 1753567954.3863106,
+  "end_time": 1753567954.4162822,
+  "duration": 0.029971599578857422,
+  "actions": [],
+  "final_result": "ERROR",
+  "bug_detected": false,
+  "supervisor_feedback": "Test execution error: 'ExecutionResult' object has no attribute 'get'",
+  "metrics": {
+    "total_actions": 0,
+    "successful_actions": 0,
+    "success_rate": 0,
+    "duration": 0.029971599578857422
+  }
+}

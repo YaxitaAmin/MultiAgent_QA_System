@@ -1,0 +1,17 @@
+{
+  "test_id": "test_1753567673550",
+  "task_name": "unknown",
+  "start_time": 1753567673.5509024,
+  "end_time": 1753567673.586455,
+  "duration": 0.0355527400970459,
+  "actions": [],
+  "final_result": "FAIL",
+  "bug_detected": false,
+  "supervisor_feedback": "Mock analysis completed successfully - System executed basic test workflow",
+  "metrics": {
+    "total_actions": 0,
+    "successful_actions": 0,
+    "success_rate": 0,
+    "duration": 0.0355527400970459
+  }
+}

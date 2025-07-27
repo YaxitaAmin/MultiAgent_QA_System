@@ -1,0 +1,50 @@
+{
+  "task_type": "storage_management",
+  "duration": 12.4,
+  "screen_sequence": [
+    "home",
+    "settings",
+    "storage_settings"
+  ],
+  "user_actions": [
+    {
+      "type": "touch",
+      "coordinates": [
+        200,
+        120
+      ],
+      "timestamp": 0.8,
+      "target": "settings_icon"
+    },
+    {
+      "type": "scroll",
+      "coordinates": [
+        200,
+        400
+      ],
+      "timestamp": 2.5,
+      "target": "settings_list"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        180,
+        380
+      ],
+      "timestamp": 4.8,
+      "target": "storage_option"
+    },
+    {
+      "type": "wait",
+      "duration": 2.0,
+      "timestamp": 5.0,
+      "target": "loading"
+    }
+  ],
+  "success": true,
+  "app_package": "com.android.settings",
+  "device_info": {
+    "model": "Pixel_5",
+    "android_version": "11"
+  }
+}

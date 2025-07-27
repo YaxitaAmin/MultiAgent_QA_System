@@ -1,0 +1,53 @@
+# agents:
+#   planner:
+#     model: "models/gemini-1.5-pro"
+#     max_retries: 3
+#     temperature: 0.1
+
+#   executor:
+#     model: "mock"
+#     max_retries: 2
+#     temperature: 0.0
+
+#   verifier:
+#     model: "mock"
+#     max_retries: 2
+#     temperature: 0.1
+
+#   supervisor:
+#     model: "mock"
+#     max_retries: 1
+#     temperature: 0.2
+# Change this section:
+agents:
+  planner:
+    model: "mock" # Changed from "gemini-1.5-flash"
+    temperature: 0.1
+  executor:
+    model: "mock" # Changed from "gemini-1.5-flash"
+    temperature: 0.0
+  verifier:
+    model: "mock" # Changed from "gemini-1.5-flash"
+    temperature: 0.1
+  supervisor:
+    model: "mock" # Changed from "gemini-1.5-pro"
+    temperature: 0.2
+
+# Or set this flag:
+use_mock_llm: true
+
+android_env:
+  task_timeout: 300
+  max_steps: 50
+  screenshot_dir: "screenshots"
+
+logging:
+  level: "INFO"
+  log_dir: "logs"
+  enable_screenshots: true
+  enable_ui_dumps: true
+
+cost_control:
+  max_tokens_per_request: 1000
+  cache_similar_requests: true
+  batch_processing: true

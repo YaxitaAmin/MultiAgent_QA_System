@@ -1,0 +1,60 @@
+{
+  "task_type": "bluetooth_configuration",
+  "duration": 18.6,
+  "screen_sequence": [
+    "home",
+    "settings",
+    "bluetooth_settings",
+    "bluetooth_settings"
+  ],
+  "user_actions": [
+    {
+      "type": "touch",
+      "coordinates": [
+        200,
+        120
+      ],
+      "timestamp": 1.0,
+      "target": "settings_icon"
+    },
+    {
+      "type": "scroll",
+      "coordinates": [
+        200,
+        400
+      ],
+      "timestamp": 3.2,
+      "target": "settings_list"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        180,
+        300
+      ],
+      "timestamp": 5.8,
+      "target": "bluetooth_option"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        420,
+        160
+      ],
+      "timestamp": 8.5,
+      "target": "bluetooth_toggle"
+    },
+    {
+      "type": "wait",
+      "duration": 3.0,
+      "timestamp": 9.0,
+      "target": "scan_animation"
+    }
+  ],
+  "success": false,
+  "app_package": "com.android.settings",
+  "device_info": {
+    "model": "OnePlus_9",
+    "android_version": "12"
+  }
+}

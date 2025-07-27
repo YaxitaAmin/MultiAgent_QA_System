@@ -1,0 +1,98 @@
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [EnvironmentManager] QALogger initialized: EnvironmentManager
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [PlannerAgent] QALogger initialized: PlannerAgent
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [PlannerAgent] Using mock LLM configuration - Agent-S grounding disabled
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [PlannerAgent] Initialized PlannerAgent with Agent-S integration
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [PlannerAgent] PlannerAgent initialized with android_world integration
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [ExecutorAgent] QALogger initialized: ExecutorAgent
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [ExecutorAgent] Using mock LLM configuration - Agent-S grounding disabled
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [ExecutorAgent] Initialized ExecutorAgent with Agent-S integration
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [ExecutorAgent] ExecutorAgent initialized with android_world integration
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [VerifierAgent] QALogger initialized: VerifierAgent
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [VerifierAgent] Using mock LLM configuration - Agent-S grounding disabled
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [VerifierAgent] Initialized VerifierAgent with Agent-S integration
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [VerifierAgent] VerifierAgent initialized with Agent-S integration
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [SupervisorAgent] QALogger initialized: SupervisorAgent
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [SupervisorAgent] Using mock LLM configuration - Agent-S grounding disabled
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [SupervisorAgent] Initialized SupervisorAgent with Agent-S integration
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [SupervisorAgent] SupervisorAgent initialized with Agent-S integration
+2025-07-26 18:01:07 | INFO | core.logger:info:221 | [EnvironmentManager] EnvironmentManager initialized with Agent-S architecture
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [EnvironmentManager] Initializing multi-agent QA system
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [PlannerAgent] Starting PlannerAgent
+2025-07-26 18:01:10 | DEBUG | core.logger:debug:225 | [PlannerAgent] Sent message: heartbeat to system
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [ExecutorAgent] Starting ExecutorAgent
+2025-07-26 18:01:10 | DEBUG | core.logger:debug:225 | [ExecutorAgent] Sent message: heartbeat to system
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [VerifierAgent] Starting VerifierAgent
+2025-07-26 18:01:10 | DEBUG | core.logger:debug:225 | [VerifierAgent] Sent message: heartbeat to system
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [SupervisorAgent] Starting SupervisorAgent
+2025-07-26 18:01:10 | DEBUG | core.logger:debug:225 | [SupervisorAgent] Sent message: heartbeat to system
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [EnvironmentManager] All agents initialized successfully
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: test_1753567270497 - unknown
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [EnvironmentManager] Starting QA test: test_1753567270497
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [EnvironmentManager] Goal: Test turning Wi-Fi on and off
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [EnvironmentManager] Android World Task: settings_wifi
+2025-07-26 18:01:10 | INFO | core.android_env_wrapper:__init__:92 | Using mock Android environment
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [EnvironmentManager] Android environment initialized for task: settings_wifi
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [EnvironmentManager] Starting planning phase
+2025-07-26 18:01:10 | DEBUG | core.logger:debug:225 | [PlannerAgent] Sent message: plan_update to all_agents
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan (0.000s)
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [EnvironmentManager] Plan created with 2 steps
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [EnvironmentManager] Starting execution phase with 2 planned steps
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [EnvironmentManager] Executing step 1: Execute main action
+2025-07-26 18:01:10 | INFO | core.android_env_wrapper:__init__:92 | Using mock Android environment
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [ExecutorAgent] Android environment initialized for task: settings_wifi
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1: Execute main action
+2025-07-26 18:01:10 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 3 UI elements
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step (0.027s)
+2025-07-26 18:01:10 | ERROR | core.logger:error:233 | [EnvironmentManager] Execution phase failed: 'ExecutionResult' object has no attribute 'get'
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [EnvironmentManager] Starting final verification phase
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [EnvironmentManager] Final verification: FAIL (success rate: 0.0%)
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [EnvironmentManager] Starting supervisor analysis phase
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: temp_1753567270
+2025-07-26 18:01:10 | ERROR | core.logger:error:233 | [SupervisorAgent] LLM analysis failed: This event loop is already running
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.005s)
+2025-07-26 18:01:10 | DEBUG | core.logger:debug:225 | [SupervisorAgent] Sent message: task_response to all_agents
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [EnvironmentManager] Supervisor analysis completed. Performance score: 0.14
+2025-07-26 18:01:10 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_test_1753567270497.json
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: test_1753567270497 - FAIL - 0.06s
+2025-07-26 18:01:10 | INFO | core.logger:info:221 | [EnvironmentManager] QA test completed: test_1753567270497 - FAIL
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [EnvironmentManager] Initializing multi-agent QA system
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [PlannerAgent] Starting PlannerAgent
+2025-07-26 18:01:24 | DEBUG | core.logger:debug:225 | [PlannerAgent] Sent message: heartbeat to system
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [ExecutorAgent] Starting ExecutorAgent
+2025-07-26 18:01:24 | DEBUG | core.logger:debug:225 | [ExecutorAgent] Sent message: heartbeat to system
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [VerifierAgent] Starting VerifierAgent
+2025-07-26 18:01:24 | DEBUG | core.logger:debug:225 | [VerifierAgent] Sent message: heartbeat to system
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [SupervisorAgent] Starting SupervisorAgent
+2025-07-26 18:01:24 | DEBUG | core.logger:debug:225 | [SupervisorAgent] Sent message: heartbeat to system
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [EnvironmentManager] All agents initialized successfully
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: test_1753567284380 - unknown
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [EnvironmentManager] Starting QA test: test_1753567284380
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [EnvironmentManager] Goal: Test turning Wi-Fi on and off
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [EnvironmentManager] Android World Task: settings_wifi
+2025-07-26 18:01:24 | INFO | core.android_env_wrapper:__init__:92 | Using mock Android environment
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [EnvironmentManager] Android environment initialized for task: settings_wifi
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [EnvironmentManager] Starting planning phase
+2025-07-26 18:01:24 | DEBUG | core.logger:debug:225 | [PlannerAgent] Sent message: plan_update to all_agents
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan (0.000s)
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [EnvironmentManager] Plan created with 2 steps
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [EnvironmentManager] Starting execution phase with 2 planned steps
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [EnvironmentManager] Executing step 1: Execute main action
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1: Execute main action
+2025-07-26 18:01:24 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 5 UI elements
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step (0.011s)
+2025-07-26 18:01:24 | ERROR | core.logger:error:233 | [EnvironmentManager] Execution phase failed: 'ExecutionResult' object has no attribute 'get'
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [EnvironmentManager] Starting final verification phase
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [EnvironmentManager] Final verification: FAIL (success rate: 0.0%)
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [EnvironmentManager] Starting supervisor analysis phase
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: temp_1753567284
+2025-07-26 18:01:24 | ERROR | core.logger:error:233 | [SupervisorAgent] LLM analysis failed: This event loop is already running
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.002s)
+2025-07-26 18:01:24 | DEBUG | core.logger:debug:225 | [SupervisorAgent] Sent message: task_response to all_agents
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [EnvironmentManager] Supervisor analysis completed. Performance score: 0.14
+2025-07-26 18:01:24 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_test_1753567284380.json
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: test_1753567284380 - FAIL - 0.03s
+2025-07-26 18:01:24 | INFO | core.logger:info:221 | [EnvironmentManager] QA test completed: test_1753567284380 - FAIL

@@ -1,0 +1,51 @@
+{
+  "task_type": "calculator_operation",
+  "duration": 22.8,
+  "screen_sequence": [
+    "home",
+    "calculator"
+  ],
+  "user_actions": [
+    {
+      "type": "touch",
+      "coordinates": [
+        150,
+        320
+      ],
+      "target": "calculator_icon"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        120,
+        580
+      ],
+      "target": "number_2"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        240,
+        520
+      ],
+      "target": "plus_button"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        120,
+        520
+      ],
+      "target": "number_3"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        240,
+        640
+      ],
+      "target": "equals_button"
+    }
+  ],
+  "success": true
+}

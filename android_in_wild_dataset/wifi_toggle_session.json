@@ -1,0 +1,60 @@
+{
+  "task_type": "wifi_configuration",
+  "duration": 15.2,
+  "screen_sequence": [
+    "home",
+    "settings",
+    "wifi_settings",
+    "wifi_settings"
+  ],
+  "user_actions": [
+    {
+      "type": "touch",
+      "coordinates": [
+        200,
+        120
+      ],
+      "timestamp": 1.2,
+      "target": "settings_icon"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        180,
+        240
+      ],
+      "timestamp": 3.5,
+      "target": "wifi_option"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        420,
+        180
+      ],
+      "timestamp": 6.8,
+      "target": "wifi_toggle"
+    },
+    {
+      "type": "wait",
+      "duration": 2.0,
+      "timestamp": 7.0,
+      "target": "animation"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        420,
+        180
+      ],
+      "timestamp": 12.3,
+      "target": "wifi_toggle"
+    }
+  ],
+  "success": true,
+  "app_package": "com.android.settings",
+  "device_info": {
+    "model": "Pixel_6",
+    "android_version": "12"
+  }
+}

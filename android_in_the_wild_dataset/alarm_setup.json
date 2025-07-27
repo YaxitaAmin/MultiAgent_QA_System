@@ -1,0 +1,44 @@
+{
+  "task_type": "alarm_management",
+  "duration": 28.3,
+  "screen_sequence": [
+    "home",
+    "clock_app",
+    "alarm_setup"
+  ],
+  "user_actions": [
+    {
+      "type": "touch",
+      "coordinates": [
+        120,
+        680
+      ],
+      "target": "clock_icon"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        350,
+        100
+      ],
+      "target": "add_alarm"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        180,
+        280
+      ],
+      "target": "hour_7"
+    },
+    {
+      "type": "touch",
+      "coordinates": [
+        280,
+        550
+      ],
+      "target": "save_button"
+    }
+  ],
+  "success": true
+}
