@@ -1,0 +1,291 @@
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [EnvironmentManager] QALogger initialized: EnvironmentManager
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [PlannerAgent] QALogger initialized: PlannerAgent
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [PlannerAgent] Initialized QA Agent extending Agent-S: PlannerAgent
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [PlannerAgent] Agent-S mode: ❌ Mock
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [PlannerAgent] PlannerAgent initialized with Agent-S planning capabilities
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [ExecutorAgent] QALogger initialized: ExecutorAgent
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [ExecutorAgent] Initialized QA Agent extending Agent-S: ExecutorAgent
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [ExecutorAgent] Agent-S mode: ❌ Mock
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [ExecutorAgent] ExecutorAgent initialized with Agent-S execution capabilities
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [VerifierAgent] QALogger initialized: VerifierAgent
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [VerifierAgent] Initialized QA Agent extending Agent-S: VerifierAgent
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [VerifierAgent] Agent-S mode: ❌ Mock
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [VerifierAgent] VerifierAgent initialized with Agent-S integration
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [SupervisorAgent] QALogger initialized: SupervisorAgent
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [SupervisorAgent] Initialized QA Agent extending Agent-S: SupervisorAgent
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [SupervisorAgent] Agent-S mode: ❌ Mock
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [SupervisorAgent] SupervisorAgent initialized with Agent-S integration
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [EnvironmentManager] EnvironmentManager initialized with TRUE Agent-S architecture
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [EnvironmentManager] Agent-S available: False
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [EnvironmentManager] Initializing multi-agent QA system with Agent-S coordination
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [EnvironmentManager] Agent-S coordination infrastructure established
+2025-07-27 11:55:16 | ERROR | core.logger:error:233 | [PlannerAgent] PlannerAgent failed to start: 'PlannerAgent' object has no attribute '_send_heartbeat'
+2025-07-27 11:55:16 | ERROR | core.logger:error:233 | [ExecutorAgent] ExecutorAgent failed to start: 'ExecutorAgent' object has no attribute '_send_heartbeat'
+2025-07-27 11:55:16 | ERROR | core.logger:error:233 | [VerifierAgent] VerifierAgent failed to start: 'VerifierAgent' object has no attribute '_send_heartbeat'
+2025-07-27 11:55:16 | ERROR | core.logger:error:233 | [SupervisorAgent] SupervisorAgent failed to start: 'SupervisorAgent' object has no attribute '_send_heartbeat'
+2025-07-27 11:55:16 | WARNING | core.logger:warning:229 | [EnvironmentManager] planner initialization returned False
+2025-07-27 11:55:16 | WARNING | core.logger:warning:229 | [EnvironmentManager] executor initialization returned False
+2025-07-27 11:55:16 | WARNING | core.logger:warning:229 | [EnvironmentManager] verifier initialization returned False
+2025-07-27 11:55:16 | WARNING | core.logger:warning:229 | [EnvironmentManager] supervisor initialization returned False
+2025-07-27 11:55:16 | WARNING | core.logger:warning:229 | [EnvironmentManager] Some agents failed to initialize: ['planner', 'executor', 'verifier', 'supervisor']
+2025-07-27 11:55:16 | ERROR | core.logger:error:233 | [EnvironmentManager] Failed to establish agent coordination: 'PlannerAgent' object has no attribute 'MessageType'
+2025-07-27 11:55:16 | INFO | core.logger:info:221 | [EnvironmentManager] Multi-agent system initialization completed
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753631718333 - unknown
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753631718333
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Test turning Wi-Fi on and off
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': True, 'total_active': 0}
+2025-07-27 11:55:18 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 11:55:18 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.000s)
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 9 steps (9 Agent-S compatible)
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 9 steps, Max: 20, Timeout: 120s
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:18 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [ExecutorAgent] Android environment initialized for task: settings_wifi
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:18 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.099s)
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:18 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:18 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.002s)
+2025-07-27 11:55:18 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:18 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 1 with Agent-S
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:18 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.061s)
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:18 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:18 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:18 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.002s)
+2025-07-27 11:55:18 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:18 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 1 with Agent-S
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:19 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.064s)
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:19 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:19 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.001s)
+2025-07-27 11:55:19 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:19 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 1 with Agent-S
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:19 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.061s)
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:19 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:19 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.004s)
+2025-07-27 11:55:19 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:19 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 1 with Agent-S
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:19 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.067s)
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:19 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:19 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:19 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.001s)
+2025-07-27 11:55:19 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:19 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:20 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 6: Executing step 1 with Agent-S
+2025-07-27 11:55:20 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:20 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:20 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:20 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.066s)
+2025-07-27 11:55:20 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:20 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:20 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:20 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.002s)
+2025-07-27 11:55:20 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:20 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:20 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 7: Executing step 1 with Agent-S
+2025-07-27 11:55:20 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:20 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:20 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:20 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.072s)
+2025-07-27 11:55:20 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:20 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:20 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:20 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.002s)
+2025-07-27 11:55:20 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:20 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 8: Executing step 1 with Agent-S
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:21 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.054s)
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:21 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:21 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.001s)
+2025-07-27 11:55:21 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:21 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 9: Executing step 1 with Agent-S
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:21 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.065s)
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:21 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:21 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.002s)
+2025-07-27 11:55:21 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:21 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 10: Executing step 1 with Agent-S
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:21 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.066s)
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:21 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:21 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:21 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.003s)
+2025-07-27 11:55:21 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:21 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:22 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 11: Executing step 1 with Agent-S
+2025-07-27 11:55:22 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:22 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:22 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:22 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.077s)
+2025-07-27 11:55:22 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:22 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:22 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:22 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.002s)
+2025-07-27 11:55:22 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:22 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:22 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 12: Executing step 1 with Agent-S
+2025-07-27 11:55:22 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:22 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:22 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:22 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.059s)
+2025-07-27 11:55:22 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:22 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:22 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:22 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.001s)
+2025-07-27 11:55:22 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:22 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:22 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 13: Executing step 1 with Agent-S
+2025-07-27 11:55:22 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:22 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:22 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:23 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.057s)
+2025-07-27 11:55:23 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:23 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:23 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:23 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.001s)
+2025-07-27 11:55:23 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:23 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:23 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 14: Executing step 1 with Agent-S
+2025-07-27 11:55:23 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:23 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:23 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:23 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.064s)
+2025-07-27 11:55:23 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:23 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:23 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:23 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.002s)
+2025-07-27 11:55:23 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:23 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:23 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 15: Executing step 1 with Agent-S
+2025-07-27 11:55:23 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:23 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:23 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:23 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.054s)
+2025-07-27 11:55:23 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:23 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:23 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:23 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.002s)
+2025-07-27 11:55:23 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:23 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 16: Executing step 1 with Agent-S
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:24 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.066s)
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:24 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:24 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.001s)
+2025-07-27 11:55:24 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:24 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 17: Executing step 1 with Agent-S
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:24 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.058s)
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:24 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:24 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.001s)
+2025-07-27 11:55:24 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:24 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 18: Executing step 1 with Agent-S
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:24 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.065s)
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:24 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:24 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:24 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.002s)
+2025-07-27 11:55:24 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:24 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 19: Executing step 1 with Agent-S
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:25 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.087s)
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:25 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:25 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.002s)
+2025-07-27 11:55:25 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:25 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 20: Executing step 1 with Agent-S
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 11:55:25 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.093s)
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 11:55:25 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:25 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [VerifierAgent] ❌ VerifierAgent: verify_step (0.001s)
+2025-07-27 11:55:25 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 11:55:25 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: True, Verif: INCONCLUSIVE, Confidence: 0.56
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 0 successful steps
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 20 actions recorded
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 7.6s
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: FAIL
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 0.0%
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 3
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 11:55:25 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753631725
+2025-07-27 11:55:26 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.005s)
+2025-07-27 11:55:26 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 11:55:26 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 11:55:26 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.29
+2025-07-27 11:55:26 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_agent_s_test_1753631718333.json
+2025-07-27 11:55:26 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: agent_s_test_1753631718333 - FAIL - 7.67s
+2025-07-27 11:55:26 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753631718333 - FAIL

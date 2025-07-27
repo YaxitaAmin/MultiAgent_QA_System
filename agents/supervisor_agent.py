@@ -43,7 +43,41 @@ class SupervisorAgent(BaseQAAgent):
         self.visual_traces = []
         
         self.logger.info("SupervisorAgent initialized with Agent-S integration")
-    
+
+    # 🚀 Start method to get the supervisor agent running smoothly!
+    async def start(self) -> bool:
+        """Start the supervisor agent"""
+        try:
+            self.is_running = True
+            
+            # Test Agent-S functionality if available
+            if self.is_agent_s_active():
+                try:
+                    test_obs = {"screenshot": b"", "ui_hierarchy": ""}
+                    info, actions = await self.predict("supervisor test", test_obs)
+                    self.logger.info(f"[{self.agent_name}] ✅ Agent-S functional test passed")
+                except Exception as e:
+                    self.logger.warning(f"[{self.agent_name}] ⚠️ Agent-S functional test failed: {e}")
+            
+            await self._send_heartbeat()
+            self.logger.info(f"SupervisorAgent started successfully (Agent-S: {'✅' if self.is_agent_s_active() else '❌'})")
+            return True
+        except Exception as e:
+            self.logger.error(f"SupervisorAgent failed to start: {e}")
+            return False
+
+    # ✋ Stop method for a graceful shutdown!
+    async def stop(self) -> bool:
+        """Stop the supervisor agent"""
+        try:
+            self.is_running = False
+            await self.cleanup()
+            self.logger.info("SupervisorAgent stopped successfully")
+            return True
+        except Exception as e:
+            self.logger.error(f"SupervisorAgent failed to stop: {e}")
+            return False
+
     async def process_task(self, task_data: Dict[str, Any]) -> Dict[str, Any]:
         """Process supervisor analysis task"""
         start_time = time.time()
@@ -659,3 +693,36 @@ The android_world integration provides:
 """
         
         return report
+
+    def get_execution_summary(self) -> Dict[str, Any]:
+        """Get execution summary for this agent 📊"""
+        if not hasattr(self, 'execution_history') or not self.execution_history:
+            return {
+                "total_actions": 0,
+                "successful_actions": 0,
+                "success_rate": 0.0,
+                "total_duration": 0.0,
+                "average_duration": 0.0,
+                "recent_actions": []
+            }
+        
+        total = len(self.execution_history)
+        successful = sum(1 for action in self.execution_history if getattr(action, 'success', False))
+        total_duration = sum(getattr(action, 'duration', 0.0) for action in self.execution_history)
+        
+        return {
+            "total_actions": total,
+            "successful_actions": successful,
+            "success_rate": successful / total if total > 0 else 0.0,
+            "total_duration": total_duration,
+            "average_duration": total_duration / total if total > 0 else 0.0,
+            "recent_actions": [
+                {
+                    "action_type": getattr(action, "action_type", "unknown"),
+                    "success": getattr(action, "success", False),
+                    "duration": getattr(action, "duration", 0.0),
+                    "timestamp": getattr(action, "timestamp", None)
+                }
+                for action in self.execution_history[-5:]
+            ]
+        }

@@ -1,0 +1,1419 @@
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [EnvironmentManager] QALogger initialized: EnvironmentManager
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [PlannerAgent] QALogger initialized: PlannerAgent
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [PlannerAgent] Initialized QA Agent extending Agent-S: PlannerAgent
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [PlannerAgent] Agent-S mode: ❌ Mock
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [PlannerAgent] PlannerAgent initialized with Agent-S planning capabilities
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [ExecutorAgent] QALogger initialized: ExecutorAgent
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [ExecutorAgent] Initialized QA Agent extending Agent-S: ExecutorAgent
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [ExecutorAgent] Agent-S mode: ❌ Mock
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [ExecutorAgent] ExecutorAgent initialized with Agent-S execution capabilities
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [VerifierAgent] QALogger initialized: VerifierAgent
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [VerifierAgent] Initialized QA Agent extending Agent-S: VerifierAgent
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [VerifierAgent] Agent-S mode: ❌ Mock
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [VerifierAgent] VerifierAgent initialized with Agent-S verification capabilities
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [SupervisorAgent] QALogger initialized: SupervisorAgent
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [SupervisorAgent] Initialized QA Agent extending Agent-S: SupervisorAgent
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [SupervisorAgent] Agent-S mode: ❌ Mock
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [SupervisorAgent] SupervisorAgent initialized with Agent-S integration
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [EnvironmentManager] EnvironmentManager initialized with TRUE Agent-S architecture
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [EnvironmentManager] Agent-S available: False
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [EnvironmentManager] Initializing multi-agent QA system with Agent-S coordination
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [EnvironmentManager] Agent-S coordination infrastructure established
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [PlannerAgent] PlannerAgent started successfully (Agent-S: ❌)
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [ExecutorAgent] ExecutorAgent started successfully (Agent-S: ❌)
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [VerifierAgent] VerifierAgent started successfully (Agent-S: ❌)
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [SupervisorAgent] SupervisorAgent started successfully (Agent-S: ❌)
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ planner initialized successfully (Agent-S: ❌)
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ executor initialized successfully (Agent-S: ❌)
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ verifier initialized successfully (Agent-S: ❌)
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ supervisor initialized successfully (Agent-S: ❌)
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [EnvironmentManager] Agent coordination established
+2025-07-27 12:09:38 | INFO | core.logger:info:221 | [EnvironmentManager] Multi-agent system initialization completed
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753632580604 - unknown
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753632580604
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Test turning Wi-Fi on and off
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': True, 'total_active': 0}
+2025-07-27 12:09:40 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 12:09:40 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.000s)
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 9 steps (9 Agent-S compatible)
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 9 steps, Max: 20, Timeout: 120s
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 12:09:40 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [ExecutorAgent] Android environment initialized for task: settings_wifi
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 12:09:40 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.121s)
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 12:09:40 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:40 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.003s)
+2025-07-27 12:09:40 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:40 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 1 completed successfully (confidence: 0.90)
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 2 with Agent-S
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: scroll - Scroll to find Wi-Fi option
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Scroll to find Wi-Fi option
+2025-07-27 12:09:41 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.094s)
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Wi-Fi option visible
+2025-07-27 12:09:41 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:41 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.003s)
+2025-07-27 12:09:41 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 2 completed successfully (confidence: 0.83)
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 3 with Agent-S
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Tap Wi-Fi option
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Tap Wi-Fi option
+2025-07-27 12:09:41 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.082s)
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Wi-Fi settings opened
+2025-07-27 12:09:41 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:41 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:09:41 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 3 completed successfully (confidence: 0.83)
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 4 with Agent-S
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Check current Wi-Fi status
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Check current Wi-Fi status
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.077s)
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Wi-Fi status visible
+2025-07-27 12:09:41 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:41 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:09:41 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:41 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 4 completed successfully (confidence: 0.86)
+2025-07-27 12:09:42 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 5 with Agent-S
+2025-07-27 12:09:42 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Toggle Wi-Fi switch
+2025-07-27 12:09:42 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 5 with Agent-S: Toggle Wi-Fi switch
+2025-07-27 12:09:42 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:42 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.084s)
+2025-07-27 12:09:42 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 5: Wi-Fi state changes
+2025-07-27 12:09:42 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:42 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:42 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:09:42 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:42 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 5 completed successfully (confidence: 0.80)
+2025-07-27 12:09:42 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 6: Executing step 6 with Agent-S
+2025-07-27 12:09:42 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: wait - Wait for state transition
+2025-07-27 12:09:42 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 6 with Agent-S: Wait for state transition
+2025-07-27 12:09:44 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (2.084s)
+2025-07-27 12:09:44 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 6: UI updates complete
+2025-07-27 12:09:44 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:44 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:44 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:09:44 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:44 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 6 completed successfully (confidence: 0.86)
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 7: Executing step 7 with Agent-S
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify Wi-Fi is off
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 7 with Agent-S: Verify Wi-Fi is off
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.077s)
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 7: Wi-Fi shows as disabled
+2025-07-27 12:09:45 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:45 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:09:45 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 7 completed successfully (confidence: 0.82)
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 8: Executing step 8 with Agent-S
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Toggle Wi-Fi switch again
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 8 with Agent-S: Toggle Wi-Fi switch again
+2025-07-27 12:09:45 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.086s)
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 8: Wi-Fi turns back on
+2025-07-27 12:09:45 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:45 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:09:45 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 8 completed successfully (confidence: 0.79)
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 9: Executing step 9 with Agent-S
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify Wi-Fi is back on
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 9 with Agent-S: Verify Wi-Fi is back on
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.076s)
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 9: Wi-Fi shows as enabled
+2025-07-27 12:09:45 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:45 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:09:45 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:45 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 9 completed successfully (confidence: 0.85)
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ No more steps to execute
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 9 successful steps
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 18 actions recorded
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 5.7s
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: PASS
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 100.0%
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 4
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753632586
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.001s)
+2025-07-27 12:09:46 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.41
+2025-07-27 12:09:46 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_agent_s_test_1753632580604.json
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: agent_s_test_1753632580604 - PASS - 5.69s
+2025-07-27 12:09:46 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753632580604 - PASS
+2025-07-27 12:09:51 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753632591972 - unknown
+2025-07-27 12:09:51 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753632591972
+2025-07-27 12:09:51 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Test turning Wi-Fi on and off
+2025-07-27 12:09:51 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 12:09:51 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': True, 'total_active': 0}
+2025-07-27 12:09:51 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 12:09:51 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 12:09:51 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 12:09:51 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 12:09:51 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.000s)
+2025-07-27 12:09:51 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 9 steps (9 Agent-S compatible)
+2025-07-27 12:09:51 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 12:09:51 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 12:09:51 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 9 steps, Max: 10, Timeout: 60s
+2025-07-27 12:09:51 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 12:09:52 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.109s)
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 12:09:52 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:52 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.009s)
+2025-07-27 12:09:52 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 1 completed successfully (confidence: 0.84)
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 2 with Agent-S
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: scroll - Scroll to find Wi-Fi option
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Scroll to find Wi-Fi option
+2025-07-27 12:09:52 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.070s)
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Wi-Fi option visible
+2025-07-27 12:09:52 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:52 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.003s)
+2025-07-27 12:09:52 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 2 completed successfully (confidence: 0.82)
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 3 with Agent-S
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Tap Wi-Fi option
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Tap Wi-Fi option
+2025-07-27 12:09:52 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.054s)
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Wi-Fi settings opened
+2025-07-27 12:09:52 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:52 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:09:52 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:52 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 3 completed successfully (confidence: 0.79)
+2025-07-27 12:09:53 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 4 with Agent-S
+2025-07-27 12:09:53 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Check current Wi-Fi status
+2025-07-27 12:09:53 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Check current Wi-Fi status
+2025-07-27 12:09:53 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.072s)
+2025-07-27 12:09:53 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Wi-Fi status visible
+2025-07-27 12:09:53 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:53 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:53 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.004s)
+2025-07-27 12:09:53 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:53 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 4 completed successfully (confidence: 0.86)
+2025-07-27 12:09:53 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 5 with Agent-S
+2025-07-27 12:09:53 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Toggle Wi-Fi switch
+2025-07-27 12:09:53 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 5 with Agent-S: Toggle Wi-Fi switch
+2025-07-27 12:09:53 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:53 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.056s)
+2025-07-27 12:09:53 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 5: Wi-Fi state changes
+2025-07-27 12:09:53 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:53 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:53 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.004s)
+2025-07-27 12:09:53 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:53 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 5 completed successfully (confidence: 0.80)
+2025-07-27 12:09:53 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 6: Executing step 6 with Agent-S
+2025-07-27 12:09:53 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: wait - Wait for state transition
+2025-07-27 12:09:53 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 6 with Agent-S: Wait for state transition
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (2.063s)
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 6: UI updates complete
+2025-07-27 12:09:56 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:56 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:09:56 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 6 completed successfully (confidence: 0.89)
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 7: Executing step 7 with Agent-S
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify Wi-Fi is off
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 7 with Agent-S: Verify Wi-Fi is off
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.063s)
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 7: Wi-Fi shows as disabled
+2025-07-27 12:09:56 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:56 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:09:56 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 7 completed successfully (confidence: 0.84)
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 8: Executing step 8 with Agent-S
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Toggle Wi-Fi switch again
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 8 with Agent-S: Toggle Wi-Fi switch again
+2025-07-27 12:09:56 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.074s)
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 8: Wi-Fi turns back on
+2025-07-27 12:09:56 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:56 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.004s)
+2025-07-27 12:09:56 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:56 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 8 completed successfully (confidence: 0.85)
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 9: Executing step 9 with Agent-S
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify Wi-Fi is back on
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 9 with Agent-S: Verify Wi-Fi is back on
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.064s)
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 9: Wi-Fi shows as enabled
+2025-07-27 12:09:57 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:57 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:09:57 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 9 completed successfully (confidence: 0.86)
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ No more steps to execute
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 9 successful steps
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 18 actions recorded
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 5.5s
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: PASS
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 100.0%
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 4
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753632597
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.003s)
+2025-07-27 12:09:57 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.41
+2025-07-27 12:09:57 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_agent_s_test_1753632591972.json
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: agent_s_test_1753632591972 - PASS - 5.56s
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753632591972 - PASS
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753632597562 - unknown
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753632597562
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Test turning Wi-Fi on and off
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': True, 'total_active': 0}
+2025-07-27 12:09:57 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 12:09:57 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.000s)
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 9 steps (9 Agent-S compatible)
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 9 steps, Max: 10, Timeout: 60s
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 12:09:57 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.065s)
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 12:09:57 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:57 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:09:57 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 1 completed successfully (confidence: 0.85)
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 2 with Agent-S
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: scroll - Scroll to find Wi-Fi option
+2025-07-27 12:09:57 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Scroll to find Wi-Fi option
+2025-07-27 12:09:58 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.088s)
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Wi-Fi option visible
+2025-07-27 12:09:58 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:58 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.005s)
+2025-07-27 12:09:58 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 2 completed successfully (confidence: 0.79)
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 3 with Agent-S
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Tap Wi-Fi option
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Tap Wi-Fi option
+2025-07-27 12:09:58 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.081s)
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Wi-Fi settings opened
+2025-07-27 12:09:58 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:58 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:09:58 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 3 completed successfully (confidence: 0.78)
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 4 with Agent-S
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Check current Wi-Fi status
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Check current Wi-Fi status
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.054s)
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Wi-Fi status visible
+2025-07-27 12:09:58 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:58 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:09:58 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:58 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 4 completed successfully (confidence: 0.82)
+2025-07-27 12:09:59 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 5 with Agent-S
+2025-07-27 12:09:59 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Toggle Wi-Fi switch
+2025-07-27 12:09:59 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 5 with Agent-S: Toggle Wi-Fi switch
+2025-07-27 12:09:59 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:59 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.066s)
+2025-07-27 12:09:59 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 5: Wi-Fi state changes
+2025-07-27 12:09:59 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:59 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:09:59 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:09:59 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:09:59 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 5 completed successfully (confidence: 0.83)
+2025-07-27 12:09:59 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 6: Executing step 6 with Agent-S
+2025-07-27 12:09:59 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: wait - Wait for state transition
+2025-07-27 12:09:59 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 6 with Agent-S: Wait for state transition
+2025-07-27 12:10:01 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (2.066s)
+2025-07-27 12:10:01 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 6: UI updates complete
+2025-07-27 12:10:01 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:01 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:01 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:10:01 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:01 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 6 completed successfully (confidence: 0.90)
+2025-07-27 12:10:01 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 7: Executing step 7 with Agent-S
+2025-07-27 12:10:01 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify Wi-Fi is off
+2025-07-27 12:10:01 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 7 with Agent-S: Verify Wi-Fi is off
+2025-07-27 12:10:01 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.058s)
+2025-07-27 12:10:01 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 7: Wi-Fi shows as disabled
+2025-07-27 12:10:01 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:01 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:01 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:01 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:01 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 7 completed successfully (confidence: 0.85)
+2025-07-27 12:10:02 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 8: Executing step 8 with Agent-S
+2025-07-27 12:10:02 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Toggle Wi-Fi switch again
+2025-07-27 12:10:02 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 8 with Agent-S: Toggle Wi-Fi switch again
+2025-07-27 12:10:02 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:02 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.071s)
+2025-07-27 12:10:02 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 8: Wi-Fi turns back on
+2025-07-27 12:10:02 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:02 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:02 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:02 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:02 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 8 completed successfully (confidence: 0.78)
+2025-07-27 12:10:02 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 9: Executing step 9 with Agent-S
+2025-07-27 12:10:02 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify Wi-Fi is back on
+2025-07-27 12:10:02 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 9 with Agent-S: Verify Wi-Fi is back on
+2025-07-27 12:10:02 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.064s)
+2025-07-27 12:10:02 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 9: Wi-Fi shows as enabled
+2025-07-27 12:10:02 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:02 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:02 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.003s)
+2025-07-27 12:10:02 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:02 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 9 completed successfully (confidence: 0.81)
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ No more steps to execute
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 9 successful steps
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 18 actions recorded
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 5.5s
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: PASS
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 100.0%
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 4
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753632603
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.002s)
+2025-07-27 12:10:03 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.41
+2025-07-27 12:10:03 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_agent_s_test_1753632597562.json
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: agent_s_test_1753632597562 - PASS - 5.53s
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753632597562 - PASS
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753632603115 - unknown
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753632603115
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Open Settings and navigate to Display settings
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': True, 'total_active': 0}
+2025-07-27 12:10:03 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 12:10:03 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.000s)
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 8 steps (8 Agent-S compatible)
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 8 steps, Max: 10, Timeout: 60s
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Agent-S enhanced verify action for: Open Settings and navigate to ...
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Agent-S enhanced verify action for: Open Settings and navigate to ...
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.052s)
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Step 1 completed successfully
+2025-07-27 12:10:03 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:03 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:03 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 1 completed successfully (confidence: 0.86)
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 2 with Agent-S
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Continue task execution step 2
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Continue task execution step 2
+2025-07-27 12:10:03 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.052s)
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Step 2 completed successfully
+2025-07-27 12:10:03 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:03 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:10:03 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 2 completed successfully (confidence: 0.85)
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 3 with Agent-S
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: scroll - Continue task execution step 3
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Continue task execution step 3
+2025-07-27 12:10:03 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.085s)
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Step 3 completed successfully
+2025-07-27 12:10:03 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:03 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:10:03 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:03 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 3 completed successfully (confidence: 0.81)
+2025-07-27 12:10:04 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 4 with Agent-S
+2025-07-27 12:10:04 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: type - Continue task execution step 4
+2025-07-27 12:10:04 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Continue task execution step 4
+2025-07-27 12:10:04 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:04 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.104s)
+2025-07-27 12:10:04 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Step 4 completed successfully
+2025-07-27 12:10:04 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:04 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:04 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:04 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:04 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 4 completed successfully (confidence: 0.83)
+2025-07-27 12:10:04 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 5 with Agent-S
+2025-07-27 12:10:04 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: wait - Continue task execution step 5
+2025-07-27 12:10:04 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 5 with Agent-S: Continue task execution step 5
+2025-07-27 12:10:06 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (2.067s)
+2025-07-27 12:10:06 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 5: Step 5 completed successfully
+2025-07-27 12:10:06 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:06 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:06 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.003s)
+2025-07-27 12:10:06 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:06 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 5 completed successfully (confidence: 0.89)
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 6: Executing step 6 with Agent-S
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Continue task execution step 6
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 6 with Agent-S: Continue task execution step 6
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.078s)
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 6: Step 6 completed successfully
+2025-07-27 12:10:07 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:07 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.003s)
+2025-07-27 12:10:07 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 6 completed successfully (confidence: 0.84)
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 7: Executing step 7 with Agent-S
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Continue task execution step 7
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 7 with Agent-S: Continue task execution step 7
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.051s)
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 7: Step 7 completed successfully
+2025-07-27 12:10:07 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:07 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:10:07 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 7 completed successfully (confidence: 0.86)
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 8: Executing step 8 with Agent-S
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Continue task execution step 8
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 8 with Agent-S: Continue task execution step 8
+2025-07-27 12:10:07 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.064s)
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 8: Step 8 completed successfully
+2025-07-27 12:10:07 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:07 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:10:07 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:07 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 8 completed successfully (confidence: 0.83)
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ No more steps to execute
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 8 successful steps
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 16 actions recorded
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 5.1s
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: PASS
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 100.0%
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 4
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753632608
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.001s)
+2025-07-27 12:10:08 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.41
+2025-07-27 12:10:08 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_agent_s_test_1753632603115.json
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: agent_s_test_1753632603115 - PASS - 5.13s
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753632603115 - PASS
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753632608272 - unknown
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753632608272
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Open Settings and navigate to Display settings
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': True, 'total_active': 0}
+2025-07-27 12:10:08 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 12:10:08 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.000s)
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 8 steps (8 Agent-S compatible)
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 8 steps, Max: 10, Timeout: 60s
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Agent-S enhanced verify action for: Open Settings and navigate to ...
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Agent-S enhanced verify action for: Open Settings and navigate to ...
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.061s)
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Step 1 completed successfully
+2025-07-27 12:10:08 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:08 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.003s)
+2025-07-27 12:10:08 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 1 completed successfully (confidence: 0.84)
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 2 with Agent-S
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Continue task execution step 2
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Continue task execution step 2
+2025-07-27 12:10:08 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.058s)
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Step 2 completed successfully
+2025-07-27 12:10:08 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:08 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:10:08 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:08 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 2 completed successfully (confidence: 0.83)
+2025-07-27 12:10:09 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 3 with Agent-S
+2025-07-27 12:10:09 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: scroll - Continue task execution step 3
+2025-07-27 12:10:09 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Continue task execution step 3
+2025-07-27 12:10:09 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:09 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.079s)
+2025-07-27 12:10:09 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Step 3 completed successfully
+2025-07-27 12:10:09 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:09 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:09 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.004s)
+2025-07-27 12:10:09 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:09 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 3 completed successfully (confidence: 0.84)
+2025-07-27 12:10:09 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 4 with Agent-S
+2025-07-27 12:10:09 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: type - Continue task execution step 4
+2025-07-27 12:10:09 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Continue task execution step 4
+2025-07-27 12:10:09 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:09 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.067s)
+2025-07-27 12:10:09 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Step 4 completed successfully
+2025-07-27 12:10:09 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:09 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:09 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.004s)
+2025-07-27 12:10:09 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:09 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 4 completed successfully (confidence: 0.85)
+2025-07-27 12:10:09 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 5 with Agent-S
+2025-07-27 12:10:09 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: wait - Continue task execution step 5
+2025-07-27 12:10:09 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 5 with Agent-S: Continue task execution step 5
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (2.061s)
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 5: Step 5 completed successfully
+2025-07-27 12:10:12 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:12 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:10:12 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 5 completed successfully (confidence: 0.88)
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 6: Executing step 6 with Agent-S
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Continue task execution step 6
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 6 with Agent-S: Continue task execution step 6
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.068s)
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 6: Step 6 completed successfully
+2025-07-27 12:10:12 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:12 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.003s)
+2025-07-27 12:10:12 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 6 completed successfully (confidence: 0.81)
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 7: Executing step 7 with Agent-S
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Continue task execution step 7
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 7 with Agent-S: Continue task execution step 7
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753632612833 - unknown
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753632612833
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Test turning Wi-Fi on and off
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': True, 'total_active': 0}
+2025-07-27 12:10:12 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.076s)
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 7: Step 7 completed successfully
+2025-07-27 12:10:12 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:12 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.005s)
+2025-07-27 12:10:12 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 12:10:12 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 7 completed successfully (confidence: 0.86)
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.001s)
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 9 steps (9 Agent-S compatible)
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 9 steps, Max: 20, Timeout: 120s
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 12:10:12 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.064s)
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 12:10:12 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:12 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:10:12 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:12 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 1 completed successfully (confidence: 0.87)
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 8: Executing step 2 with Agent-S
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Continue task execution step 2
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Continue task execution step 2
+2025-07-27 12:10:13 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 2 with Agent-S
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: scroll - Scroll to find Wi-Fi option
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Scroll to find Wi-Fi option
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.076s)
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Step 2 completed successfully
+2025-07-27 12:10:13 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:13 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.004s)
+2025-07-27 12:10:13 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 2 completed successfully (confidence: 0.82)
+2025-07-27 12:10:13 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.074s)
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Wi-Fi option visible
+2025-07-27 12:10:13 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:13 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:10:13 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 2 completed successfully (confidence: 0.81)
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 9: Executing step 3 with Agent-S
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: scroll - Continue task execution step 3
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Continue task execution step 3
+2025-07-27 12:10:13 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 3 with Agent-S
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Tap Wi-Fi option
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Tap Wi-Fi option
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.080s)
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Step 3 completed successfully
+2025-07-27 12:10:13 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:13 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:13 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 3 completed successfully (confidence: 0.83)
+2025-07-27 12:10:13 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.109s)
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Wi-Fi settings opened
+2025-07-27 12:10:13 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:13 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.004s)
+2025-07-27 12:10:13 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 3 completed successfully (confidence: 0.85)
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 10: Executing step 4 with Agent-S
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: type - Continue task execution step 4
+2025-07-27 12:10:13 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Continue task execution step 4
+2025-07-27 12:10:14 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.064s)
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Step 4 completed successfully
+2025-07-27 12:10:14 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:14 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.004s)
+2025-07-27 12:10:14 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 4 completed successfully (confidence: 0.81)
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 5 with Agent-S
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Toggle Wi-Fi switch
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 5 with Agent-S: Toggle Wi-Fi switch
+2025-07-27 12:10:14 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.084s)
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 5: Wi-Fi state changes
+2025-07-27 12:10:14 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:14 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:14 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 5 completed successfully (confidence: 0.80)
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 7 successful steps
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 20 actions recorded
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 6.0s
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: PASS
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 87.5%
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 4
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753632614
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.004s)
+2025-07-27 12:10:14 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.41
+2025-07-27 12:10:14 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_agent_s_test_1753632612833.json
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: agent_s_test_1753632612833 - PASS - 1.54s
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753632608272 - PASS
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 6 with Agent-S
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: wait - Wait for state transition
+2025-07-27 12:10:14 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 6 with Agent-S: Wait for state transition
+2025-07-27 12:10:16 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (2.064s)
+2025-07-27 12:10:16 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 6: UI updates complete
+2025-07-27 12:10:16 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:16 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:16 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.004s)
+2025-07-27 12:10:16 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:16 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 6 completed successfully (confidence: 0.89)
+2025-07-27 12:10:16 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 6: Executing step 7 with Agent-S
+2025-07-27 12:10:16 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify Wi-Fi is off
+2025-07-27 12:10:16 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 7 with Agent-S: Verify Wi-Fi is off
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.092s)
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 7: Wi-Fi shows as disabled
+2025-07-27 12:10:17 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:17 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:10:17 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 7 completed successfully (confidence: 0.84)
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 7: Executing step 8 with Agent-S
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Toggle Wi-Fi switch again
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 8 with Agent-S: Toggle Wi-Fi switch again
+2025-07-27 12:10:17 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.081s)
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 8: Wi-Fi turns back on
+2025-07-27 12:10:17 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:17 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:17 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 8 completed successfully (confidence: 0.84)
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 8: Executing step 9 with Agent-S
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify Wi-Fi is back on
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 9 with Agent-S: Verify Wi-Fi is back on
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.084s)
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 9: Wi-Fi shows as enabled
+2025-07-27 12:10:17 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:17 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:17 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:17 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 9 completed successfully (confidence: 0.86)
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ No more steps to execute
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 11 successful steps
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 16 actions recorded
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 5.3s
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: PASS
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 122.2%
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 4
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753632618
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.000s)
+2025-07-27 12:10:18 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.41
+2025-07-27 12:10:18 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_emergency_test_1753632618.json
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: emergency_test_1753632618 - PASS - 0.00s
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753632612833 - PASS
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753632618196 - unknown
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753632618196
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Test turning Wi-Fi on and off
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': True, 'total_active': 0}
+2025-07-27 12:10:18 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 12:10:18 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.001s)
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 9 steps (9 Agent-S compatible)
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 9 steps, Max: 20, Timeout: 120s
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 12:10:18 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.051s)
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 12:10:18 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:18 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:18 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 1 completed successfully (confidence: 0.84)
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 2 with Agent-S
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: scroll - Scroll to find Wi-Fi option
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Scroll to find Wi-Fi option
+2025-07-27 12:10:18 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.077s)
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Wi-Fi option visible
+2025-07-27 12:10:18 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:18 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:18 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 2 completed successfully (confidence: 0.79)
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 3 with Agent-S
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Tap Wi-Fi option
+2025-07-27 12:10:18 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Tap Wi-Fi option
+2025-07-27 12:10:19 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.073s)
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Wi-Fi settings opened
+2025-07-27 12:10:19 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:19 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.006s)
+2025-07-27 12:10:19 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 3 completed successfully (confidence: 0.85)
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 4 with Agent-S
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Check current Wi-Fi status
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Check current Wi-Fi status
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.075s)
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Wi-Fi status visible
+2025-07-27 12:10:19 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:19 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 12:10:19 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 4 completed successfully (confidence: 0.86)
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 5 with Agent-S
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Toggle Wi-Fi switch
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 5 with Agent-S: Toggle Wi-Fi switch
+2025-07-27 12:10:19 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.124s)
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 5: Wi-Fi state changes
+2025-07-27 12:10:19 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:19 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:19 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:19 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 5 completed successfully (confidence: 0.84)
+2025-07-27 12:10:20 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 6: Executing step 6 with Agent-S
+2025-07-27 12:10:20 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: wait - Wait for state transition
+2025-07-27 12:10:20 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 6 with Agent-S: Wait for state transition
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (2.032s)
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 6: UI updates complete
+2025-07-27 12:10:22 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:22 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:22 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 6 completed successfully (confidence: 0.86)
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 7: Executing step 7 with Agent-S
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify Wi-Fi is off
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 7 with Agent-S: Verify Wi-Fi is off
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.020s)
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 7: Wi-Fi shows as disabled
+2025-07-27 12:10:22 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:22 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 12:10:22 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 7 completed successfully (confidence: 0.81)
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 8: Executing step 8 with Agent-S
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Toggle Wi-Fi switch again
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 8 with Agent-S: Toggle Wi-Fi switch again
+2025-07-27 12:10:22 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.025s)
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 8: Wi-Fi turns back on
+2025-07-27 12:10:22 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:22 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 12:10:22 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:22 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 8 completed successfully (confidence: 0.85)
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 9: Executing step 9 with Agent-S
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify Wi-Fi is back on
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 9 with Agent-S: Verify Wi-Fi is back on
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.016s)
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 9: Wi-Fi shows as enabled
+2025-07-27 12:10:23 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:23 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:23 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 9 completed successfully (confidence: 0.83)
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ No more steps to execute
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 9 successful steps
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 18 actions recorded
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 5.3s
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: PASS
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 100.0%
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 4
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753632623
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.000s)
+2025-07-27 12:10:23 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.41
+2025-07-27 12:10:23 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_agent_s_test_1753632618196.json
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: agent_s_test_1753632618196 - PASS - 5.36s
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753632618196 - PASS
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753632623560 - unknown
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753632623560
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Open Settings and navigate to Display settings
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': True, 'total_active': 0}
+2025-07-27 12:10:23 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 12:10:23 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.000s)
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 8 steps (8 Agent-S compatible)
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 8 steps, Max: 20, Timeout: 120s
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Agent-S enhanced verify action for: Open Settings and navigate to ...
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Agent-S enhanced verify action for: Open Settings and navigate to ...
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.016s)
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Step 1 completed successfully
+2025-07-27 12:10:23 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:23 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:23 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 1 completed successfully (confidence: 0.84)
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 2 with Agent-S
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Continue task execution step 2
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Continue task execution step 2
+2025-07-27 12:10:23 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.023s)
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Step 2 completed successfully
+2025-07-27 12:10:23 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:23 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 12:10:23 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 2 completed successfully (confidence: 0.85)
+2025-07-27 12:10:24 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 3 with Agent-S
+2025-07-27 12:10:24 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: scroll - Continue task execution step 3
+2025-07-27 12:10:24 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Continue task execution step 3
+2025-07-27 12:10:24 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:24 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.026s)
+2025-07-27 12:10:24 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Step 3 completed successfully
+2025-07-27 12:10:24 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:24 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:24 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:24 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:24 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 3 completed successfully (confidence: 0.85)
+2025-07-27 12:10:24 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 4 with Agent-S
+2025-07-27 12:10:24 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: type - Continue task execution step 4
+2025-07-27 12:10:24 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Continue task execution step 4
+2025-07-27 12:10:24 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:24 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.022s)
+2025-07-27 12:10:24 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Step 4 completed successfully
+2025-07-27 12:10:24 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:24 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:24 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 12:10:24 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:24 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 4 completed successfully (confidence: 0.84)
+2025-07-27 12:10:24 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 5 with Agent-S
+2025-07-27 12:10:24 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: wait - Continue task execution step 5
+2025-07-27 12:10:24 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 5 with Agent-S: Continue task execution step 5
+2025-07-27 12:10:26 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (2.026s)
+2025-07-27 12:10:26 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 5: Step 5 completed successfully
+2025-07-27 12:10:26 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:26 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:26 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:26 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:26 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 5 completed successfully (confidence: 0.86)
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 6: Executing step 6 with Agent-S
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Continue task execution step 6
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 6 with Agent-S: Continue task execution step 6
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.020s)
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 6: Step 6 completed successfully
+2025-07-27 12:10:27 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:27 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:27 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 6 completed successfully (confidence: 0.80)
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 7: Executing step 7 with Agent-S
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Continue task execution step 7
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 7 with Agent-S: Continue task execution step 7
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.019s)
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 7: Step 7 completed successfully
+2025-07-27 12:10:27 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:27 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 12:10:27 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 7 completed successfully (confidence: 0.80)
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 8: Executing step 8 with Agent-S
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Continue task execution step 8
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 8 with Agent-S: Continue task execution step 8
+2025-07-27 12:10:27 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.023s)
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 8: Step 8 completed successfully
+2025-07-27 12:10:27 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:27 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:27 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:27 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 8 completed successfully (confidence: 0.82)
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ No more steps to execute
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 8 successful steps
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 16 actions recorded
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 4.7s
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: PASS
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 100.0%
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 4
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753632628
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.000s)
+2025-07-27 12:10:28 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.41
+2025-07-27 12:10:28 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_agent_s_test_1753632623560.json
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: agent_s_test_1753632623560 - PASS - 4.66s
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753632623560 - PASS
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753632628226 - unknown
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753632628226
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Open Settings and navigate to Display settings
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': True, 'total_active': 0}
+2025-07-27 12:10:28 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 12:10:28 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.000s)
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 8 steps (8 Agent-S compatible)
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 8 steps, Max: 20, Timeout: 120s
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Agent-S enhanced verify action for: Open Settings and navigate to ...
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Agent-S enhanced verify action for: Open Settings and navigate to ...
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.016s)
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Step 1 completed successfully
+2025-07-27 12:10:28 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:28 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 12:10:28 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 1 completed successfully (confidence: 0.81)
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 2 with Agent-S
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Continue task execution step 2
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Continue task execution step 2
+2025-07-27 12:10:28 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.026s)
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Step 2 completed successfully
+2025-07-27 12:10:28 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:28 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 12:10:28 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 2 completed successfully (confidence: 0.83)
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 3 with Agent-S
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: scroll - Continue task execution step 3
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Continue task execution step 3
+2025-07-27 12:10:28 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.033s)
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Step 3 completed successfully
+2025-07-27 12:10:28 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:28 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:28 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 3 completed successfully (confidence: 0.86)
+2025-07-27 12:10:29 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 4 with Agent-S
+2025-07-27 12:10:29 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: type - Continue task execution step 4
+2025-07-27 12:10:29 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Continue task execution step 4
+2025-07-27 12:10:29 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:29 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.025s)
+2025-07-27 12:10:29 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Step 4 completed successfully
+2025-07-27 12:10:29 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:29 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:29 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:29 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:29 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 4 completed successfully (confidence: 0.83)
+2025-07-27 12:10:29 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 5 with Agent-S
+2025-07-27 12:10:29 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: wait - Continue task execution step 5
+2025-07-27 12:10:29 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 5 with Agent-S: Continue task execution step 5
+2025-07-27 12:10:31 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (2.032s)
+2025-07-27 12:10:31 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 5: Step 5 completed successfully
+2025-07-27 12:10:31 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:31 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:31 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:31 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:31 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 5 completed successfully (confidence: 0.85)
+2025-07-27 12:10:31 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 6: Executing step 6 with Agent-S
+2025-07-27 12:10:31 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Continue task execution step 6
+2025-07-27 12:10:31 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 6 with Agent-S: Continue task execution step 6
+2025-07-27 12:10:31 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.024s)
+2025-07-27 12:10:31 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 6: Step 6 completed successfully
+2025-07-27 12:10:31 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:31 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:31 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 12:10:31 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:31 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 6 completed successfully (confidence: 0.80)
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 7: Executing step 7 with Agent-S
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Continue task execution step 7
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 7 with Agent-S: Continue task execution step 7
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.016s)
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 7: Step 7 completed successfully
+2025-07-27 12:10:32 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:32 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:32 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 7 completed successfully (confidence: 0.81)
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 8: Executing step 8 with Agent-S
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Continue task execution step 8
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 8 with Agent-S: Continue task execution step 8
+2025-07-27 12:10:32 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.022s)
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 8: Step 8 completed successfully
+2025-07-27 12:10:32 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:32 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:32 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 8 completed successfully (confidence: 0.79)
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ No more steps to execute
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 8 successful steps
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 16 actions recorded
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 4.7s
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: PASS
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 100.0%
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 4
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753632632
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.000s)
+2025-07-27 12:10:32 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.41
+2025-07-27 12:10:32 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_agent_s_test_1753632628226.json
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: agent_s_test_1753632628226 - PASS - 4.70s
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753632628226 - PASS
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753632632931 - unknown
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753632632931
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Test airplane mode toggle
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': True, 'total_active': 0}
+2025-07-27 12:10:32 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 12:10:32 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.000s)
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 9 steps (9 Agent-S compatible)
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 9 steps, Max: 20, Timeout: 120s
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Swipe down to open notification panel
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Swipe down to open notification panel
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.021s)
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Quick settings visible
+2025-07-27 12:10:32 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:32 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 12:10:32 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:32 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 1 completed successfully (confidence: 0.88)
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 2 with Agent-S
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Swipe down again for full quick settings
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Swipe down again for full quick settings
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.020s)
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: All toggles visible
+2025-07-27 12:10:33 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:33 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:33 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 2 completed successfully (confidence: 0.83)
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 3 with Agent-S
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Locate airplane mode toggle
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Locate airplane mode toggle
+2025-07-27 12:10:33 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.028s)
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Airplane mode toggle found
+2025-07-27 12:10:33 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:33 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 12:10:33 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 3 completed successfully (confidence: 0.85)
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 4 with Agent-S
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Tap airplane mode toggle
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Tap airplane mode toggle
+2025-07-27 12:10:33 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.026s)
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Airplane mode activated
+2025-07-27 12:10:33 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:33 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:33 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:33 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 4 completed successfully (confidence: 0.80)
+2025-07-27 12:10:34 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 5 with Agent-S
+2025-07-27 12:10:34 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify airplane mode is on
+2025-07-27 12:10:34 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 5 with Agent-S: Verify airplane mode is on
+2025-07-27 12:10:34 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.019s)
+2025-07-27 12:10:34 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 5: Airplane icon appears in status bar
+2025-07-27 12:10:34 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:34 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:34 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:34 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:34 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 5 completed successfully (confidence: 0.81)
+2025-07-27 12:10:34 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 6: Executing step 6 with Agent-S
+2025-07-27 12:10:34 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: wait - Wait for network disconnection
+2025-07-27 12:10:34 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 6 with Agent-S: Wait for network disconnection
+2025-07-27 12:10:36 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (2.021s)
+2025-07-27 12:10:36 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 6: Network indicators disappear
+2025-07-27 12:10:36 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:36 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:36 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 12:10:36 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:36 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 6 completed successfully (confidence: 0.88)
+2025-07-27 12:10:36 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 7: Executing step 7 with Agent-S
+2025-07-27 12:10:36 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Tap airplane mode toggle again
+2025-07-27 12:10:36 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 7 with Agent-S: Tap airplane mode toggle again
+2025-07-27 12:10:36 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:36 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.021s)
+2025-07-27 12:10:36 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 7: Airplane mode deactivated
+2025-07-27 12:10:36 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:36 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:36 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:36 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:36 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 7 completed successfully (confidence: 0.81)
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 8: Executing step 8 with Agent-S
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify airplane mode is off
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 8 with Agent-S: Verify airplane mode is off
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.015s)
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 8: Network connectivity restored
+2025-07-27 12:10:37 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:37 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 12:10:37 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 8 completed successfully (confidence: 0.83)
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 9: Executing step 9 with Agent-S
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Swipe up to close notification panel
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 9 with Agent-S: Swipe up to close notification panel
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.020s)
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 9: Home screen visible
+2025-07-27 12:10:37 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:37 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 12:10:37 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 9 completed successfully (confidence: 0.87)
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ No more steps to execute
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 9 successful steps
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 18 actions recorded
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 5.0s
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: PASS
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 100.0%
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 4
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753632637
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.001s)
+2025-07-27 12:10:37 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.41
+2025-07-27 12:10:37 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_agent_s_test_1753632632931.json
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: agent_s_test_1753632632931 - PASS - 5.00s
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753632632931 - PASS
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753632637933 - unknown
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753632637933
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Test airplane mode toggle
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': True, 'total_active': 0}
+2025-07-27 12:10:37 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 12:10:37 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.000s)
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 9 steps (9 Agent-S compatible)
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 9 steps, Max: 20, Timeout: 120s
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Swipe down to open notification panel
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Swipe down to open notification panel
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.021s)
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Quick settings visible
+2025-07-27 12:10:37 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:37 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 12:10:37 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 1 completed successfully (confidence: 0.82)
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 2 with Agent-S
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Swipe down again for full quick settings
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Swipe down again for full quick settings
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.028s)
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: All toggles visible
+2025-07-27 12:10:38 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:38 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:38 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 2 completed successfully (confidence: 0.85)
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 3 with Agent-S
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Locate airplane mode toggle
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Locate airplane mode toggle
+2025-07-27 12:10:38 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.026s)
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Airplane mode toggle found
+2025-07-27 12:10:38 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:38 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 12:10:38 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 3 completed successfully (confidence: 0.82)
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 4 with Agent-S
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Tap airplane mode toggle
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Tap airplane mode toggle
+2025-07-27 12:10:38 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.024s)
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Airplane mode activated
+2025-07-27 12:10:38 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:38 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 12:10:38 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:38 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 4 completed successfully (confidence: 0.85)
+2025-07-27 12:10:39 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 5 with Agent-S
+2025-07-27 12:10:39 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify airplane mode is on
+2025-07-27 12:10:39 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 5 with Agent-S: Verify airplane mode is on
+2025-07-27 12:10:39 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.020s)
+2025-07-27 12:10:39 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 5: Airplane icon appears in status bar
+2025-07-27 12:10:39 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:39 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:39 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:39 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:39 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 5 completed successfully (confidence: 0.86)
+2025-07-27 12:10:39 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 6: Executing step 6 with Agent-S
+2025-07-27 12:10:39 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: wait - Wait for network disconnection
+2025-07-27 12:10:39 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 6 with Agent-S: Wait for network disconnection
+2025-07-27 12:10:41 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (2.028s)
+2025-07-27 12:10:41 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 6: Network indicators disappear
+2025-07-27 12:10:41 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:41 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:41 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:41 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:41 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 6 completed successfully (confidence: 0.89)
+2025-07-27 12:10:41 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 7: Executing step 7 with Agent-S
+2025-07-27 12:10:41 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Tap airplane mode toggle again
+2025-07-27 12:10:41 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 7 with Agent-S: Tap airplane mode toggle again
+2025-07-27 12:10:41 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:41 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.021s)
+2025-07-27 12:10:41 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 7: Airplane mode deactivated
+2025-07-27 12:10:41 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:41 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:41 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:41 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:41 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 7 completed successfully (confidence: 0.85)
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 8: Executing step 8 with Agent-S
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify airplane mode is off
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 8 with Agent-S: Verify airplane mode is off
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.016s)
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 8: Network connectivity restored
+2025-07-27 12:10:42 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:42 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:42 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 8 completed successfully (confidence: 0.86)
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 9: Executing step 9 with Agent-S
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Swipe up to close notification panel
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 9 with Agent-S: Swipe up to close notification panel
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (0.024s)
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 9: Home screen visible
+2025-07-27 12:10:42 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:42 | DEBUG | core.logger:debug:225 | [UIParser] Parsed 7 UI elements
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 12:10:42 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 9 completed successfully (confidence: 0.82)
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ No more steps to execute
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 9 successful steps
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 18 actions recorded
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 5.0s
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: PASS
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 100.0%
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 4
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753632642
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.000s)
+2025-07-27 12:10:42 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.41
+2025-07-27 12:10:42 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_agent_s_test_1753632637933.json
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: agent_s_test_1753632637933 - PASS - 5.02s
+2025-07-27 12:10:42 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753632637933 - PASS
