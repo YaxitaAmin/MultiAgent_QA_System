@@ -1,0 +1,362 @@
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [EnvironmentManager] QALogger initialized: EnvironmentManager
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [PlannerAgent] QALogger initialized: PlannerAgent
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [PlannerAgent] Initialized QA Agent extending Agent-S: PlannerAgent
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [PlannerAgent] Agent-S mode: ❌ Mock
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [PlannerAgent] PlannerAgent initialized with Agent-S planning capabilities
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [ExecutorAgent] QALogger initialized: ExecutorAgent
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [ExecutorAgent] Initialized QA Agent extending Agent-S: ExecutorAgent
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [ExecutorAgent] Agent-S mode: ❌ Mock
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [ExecutorAgent] ExecutorAgent initialized with Agent-S execution capabilities
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [VerifierAgent] QALogger initialized: VerifierAgent
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [VerifierAgent] Initialized QA Agent extending Agent-S: VerifierAgent
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [VerifierAgent] Agent-S mode: ❌ Mock
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [VerifierAgent] VerifierAgent initialized with Agent-S verification capabilities
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [SupervisorAgent] QALogger initialized: SupervisorAgent
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [SupervisorAgent] Initialized QA Agent extending Agent-S: SupervisorAgent
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [SupervisorAgent] Agent-S mode: ❌ Mock
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [SupervisorAgent] SupervisorAgent initialized with Agent-S integration
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [EnvironmentManager] EnvironmentManager initialized with TRUE Agent-S architecture
+2025-07-27 14:09:12 | INFO | core.logger:info:221 | [EnvironmentManager] Agent-S available: False
+2025-07-27 14:09:20 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753639760285 - settings_wifi
+2025-07-27 14:09:20 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753639760285
+2025-07-27 14:09:20 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Navigate to WiFi settings and toggle connectivity
+2025-07-27 14:09:20 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 14:09:20 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': False, 'total_active': 0}
+2025-07-27 14:09:20 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 14:09:20 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 14:09:20 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 14:09:20 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 14:09:20 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.000s)
+2025-07-27 14:09:20 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 9 steps (9 Agent-S compatible)
+2025-07-27 14:09:20 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 14:09:20 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 14:09:20 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 9 steps, Max: 6, Timeout: 30s
+2025-07-27 14:09:20 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 14:09:20 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 14:09:20 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 14:09:23 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 1: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:23 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (3.674s)
+2025-07-27 14:09:23 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:23 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 14:09:23 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:09:23 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:09:23 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: False, Verif: PARTIAL, Confidence: 0.81
+2025-07-27 14:09:24 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 1 with Agent-S
+2025-07-27 14:09:24 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 14:09:24 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 14:09:27 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 1: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:27 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (3.658s)
+2025-07-27 14:09:27 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:27 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 14:09:27 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 14:09:27 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:09:27 | WARNING | core.logger:warning:229 | [EnvironmentManager] ⚠️ Step 1 forced progression after 2 failed attempts
+2025-07-27 14:09:28 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 2 with Agent-S
+2025-07-27 14:09:28 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: scroll - Scroll to find Wi-Fi option
+2025-07-27 14:09:28 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Scroll to find Wi-Fi option
+2025-07-27 14:09:31 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 2: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:31 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (3.602s)
+2025-07-27 14:09:31 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:31 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Wi-Fi option visible
+2025-07-27 14:09:31 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:09:31 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:09:31 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 2 failed - Exec: False, Verif: PARTIAL, Confidence: 0.75
+2025-07-27 14:09:32 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 2 with Agent-S
+2025-07-27 14:09:32 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: scroll - Scroll to find Wi-Fi option
+2025-07-27 14:09:32 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Scroll to find Wi-Fi option
+2025-07-27 14:09:35 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 2: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:35 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (3.649s)
+2025-07-27 14:09:35 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:35 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Wi-Fi option visible
+2025-07-27 14:09:35 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:09:35 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:09:35 | WARNING | core.logger:warning:229 | [EnvironmentManager] ⚠️ Step 2 forced progression after 2 failed attempts
+2025-07-27 14:09:36 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 3 with Agent-S
+2025-07-27 14:09:36 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Tap Wi-Fi option
+2025-07-27 14:09:36 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Tap Wi-Fi option
+2025-07-27 14:09:39 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 3: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:39 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (3.635s)
+2025-07-27 14:09:39 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:39 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Wi-Fi settings opened
+2025-07-27 14:09:39 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:09:39 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:09:39 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 3 failed - Exec: False, Verif: PARTIAL, Confidence: 0.76
+2025-07-27 14:09:40 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 6: Executing step 3 with Agent-S
+2025-07-27 14:09:40 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Tap Wi-Fi option
+2025-07-27 14:09:40 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Tap Wi-Fi option
+2025-07-27 14:09:43 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 3: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (3.601s)
+2025-07-27 14:09:43 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Wi-Fi settings opened
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:09:43 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:09:43 | WARNING | core.logger:warning:229 | [EnvironmentManager] ⚠️ Step 3 forced progression after 2 failed attempts
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 3 successful steps
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 12 actions recorded
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 23.7s
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: FAIL
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 33.3%
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 4
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753639783
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.000s)
+2025-07-27 14:09:43 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.35
+2025-07-27 14:09:43 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_agent_s_test_1753639760285.json
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: agent_s_test_1753639760285 - FAIL - 23.70s
+2025-07-27 14:09:43 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753639760285 - FAIL
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753639788167 - calculator_basic
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753639788167
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Open calculator app and perform mathematical operations (2+3*4=14)
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': False, 'total_active': 0}
+2025-07-27 14:09:48 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 14:09:48 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.000s)
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 6 steps (6 Agent-S compatible)
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 6 steps, Max: 8, Timeout: 40s
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Agent-S enhanced verify action for: Open calculator app and perfor...
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Agent-S enhanced verify action for: Open calculator app and perfor...
+2025-07-27 14:09:48 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 1: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (0.000s)
+2025-07-27 14:09:48 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Step 1 completed successfully
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:09:48 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:09:48 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: False, Verif: PARTIAL, Confidence: 0.82
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 1 with Agent-S
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Agent-S enhanced verify action for: Open calculator app and perfor...
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Agent-S enhanced verify action for: Open calculator app and perfor...
+2025-07-27 14:09:48 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 1: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (0.001s)
+2025-07-27 14:09:48 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Step 1 completed successfully
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:09:48 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:09:48 | WARNING | core.logger:warning:229 | [EnvironmentManager] ⚠️ Step 1 forced progression after 2 failed attempts
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 2 with Agent-S
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Continue task execution step 2
+2025-07-27 14:09:48 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Continue task execution step 2
+2025-07-27 14:09:52 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 2: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:52 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (3.615s)
+2025-07-27 14:09:52 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:52 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Step 2 completed successfully
+2025-07-27 14:09:52 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:09:52 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:09:52 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 2 failed - Exec: False, Verif: PARTIAL, Confidence: 0.80
+2025-07-27 14:09:52 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 2 with Agent-S
+2025-07-27 14:09:52 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Continue task execution step 2
+2025-07-27 14:09:52 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Continue task execution step 2
+2025-07-27 14:09:56 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 2: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:56 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (3.681s)
+2025-07-27 14:09:56 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:09:56 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Step 2 completed successfully
+2025-07-27 14:09:56 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 14:09:56 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:09:56 | WARNING | core.logger:warning:229 | [EnvironmentManager] ⚠️ Step 2 forced progression after 2 failed attempts
+2025-07-27 14:09:56 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 3 with Agent-S
+2025-07-27 14:09:56 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: scroll - Continue task execution step 3
+2025-07-27 14:09:56 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Continue task execution step 3
+2025-07-27 14:10:00 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 3: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:00 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (3.687s)
+2025-07-27 14:10:00 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:00 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Step 3 completed successfully
+2025-07-27 14:10:00 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 14:10:00 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:10:00 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 3 failed - Exec: False, Verif: PARTIAL, Confidence: 0.74
+2025-07-27 14:10:00 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 6: Executing step 3 with Agent-S
+2025-07-27 14:10:00 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: scroll - Continue task execution step 3
+2025-07-27 14:10:00 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Continue task execution step 3
+2025-07-27 14:10:04 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 3: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:04 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (3.603s)
+2025-07-27 14:10:04 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:04 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Step 3 completed successfully
+2025-07-27 14:10:04 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:10:04 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:10:04 | WARNING | core.logger:warning:229 | [EnvironmentManager] ⚠️ Step 3 forced progression after 2 failed attempts
+2025-07-27 14:10:04 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 7: Executing step 4 with Agent-S
+2025-07-27 14:10:04 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: type - Continue task execution step 4
+2025-07-27 14:10:04 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Continue task execution step 4
+2025-07-27 14:10:10 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 4: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:10 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (5.599s)
+2025-07-27 14:10:10 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:10 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Step 4 completed successfully
+2025-07-27 14:10:10 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:10:10 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:10:10 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 4 failed - Exec: False, Verif: PARTIAL, Confidence: 0.77
+2025-07-27 14:10:10 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 8: Executing step 4 with Agent-S
+2025-07-27 14:10:10 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: type - Continue task execution step 4
+2025-07-27 14:10:10 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Continue task execution step 4
+2025-07-27 14:10:14 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 4: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (3.688s)
+2025-07-27 14:10:14 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Step 4 completed successfully
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:10:14 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:10:14 | WARNING | core.logger:warning:229 | [EnvironmentManager] ⚠️ Step 4 forced progression after 2 failed attempts
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 4 successful steps
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 16 actions recorded
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 26.3s
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: PASS
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 66.7%
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 4
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753639814
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.000s)
+2025-07-27 14:10:14 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.35
+2025-07-27 14:10:14 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_agent_s_test_1753639788167.json
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: agent_s_test_1753639788167 - PASS - 26.35s
+2025-07-27 14:10:14 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753639788167 - PASS
+2025-07-27 14:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753639818945 - notification_panel
+2025-07-27 14:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753639818945
+2025-07-27 14:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Access notification panel, open quick settings, toggle airplane mode
+2025-07-27 14:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 14:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': False, 'total_active': 0}
+2025-07-27 14:10:18 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 14:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 14:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 14:10:18 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 14:10:18 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.000s)
+2025-07-27 14:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 9 steps (9 Agent-S compatible)
+2025-07-27 14:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 14:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 14:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 9 steps, Max: 10, Timeout: 45s
+2025-07-27 14:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 14:10:18 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Swipe down to open notification panel
+2025-07-27 14:10:18 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Swipe down to open notification panel
+2025-07-27 14:10:23 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 1: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:23 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (4.205s)
+2025-07-27 14:10:23 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:23 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Quick settings visible
+2025-07-27 14:10:23 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 14:10:23 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:10:23 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 1 failed - Exec: False, Verif: PARTIAL, Confidence: 0.73
+2025-07-27 14:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 1 with Agent-S
+2025-07-27 14:10:23 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Swipe down to open notification panel
+2025-07-27 14:10:23 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Swipe down to open notification panel
+2025-07-27 14:10:27 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 1: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:27 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (4.323s)
+2025-07-27 14:10:27 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:27 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Quick settings visible
+2025-07-27 14:10:27 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:10:27 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:10:27 | WARNING | core.logger:warning:229 | [EnvironmentManager] ⚠️ Step 1 forced progression after 2 failed attempts
+2025-07-27 14:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 2 with Agent-S
+2025-07-27 14:10:28 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Swipe down again for full quick settings
+2025-07-27 14:10:28 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Swipe down again for full quick settings
+2025-07-27 14:10:32 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 2: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:32 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (4.709s)
+2025-07-27 14:10:32 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:32 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: All toggles visible
+2025-07-27 14:10:32 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 14:10:32 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:10:32 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 2 failed - Exec: False, Verif: PARTIAL, Confidence: 0.75
+2025-07-27 14:10:33 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 2 with Agent-S
+2025-07-27 14:10:33 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Swipe down again for full quick settings
+2025-07-27 14:10:33 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Swipe down again for full quick settings
+2025-07-27 14:10:37 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 2: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:37 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (4.184s)
+2025-07-27 14:10:37 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:37 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: All toggles visible
+2025-07-27 14:10:37 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:10:37 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:10:37 | WARNING | core.logger:warning:229 | [EnvironmentManager] ⚠️ Step 2 forced progression after 2 failed attempts
+2025-07-27 14:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 3 with Agent-S
+2025-07-27 14:10:37 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Locate airplane mode toggle
+2025-07-27 14:10:37 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Locate airplane mode toggle
+2025-07-27 14:10:40 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 3: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:40 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (3.230s)
+2025-07-27 14:10:40 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:40 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Airplane mode toggle found
+2025-07-27 14:10:40 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 14:10:40 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:10:40 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 3 failed - Exec: False, Verif: PARTIAL, Confidence: 0.76
+2025-07-27 14:10:41 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 6: Executing step 3 with Agent-S
+2025-07-27 14:10:41 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Locate airplane mode toggle
+2025-07-27 14:10:41 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Locate airplane mode toggle
+2025-07-27 14:10:44 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 3: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:44 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (3.255s)
+2025-07-27 14:10:44 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:44 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Airplane mode toggle found
+2025-07-27 14:10:44 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:10:44 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:10:44 | WARNING | core.logger:warning:229 | [EnvironmentManager] ⚠️ Step 3 forced progression after 2 failed attempts
+2025-07-27 14:10:44 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 7: Executing step 4 with Agent-S
+2025-07-27 14:10:44 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Tap airplane mode toggle
+2025-07-27 14:10:44 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Tap airplane mode toggle
+2025-07-27 14:10:47 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 4: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:47 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (3.203s)
+2025-07-27 14:10:47 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:47 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Airplane mode activated
+2025-07-27 14:10:47 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 14:10:47 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:10:47 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 4 failed - Exec: False, Verif: PARTIAL, Confidence: 0.82
+2025-07-27 14:10:48 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 8: Executing step 4 with Agent-S
+2025-07-27 14:10:48 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Tap airplane mode toggle
+2025-07-27 14:10:48 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Tap airplane mode toggle
+2025-07-27 14:10:51 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 4: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:51 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (3.128s)
+2025-07-27 14:10:51 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:51 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Airplane mode activated
+2025-07-27 14:10:51 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:10:51 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:10:51 | WARNING | core.logger:warning:229 | [EnvironmentManager] ⚠️ Step 4 forced progression after 2 failed attempts
+2025-07-27 14:10:51 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 9: Executing step 5 with Agent-S
+2025-07-27 14:10:51 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify airplane mode is on
+2025-07-27 14:10:51 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 5 with Agent-S: Verify airplane mode is on
+2025-07-27 14:10:51 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 5: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:51 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (0.001s)
+2025-07-27 14:10:51 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:51 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 5: Airplane icon appears in status bar
+2025-07-27 14:10:51 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:10:51 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:10:51 | WARNING | core.logger:warning:229 | [EnvironmentManager] ❌ Step 5 failed - Exec: False, Verif: PARTIAL, Confidence: 0.80
+2025-07-27 14:10:51 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 10: Executing step 5 with Agent-S
+2025-07-27 14:10:51 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify airplane mode is on
+2025-07-27 14:10:51 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 5 with Agent-S: Verify airplane mode is on
+2025-07-27 14:10:51 | ERROR | core.logger:error:233 | [ExecutorAgent] Failed to execute step 5: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:51 | INFO | core.logger:info:221 | [ExecutorAgent] ❌ ExecutorAgent: execute_step_agent_s (0.001s)
+2025-07-27 14:10:51 | ERROR | core.logger:error:233 | [ExecutorAgent] Agent ExecutorAgent error: 'EnhancedForceVirtualDeviceEnv' object has no attribute '_get_observation'
+2025-07-27 14:10:51 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 5: Airplane icon appears in status bar
+2025-07-27 14:10:51 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:10:51 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:10:51 | WARNING | core.logger:warning:229 | [EnvironmentManager] ⚠️ Step 5 forced progression after 2 failed attempts
+2025-07-27 14:10:52 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 14:10:52 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 5 successful steps
+2025-07-27 14:10:52 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 20 actions recorded
+2025-07-27 14:10:52 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 14:10:52 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 33.3s
+2025-07-27 14:10:52 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 14:10:52 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: PARTIAL
+2025-07-27 14:10:52 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 55.6%
+2025-07-27 14:10:52 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 14:10:52 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 4
+2025-07-27 14:10:52 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 14:10:52 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753639852
+2025-07-27 14:10:52 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.000s)
+2025-07-27 14:10:52 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 14:10:52 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 14:10:52 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.35
+2025-07-27 14:10:52 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_agent_s_test_1753639818945.json
+2025-07-27 14:10:52 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: agent_s_test_1753639818945 - PARTIAL - 33.35s
+2025-07-27 14:10:52 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753639818945 - PARTIAL

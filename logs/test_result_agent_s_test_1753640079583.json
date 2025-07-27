@@ -1,0 +1,198 @@
+{
+  "test_id": "agent_s_test_1753640079583",
+  "task_name": "settings_wifi",
+  "start_time": 1753640079.5838182,
+  "end_time": 1753640111.3754294,
+  "duration": 31.791611194610596,
+  "actions": [
+    {
+      "agent_name": "ExecutorAgent",
+      "action_type": "execute_step_agent_s",
+      "input_data": {
+        "step_id": 1,
+        "action_type": "touch",
+        "agent_s_used": false
+      },
+      "output_data": {
+        "success": true,
+        "ui_changes": true,
+        "confidence": 0.8
+      },
+      "timestamp": 1753640086.345037,
+      "success": true,
+      "duration": 6.753731727600098,
+      "error_message": null
+    },
+    {
+      "agent_name": "VerifierAgent",
+      "action_type": "verify_step_agent_s",
+      "input_data": {
+        "step_id": 1,
+        "expected": "Settings screen visible",
+        "agent_s_used": false
+      },
+      "output_data": {
+        "status": "PASS",
+        "confidence": 0.7299514403037661,
+        "issues_count": 2
+      },
+      "timestamp": 1753640086.3460343,
+      "success": true,
+      "duration": 0.0,
+      "error_message": null
+    },
+    {
+      "agent_name": "ExecutorAgent",
+      "action_type": "execute_step_agent_s",
+      "input_data": {
+        "step_id": 2,
+        "action_type": "scroll",
+        "agent_s_used": false
+      },
+      "output_data": {
+        "success": true,
+        "ui_changes": false,
+        "confidence": 0.8
+      },
+      "timestamp": 1753640093.3976154,
+      "success": true,
+      "duration": 6.73887038230896,
+      "error_message": null
+    },
+    {
+      "agent_name": "VerifierAgent",
+      "action_type": "verify_step_agent_s",
+      "input_data": {
+        "step_id": 2,
+        "expected": "Wi-Fi option visible",
+        "agent_s_used": false
+      },
+      "output_data": {
+        "status": "PASS",
+        "confidence": 0.7062434272568718,
+        "issues_count": 2
+      },
+      "timestamp": 1753640093.3986135,
+      "success": true,
+      "duration": 0.0,
+      "error_message": null
+    },
+    {
+      "agent_name": "ExecutorAgent",
+      "action_type": "execute_step_agent_s",
+      "input_data": {
+        "step_id": 3,
+        "action_type": "touch",
+        "agent_s_used": false
+      },
+      "output_data": {
+        "success": true,
+        "ui_changes": false,
+        "confidence": 0.8
+      },
+      "timestamp": 1753640100.5301838,
+      "success": true,
+      "duration": 6.813737630844116,
+      "error_message": null
+    },
+    {
+      "agent_name": "VerifierAgent",
+      "action_type": "verify_step_agent_s",
+      "input_data": {
+        "step_id": 3,
+        "expected": "Wi-Fi settings opened",
+        "agent_s_used": false
+      },
+      "output_data": {
+        "status": "PARTIAL",
+        "confidence": 0.6681179229095633,
+        "issues_count": 3
+      },
+      "timestamp": 1753640100.5321906,
+      "success": true,
+      "duration": 0.0020067691802978516,
+      "error_message": null
+    },
+    {
+      "agent_name": "ExecutorAgent",
+      "action_type": "execute_step_agent_s",
+      "input_data": {
+        "step_id": 4,
+        "action_type": "verify",
+        "agent_s_used": false
+      },
+      "output_data": {
+        "success": true,
+        "ui_changes": false,
+        "confidence": 0.8
+      },
+      "timestamp": 1753640104.0710227,
+      "success": true,
+      "duration": 3.2342875003814697,
+      "error_message": null
+    },
+    {
+      "agent_name": "VerifierAgent",
+      "action_type": "verify_step_agent_s",
+      "input_data": {
+        "step_id": 4,
+        "expected": "Wi-Fi status visible",
+        "agent_s_used": false
+      },
+      "output_data": {
+        "status": "PASS",
+        "confidence": 0.8260725000000001,
+        "issues_count": 2
+      },
+      "timestamp": 1753640104.0710227,
+      "success": true,
+      "duration": 0.0,
+      "error_message": null
+    },
+    {
+      "agent_name": "ExecutorAgent",
+      "action_type": "execute_step_agent_s",
+      "input_data": {
+        "step_id": 5,
+        "action_type": "touch",
+        "agent_s_used": false
+      },
+      "output_data": {
+        "success": true,
+        "ui_changes": false,
+        "confidence": 0.8
+      },
+      "timestamp": 1753640111.0611904,
+      "success": true,
+      "duration": 6.68770956993103,
+      "error_message": null
+    },
+    {
+      "agent_name": "VerifierAgent",
+      "action_type": "verify_step_agent_s",
+      "input_data": {
+        "step_id": 5,
+        "expected": "Wi-Fi state changes",
+        "agent_s_used": false
+      },
+      "output_data": {
+        "status": "PARTIAL",
+        "confidence": 0.6360242766408846,
+        "issues_count": 3
+      },
+      "timestamp": 1753640111.062189,
+      "success": true,
+      "duration": 0.0009987354278564453,
+      "error_message": null
+    }
+  ],
+  "final_result": "PARTIAL",
+  "bug_detected": true,
+  "supervisor_feedback": "Mock analysis completed successfully - System executed basic test workflow",
+  "metrics": {
+    "total_actions": 10,
+    "successful_actions": 10,
+    "success_rate": 1.0,
+    "duration": 31.791611194610596
+  }
+}

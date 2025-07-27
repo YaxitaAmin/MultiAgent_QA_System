@@ -1,0 +1,332 @@
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [EnvironmentManager] QALogger initialized: EnvironmentManager
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [PlannerAgent] QALogger initialized: PlannerAgent
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [PlannerAgent] Initialized QA Agent extending Agent-S: PlannerAgent
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [PlannerAgent] Agent-S mode: ❌ Mock
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [PlannerAgent] PlannerAgent initialized with Agent-S planning capabilities
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [ExecutorAgent] QALogger initialized: ExecutorAgent
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [ExecutorAgent] Initialized QA Agent extending Agent-S: ExecutorAgent
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [ExecutorAgent] Agent-S mode: ❌ Mock
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [ExecutorAgent] ExecutorAgent initialized with Agent-S execution capabilities
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [VerifierAgent] QALogger initialized: VerifierAgent
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [VerifierAgent] Initialized QA Agent extending Agent-S: VerifierAgent
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [VerifierAgent] Agent-S mode: ❌ Mock
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [VerifierAgent] VerifierAgent initialized with Agent-S verification capabilities
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [SupervisorAgent] QALogger initialized: SupervisorAgent
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [SupervisorAgent] Initialized QA Agent extending Agent-S: SupervisorAgent
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [SupervisorAgent] Agent-S mode: ❌ Mock
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [UIParser] QALogger initialized: UIParser
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [SupervisorAgent] SupervisorAgent initialized with Agent-S integration
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [EnvironmentManager] EnvironmentManager initialized with TRUE Agent-S architecture
+2025-07-27 14:11:45 | INFO | core.logger:info:221 | [EnvironmentManager] Agent-S available: False
+2025-07-27 14:11:58 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753639918059 - settings_wifi
+2025-07-27 14:11:58 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753639918059
+2025-07-27 14:11:58 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Navigate to WiFi settings and toggle connectivity
+2025-07-27 14:11:58 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 14:11:58 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': False, 'total_active': 0}
+2025-07-27 14:11:58 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 14:11:58 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 14:11:58 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 14:11:58 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 14:11:58 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.000s)
+2025-07-27 14:11:58 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 9 steps (9 Agent-S compatible)
+2025-07-27 14:11:58 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 14:11:58 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 14:11:58 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 9 steps, Max: 6, Timeout: 30s
+2025-07-27 14:11:58 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 14:11:58 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Open Settings app
+2025-07-27 14:11:58 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Open Settings app
+2025-07-27 14:12:04 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (6.644s)
+2025-07-27 14:12:04 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Settings screen visible
+2025-07-27 14:12:04 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:04 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:04 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 14:12:04 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:12:04 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 1 completed successfully (confidence: 0.72)
+2025-07-27 14:12:05 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 2 with Agent-S
+2025-07-27 14:12:05 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: scroll - Scroll to find Wi-Fi option
+2025-07-27 14:12:05 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Scroll to find Wi-Fi option
+2025-07-27 14:12:05 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:11 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (6.671s)
+2025-07-27 14:12:11 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Wi-Fi option visible
+2025-07-27 14:12:11 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:11 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:11 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 14:12:11 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:12:11 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 2 completed successfully (confidence: 0.64)
+2025-07-27 14:12:11 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 3 with Agent-S
+2025-07-27 14:12:11 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Tap Wi-Fi option
+2025-07-27 14:12:11 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Tap Wi-Fi option
+2025-07-27 14:12:11 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:18 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (6.633s)
+2025-07-27 14:12:18 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Wi-Fi settings opened
+2025-07-27 14:12:18 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:18 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:18 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:12:18 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:12:18 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 3 completed successfully (confidence: 0.66)
+2025-07-27 14:12:18 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 4 with Agent-S
+2025-07-27 14:12:18 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Check current Wi-Fi status
+2025-07-27 14:12:18 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Check current Wi-Fi status
+2025-07-27 14:12:21 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (3.013s)
+2025-07-27 14:12:21 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Wi-Fi status visible
+2025-07-27 14:12:21 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:21 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:21 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 14:12:21 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:12:21 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 4 completed successfully (confidence: 0.80)
+2025-07-27 14:12:22 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 5 with Agent-S
+2025-07-27 14:12:22 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Toggle Wi-Fi switch
+2025-07-27 14:12:22 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 5 with Agent-S: Toggle Wi-Fi switch
+2025-07-27 14:12:22 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:28 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (6.616s)
+2025-07-27 14:12:28 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 5: Wi-Fi state changes
+2025-07-27 14:12:28 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:28 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:28 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:12:28 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:12:28 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 5 completed successfully (confidence: 0.66)
+2025-07-27 14:12:29 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 14:12:29 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 5 successful steps
+2025-07-27 14:12:29 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 10 actions recorded
+2025-07-27 14:12:29 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 14:12:29 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 31.1s
+2025-07-27 14:12:29 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 14:12:29 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: PARTIAL
+2025-07-27 14:12:29 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 55.6%
+2025-07-27 14:12:29 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 14:12:29 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 4
+2025-07-27 14:12:29 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 14:12:29 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753639949
+2025-07-27 14:12:29 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.000s)
+2025-07-27 14:12:29 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 14:12:29 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 14:12:29 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.41
+2025-07-27 14:12:29 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_agent_s_test_1753639918059.json
+2025-07-27 14:12:29 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: agent_s_test_1753639918059 - PARTIAL - 31.13s
+2025-07-27 14:12:29 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753639918059 - PARTIAL
+2025-07-27 14:12:33 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753639953312 - calculator_basic
+2025-07-27 14:12:33 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753639953312
+2025-07-27 14:12:33 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Open calculator app and perform mathematical operations (2+3*4=14)
+2025-07-27 14:12:33 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 14:12:33 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': False, 'total_active': 0}
+2025-07-27 14:12:33 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 14:12:33 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 14:12:33 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 14:12:33 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 14:12:33 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.000s)
+2025-07-27 14:12:33 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 6 steps (6 Agent-S compatible)
+2025-07-27 14:12:33 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 14:12:33 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 14:12:33 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 6 steps, Max: 8, Timeout: 40s
+2025-07-27 14:12:33 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 14:12:33 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Agent-S enhanced verify action for: Open calculator app and perfor...
+2025-07-27 14:12:33 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Agent-S enhanced verify action for: Open calculator app and perfor...
+2025-07-27 14:12:36 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (3.013s)
+2025-07-27 14:12:36 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Step 1 completed successfully
+2025-07-27 14:12:36 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:36 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:36 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 14:12:36 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:12:36 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 1 completed successfully (confidence: 0.83)
+2025-07-27 14:12:36 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 2 with Agent-S
+2025-07-27 14:12:36 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Continue task execution step 2
+2025-07-27 14:12:36 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Continue task execution step 2
+2025-07-27 14:12:36 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:43 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (6.680s)
+2025-07-27 14:12:43 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: Step 2 completed successfully
+2025-07-27 14:12:43 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:43 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:43 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:12:43 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:12:43 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 2 completed successfully (confidence: 0.70)
+2025-07-27 14:12:43 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 3 with Agent-S
+2025-07-27 14:12:43 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: scroll - Continue task execution step 3
+2025-07-27 14:12:43 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Continue task execution step 3
+2025-07-27 14:12:43 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:50 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (6.636s)
+2025-07-27 14:12:50 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Step 3 completed successfully
+2025-07-27 14:12:50 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:50 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:50 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 14:12:50 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:12:50 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 3 completed successfully (confidence: 0.73)
+2025-07-27 14:12:50 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 4 with Agent-S
+2025-07-27 14:12:50 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: type - Continue task execution step 4
+2025-07-27 14:12:50 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Continue task execution step 4
+2025-07-27 14:12:50 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:59 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (8.809s)
+2025-07-27 14:12:59 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Step 4 completed successfully
+2025-07-27 14:12:59 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:59 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:12:59 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:12:59 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:12:59 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 4 completed successfully (confidence: 0.74)
+2025-07-27 14:12:59 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 5 with Agent-S
+2025-07-27 14:12:59 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: wait - Continue task execution step 5
+2025-07-27 14:12:59 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 5 with Agent-S: Continue task execution step 5
+2025-07-27 14:13:04 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (4.734s)
+2025-07-27 14:13:04 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 5: Step 5 completed successfully
+2025-07-27 14:13:04 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:04 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:04 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 14:13:04 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:13:04 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 5 completed successfully (confidence: 0.78)
+2025-07-27 14:13:04 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 6: Executing step 6 with Agent-S
+2025-07-27 14:13:04 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Continue task execution step 6
+2025-07-27 14:13:04 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 6 with Agent-S: Continue task execution step 6
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (6.789s)
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 6: Step 6 completed successfully
+2025-07-27 14:13:11 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:11 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:13:11 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 6 completed successfully (confidence: 0.69)
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ No more steps to execute
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 6 successful steps
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 12 actions recorded
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 38.5s
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: PASS
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 100.0%
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 4
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753639991
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.000s)
+2025-07-27 14:13:11 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.37
+2025-07-27 14:13:11 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_agent_s_test_1753639953312.json
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: agent_s_test_1753639953312 - PASS - 38.53s
+2025-07-27 14:13:11 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753639953312 - PASS
+2025-07-27 14:13:16 | INFO | core.logger:info:221 | [EnvironmentManager] Started QA test: agent_s_test_1753639996235 - notification_panel
+2025-07-27 14:13:16 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated QA test: agent_s_test_1753639996235
+2025-07-27 14:13:16 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Goal: Access notification panel, open quick settings, toggle airplane mode
+2025-07-27 14:13:16 | INFO | core.logger:info:221 | [EnvironmentManager] 📱 Android World Task: settings_wifi
+2025-07-27 14:13:16 | INFO | core.logger:info:221 | [EnvironmentManager] 🤖 Agent-S Active: {'available': False, 'planner_active': False, 'executor_active': False, 'verifier_active': False, 'supervisor_active': False, 'coordination_active': False, 'total_active': 0}
+2025-07-27 14:13:16 | INFO | core.android_env_wrapper:__init__:134 | Using Agent-S enhanced mock Android environment
+2025-07-27 14:13:16 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Android environment initialized with Agent-S for task: settings_wifi
+2025-07-27 14:13:16 | INFO | core.logger:info:221 | [EnvironmentManager] 🧠 Starting Agent-S enhanced planning phase
+2025-07-27 14:13:16 | DEBUG | core.logger:debug:225 | [PlannerAgent] [PlannerAgent] sent message: plan_update
+2025-07-27 14:13:16 | INFO | core.logger:info:221 | [PlannerAgent] ✅ PlannerAgent: create_plan_agent_s (0.000s)
+2025-07-27 14:13:16 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S plan created: 9 steps (9 Agent-S compatible)
+2025-07-27 14:13:16 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Plan confidence: 0.70
+2025-07-27 14:13:16 | INFO | core.logger:info:221 | [EnvironmentManager] 🚀 Starting Agent-S coordinated execution phase
+2025-07-27 14:13:16 | INFO | core.logger:info:221 | [EnvironmentManager] 📋 Plan: 9 steps, Max: 10, Timeout: 45s
+2025-07-27 14:13:16 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 1: Executing step 1 with Agent-S
+2025-07-27 14:13:16 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Swipe down to open notification panel
+2025-07-27 14:13:16 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 1 with Agent-S: Swipe down to open notification panel
+2025-07-27 14:13:23 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (6.912s)
+2025-07-27 14:13:23 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 1: Quick settings visible
+2025-07-27 14:13:23 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:23 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:23 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 14:13:23 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:13:23 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 1 completed successfully (confidence: 0.70)
+2025-07-27 14:13:23 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 2: Executing step 2 with Agent-S
+2025-07-27 14:13:23 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Swipe down again for full quick settings
+2025-07-27 14:13:23 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 2 with Agent-S: Swipe down again for full quick settings
+2025-07-27 14:13:30 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (7.200s)
+2025-07-27 14:13:30 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 2: All toggles visible
+2025-07-27 14:13:30 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:30 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:30 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.002s)
+2025-07-27 14:13:30 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:13:30 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 2 completed successfully (confidence: 0.71)
+2025-07-27 14:13:30 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 3: Executing step 3 with Agent-S
+2025-07-27 14:13:30 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Locate airplane mode toggle
+2025-07-27 14:13:30 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 3 with Agent-S: Locate airplane mode toggle
+2025-07-27 14:13:30 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:36 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (5.725s)
+2025-07-27 14:13:36 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 3: Airplane mode toggle found
+2025-07-27 14:13:36 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:36 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:36 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:13:36 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:13:36 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 3 completed successfully (confidence: 0.64)
+2025-07-27 14:13:37 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 4: Executing step 4 with Agent-S
+2025-07-27 14:13:37 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Tap airplane mode toggle
+2025-07-27 14:13:37 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 4 with Agent-S: Tap airplane mode toggle
+2025-07-27 14:13:37 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:42 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (5.773s)
+2025-07-27 14:13:42 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 4: Airplane mode activated
+2025-07-27 14:13:42 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:42 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:42 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 14:13:42 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:13:42 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 4 completed successfully (confidence: 0.69)
+2025-07-27 14:13:43 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 5: Executing step 5 with Agent-S
+2025-07-27 14:13:43 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify airplane mode is on
+2025-07-27 14:13:43 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 5 with Agent-S: Verify airplane mode is on
+2025-07-27 14:13:45 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (2.555s)
+2025-07-27 14:13:45 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 5: Airplane icon appears in status bar
+2025-07-27 14:13:45 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:45 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:45 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 14:13:45 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:13:45 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 5 completed successfully (confidence: 0.81)
+2025-07-27 14:13:45 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 6: Executing step 6 with Agent-S
+2025-07-27 14:13:45 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: wait - Wait for network disconnection
+2025-07-27 14:13:45 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 6 with Agent-S: Wait for network disconnection
+2025-07-27 14:13:50 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (4.766s)
+2025-07-27 14:13:50 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 6: Network indicators disappear
+2025-07-27 14:13:50 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:50 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:50 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 14:13:50 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:13:50 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 6 completed successfully (confidence: 0.78)
+2025-07-27 14:13:51 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 7: Executing step 7 with Agent-S
+2025-07-27 14:13:51 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: touch - Tap airplane mode toggle again
+2025-07-27 14:13:51 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 7 with Agent-S: Tap airplane mode toggle again
+2025-07-27 14:13:51 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:56 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (5.698s)
+2025-07-27 14:13:56 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 7: Airplane mode deactivated
+2025-07-27 14:13:56 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:56 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:56 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:13:56 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:13:56 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 7 completed successfully (confidence: 0.68)
+2025-07-27 14:13:57 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 8: Executing step 8 with Agent-S
+2025-07-27 14:13:57 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: verify - Verify airplane mode is off
+2025-07-27 14:13:57 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 8 with Agent-S: Verify airplane mode is off
+2025-07-27 14:13:59 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (2.550s)
+2025-07-27 14:13:59 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 8: Network connectivity restored
+2025-07-27 14:13:59 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:59 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:13:59 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.000s)
+2025-07-27 14:13:59 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:13:59 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 8 completed successfully (confidence: 0.83)
+2025-07-27 14:13:59 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Step 9: Executing step 9 with Agent-S
+2025-07-27 14:13:59 | INFO | core.logger:info:221 | [EnvironmentManager] 📝 Action: swipe - Swipe up to close notification panel
+2025-07-27 14:13:59 | INFO | core.logger:info:221 | [ExecutorAgent] Executing step 9 with Agent-S: Swipe up to close notification panel
+2025-07-27 14:14:06 | INFO | core.logger:info:221 | [ExecutorAgent] ✅ ExecutorAgent: execute_step_agent_s (6.776s)
+2025-07-27 14:14:06 | INFO | core.logger:info:221 | [VerifierAgent] Verifying step 9: Home screen visible
+2025-07-27 14:14:06 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:14:06 | ERROR | core.logger:error:233 | [UIParser] Failed to parse UI XML: syntax error: line 1, column 0
+2025-07-27 14:14:06 | INFO | core.logger:info:221 | [VerifierAgent] ✅ VerifierAgent: verify_step_agent_s (0.001s)
+2025-07-27 14:14:06 | DEBUG | core.logger:debug:225 | [VerifierAgent] [VerifierAgent] sent message: verification
+2025-07-27 14:14:06 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Step 9 completed successfully (confidence: 0.64)
+2025-07-27 14:14:07 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S execution phase completed:
+2025-07-27 14:14:07 | INFO | core.logger:info:221 | [EnvironmentManager]    ✅ 9 successful steps
+2025-07-27 14:14:07 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 18 actions recorded
+2025-07-27 14:14:07 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 0 Agent-S enhanced actions
+2025-07-27 14:14:07 | INFO | core.logger:info:221 | [EnvironmentManager]    ⏱️  Total duration: 50.8s
+2025-07-27 14:14:07 | INFO | core.logger:info:221 | [EnvironmentManager] 🔍 Starting Agent-S enhanced final verification phase
+2025-07-27 14:14:07 | INFO | core.logger:info:221 | [EnvironmentManager] 🎯 Agent-S final verification: PASS
+2025-07-27 14:14:07 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Success rate: 100.0%
+2025-07-27 14:14:07 | INFO | core.logger:info:221 | [EnvironmentManager]    🤖 Agent-S usage: 0.0%
+2025-07-27 14:14:07 | INFO | core.logger:info:221 | [EnvironmentManager]    🔍 Strategies used: 4
+2025-07-27 14:14:07 | INFO | core.logger:info:221 | [EnvironmentManager] 👨‍💼 Starting Agent-S enhanced supervisor analysis phase
+2025-07-27 14:14:07 | INFO | core.logger:info:221 | [SupervisorAgent] Analyzing test episode: agent_s_analysis_1753640047
+2025-07-27 14:14:07 | INFO | core.logger:info:221 | [SupervisorAgent] ✅ SupervisorAgent: analyze_episode (0.000s)
+2025-07-27 14:14:07 | DEBUG | core.logger:debug:225 | [SupervisorAgent] [SupervisorAgent] sent message: task_response
+2025-07-27 14:14:07 | INFO | core.logger:info:221 | [EnvironmentManager] ✅ Agent-S supervisor analysis completed
+2025-07-27 14:14:07 | INFO | core.logger:info:221 | [EnvironmentManager]    📊 Performance score: 0.41
+2025-07-27 14:14:07 | DEBUG | core.logger:debug:225 | [EnvironmentManager] Saved test result to logs\test_result_agent_s_test_1753639996235.json
+2025-07-27 14:14:07 | INFO | core.logger:info:221 | [EnvironmentManager] Finished QA test: agent_s_test_1753639996235 - PASS - 50.77s
+2025-07-27 14:14:07 | INFO | core.logger:info:221 | [EnvironmentManager] 🎉 Agent-S QA test completed: agent_s_test_1753639996235 - PASS
