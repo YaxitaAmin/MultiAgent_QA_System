@@ -8,6 +8,7 @@ numpy>=1.26.4
 streamlit>=1.28.0
 asyncio-throttle>=1.0.2
 loguru>=0.7.0
+opencv-python
 pandas>=2.0.0
 numpy>=1.24.0
 plotly>=5.15.0
