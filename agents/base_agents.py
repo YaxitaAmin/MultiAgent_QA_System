@@ -45,78 +45,99 @@ try:
 except ImportError:
     print("⚠️ Warning: Could not configure tesseract")
 
-# 🚀 Step 2: Dynamically import Agent-S core components
+# 🚀 Step 2: Dynamically import Agent-S core components with API key handling
 AGENT_S_AVAILABLE = False
 AgentS2 = BaseAgent = ObservationProcessor = ActionExecutor = None
 
-try:
-    component_paths = {
-        "AgentS2": [
-            "gui_agents.s2.agents.agent_s",
-            "agents.agent_s",
-            "agent_s.agent_s",
-            "src.agents.agent_s"
-        ],
-        "BaseAgent": [
-            "gui_agents.s2.agents.base",
-            "agents.base",
-            "agent_s.base",
-            "src.agents.base"
-        ],
-        "ObservationProcessor": [
-            "gui_agents.s2.observation",
-            "observation",
-            "agent_s.observation",
-            "src.observation"
-        ],
-        "ActionExecutor": [
-            "gui_agents.s2.action",
-            "action",
-            "agent_s.action",
-            "src.action"
-        ]
-    }
-
-    for component, paths in component_paths.items():
-        for path in paths:
-            try:
-                module = __import__(path, fromlist=[component])
-                globals()[component] = getattr(module, component, None)
-                if globals()[component]:
-                    print(f"✅ Imported {component} from {path}")
-                    break
-            except ImportError:
-                continue
-
-    if AgentS2 and BaseAgent and ObservationProcessor and ActionExecutor:
-        AGENT_S_AVAILABLE = True
-        print("🎉 Agent-S core components imported successfully!")
-    else:
-        raise ImportError("Some Agent-S components failed to import.")
-
-except ImportError as e:
-    print(f"❌ ImportError during Agent-S imports: {e}")
-
+def try_import_agent_s_with_api_key(api_key: Optional[str] = None):
+    """Try to import Agent-S components with optional API key"""
+    global AGENT_S_AVAILABLE, AgentS2, BaseAgent, ObservationProcessor, ActionExecutor
     
-    # Create minimal base classes for fallback
-    class BaseAgent:
-        def __init__(self, *args, **kwargs):
-            self.mock_mode = True
-            print("🔧 Using BaseAgent mock")
-    
-    class ObservationProcessor:
-        def __init__(self, *args, **kwargs):
-            self.mock_mode = True
+    # Set API key if provided
+    if api_key:
+        os.environ['OPENAI_API_KEY'] = api_key
+        print(f"✅ Using provided OpenAI API key for Agent-S")
+    elif 'OPENAI_API_KEY' not in os.environ:
+        # Only set a temporary key if none exists
+        os.environ['OPENAI_API_KEY'] = 'sk-temp-key-will-be-replaced-by-user-input'
+        print("⚠️ Using temporary API key - will need user input for full functionality")
+
+    try:
+        component_paths = {
+            "AgentS2": [
+                "gui_agents.s2.agents.agent_s",
+                "agents.agent_s",
+                "agent_s.agent_s",
+                "src.agents.agent_s"
+            ],
+            "BaseAgent": [
+                "gui_agents.s2.agents.base",
+                "agents.base",
+                "agent_s.base",
+                "src.agents.base"
+            ],
+            "ObservationProcessor": [
+                "gui_agents.s2.observation",
+                "observation",
+                "agent_s.observation",
+                "src.observation"
+            ],
+            "ActionExecutor": [
+                "gui_agents.s2.action",
+                "action",
+                "agent_s.action",
+                "src.action"
+            ]
+        }
+
+        for component, paths in component_paths.items():
+            for path in paths:
+                try:
+                    module = __import__(path, fromlist=[component])
+                    globals()[component] = getattr(module, component, None)
+                    if globals()[component]:
+                        print(f"✅ Imported {component} from {path}")
+                        break
+                except ImportError:
+                    continue
+
+        if AgentS2 and BaseAgent and ObservationProcessor and ActionExecutor:
+            AGENT_S_AVAILABLE = True
+            print("🎉 Agent-S core components imported successfully!")
+        else:
+            raise ImportError("Some Agent-S components failed to import.")
+
+    except ImportError as e:
+        print(f"❌ ImportError during Agent-S imports: {e}")
+        AGENT_S_AVAILABLE = False
         
-        def process(self, observation):
-            return observation
-    
-    class ActionExecutor:
-        def __init__(self, *args, **kwargs):
-            self.mock_mode = True
+        # Create minimal base classes for fallback
+        class BaseAgent:
+            def __init__(self, *args, **kwargs):
+                self.mock_mode = True
+                print("🔧 Using BaseAgent mock")
         
-        def execute(self, action):
-            return {"success": True, "mock": True}
+        class ObservationProcessor:
+            def __init__(self, *args, **kwargs):
+                self.mock_mode = True
+            
+            def process(self, observation):
+                return observation
+        
+        class ActionExecutor:
+            def __init__(self, *args, **kwargs):
+                self.mock_mode = True
+            
+            def execute(self, action):
+                return {"success": True, "mock": True}
+        
+        # Set globals for fallback
+        globals()['BaseAgent'] = BaseAgent
+        globals()['ObservationProcessor'] = ObservationProcessor
+        globals()['ActionExecutor'] = ActionExecutor
+
+# Initial import attempt without API key
+try_import_agent_s_with_api_key()
 
 from core.logger import QALogger, AgentAction
 from core.llm_interface import LLMInterface, create_llm_interface
@@ -152,8 +173,14 @@ class QAAgentS2(BaseAgent):
     """
     
     def __init__(self, agent_name: str, engine_config: Dict[str, Any] = None, 
-                 agent_id: Optional[str] = None):
+                 agent_id: Optional[str] = None, openai_api_key: Optional[str] = None):
         """Initialize with proper Agent-S extension"""
+        
+        # Update API key if provided
+        if openai_api_key:
+            os.environ['OPENAI_API_KEY'] = openai_api_key
+            # Re-import Agent-S with the new API key
+            try_import_agent_s_with_api_key(openai_api_key)
         
         # CORRECTED: Call parent Agent-S constructor
         if AGENT_S_AVAILABLE:
@@ -173,6 +200,9 @@ class QAAgentS2(BaseAgent):
         self.logger = QALogger(self.agent_name)
         self.llm_interface = create_llm_interface()
         
+        # Store API key status
+        self.has_openai_key = bool(openai_api_key or os.environ.get('OPENAI_API_KEY', '').startswith('sk-'))
+        
         # QA workflow state
         self.message_queue = asyncio.Queue(maxsize=100)
         self.message_handlers = {}
@@ -183,31 +213,72 @@ class QAAgentS2(BaseAgent):
         self.is_running = False
         
         # Agent-S integration state
-        self.agent_s_mode = AGENT_S_AVAILABLE and not config.USE_MOCK_LLM
+        self.agent_s_mode = AGENT_S_AVAILABLE and self.has_openai_key and not config.USE_MOCK_LLM
         
         self.logger.info(f"Initialized QA Agent extending Agent-S: {self.agent_name}")
         self.logger.info(f"Agent-S mode: {'✅ Active' if self.agent_s_mode else '❌ Mock'}")
+        self.logger.info(f"OpenAI API Key: {'✅ Provided' if self.has_openai_key else '❌ Missing'}")
+    
+    def update_openai_api_key(self, api_key: str):
+        """Update OpenAI API key and reinitialize Agent-S if needed"""
+        if api_key and api_key.startswith('sk-'):
+            os.environ['OPENAI_API_KEY'] = api_key
+            self.has_openai_key = True
+            
+            # Try to reinitialize Agent-S with the new key
+            try_import_agent_s_with_api_key(api_key)
+            
+            # Update agent_s_mode
+            self.agent_s_mode = AGENT_S_AVAILABLE and self.has_openai_key and not config.USE_MOCK_LLM
+            
+            self.logger.info(f"✅ Updated OpenAI API key for {self.agent_name}")
+            self.logger.info(f"Agent-S mode: {'✅ Active' if self.agent_s_mode else '❌ Mock'}")
+            return True
+        else:
+            self.logger.error("❌ Invalid OpenAI API key format")
+            return False
     
     def _get_default_engine_config(self) -> Dict[str, Any]:
         """Get default engine configuration for Agent-S"""
         return {
-            "engine_type": "gemini",
-            "model_name": "gemini-1.5-flash",
-            "api_key": config.GOOGLE_API_KEY,
+            "engine_type": "openai",  # Changed to openai since we're handling the API key
+            "model_name": "gpt-4o-mini",
+            "api_key": os.environ.get('OPENAI_API_KEY', ''),
             "temperature": 0.1,
             "max_tokens": 1000,
             "timeout": 30
         }
     
+    def requires_openai_key(self) -> bool:
+        """Check if OpenAI API key is required for full functionality"""
+        return not self.has_openai_key
+    
+    def get_agent_status(self) -> Dict[str, Any]:
+        """Get comprehensive agent status"""
+        return {
+            "agent_name": self.agent_name,
+            "agent_id": self.agent_id,
+            "is_running": self.is_running,
+            "agent_s_available": AGENT_S_AVAILABLE,
+            "agent_s_active": self.is_agent_s_active(),
+            "agent_s_mode": self.agent_s_mode,
+            "extends_agent_s": True,
+            "has_openai_key": self.has_openai_key,
+            "requires_openai_key": self.requires_openai_key(),
+            "execution_history_length": len(self.execution_history),
+            "current_task": self.current_task is not None,
+            "mock_mode": config.USE_MOCK_LLM or not self.has_openai_key
+        }
+
+    # [Rest of your methods remain the same...]
     async def predict(self, instruction: str, observation: Dict[str, Any], 
                      **kwargs) -> tuple[Dict[str, Any], List[str]]:
         """
         CORRECTED: Override Agent-S predict method with QA-specific logic
-        This properly extends Agent-S functionality
         """
         start_time = time.time()
         
-        if self.agent_s_mode and AGENT_S_AVAILABLE:
+        if self.agent_s_mode and AGENT_S_AVAILABLE and self.has_openai_key:
             # Use real Agent-S prediction
             try:
                 # Call parent Agent-S predict method
@@ -235,6 +306,7 @@ class QAAgentS2(BaseAgent):
             # Use QA-specific mock prediction
             return await self._fallback_predict(instruction, observation)
     
+    # [Include all your other methods exactly as they were...]
     def _enhance_agent_s_response(self, info: Dict[str, Any], instruction: str) -> Dict[str, Any]:
         """Enhance Agent-S response with QA-specific information"""
         enhanced = info.copy() if info else {}
@@ -454,22 +526,7 @@ class QAAgentS2(BaseAgent):
     
     def is_agent_s_active(self) -> bool:
         """Check if Agent-S is active"""
-        return self.agent_s_mode and AGENT_S_AVAILABLE and not config.USE_MOCK_LLM
-    
-    def get_agent_status(self) -> Dict[str, Any]:
-        """Get comprehensive agent status"""
-        return {
-            "agent_name": self.agent_name,
-            "agent_id": self.agent_id,
-            "is_running": self.is_running,
-            "agent_s_available": AGENT_S_AVAILABLE,
-            "agent_s_active": self.is_agent_s_active(),
-            "agent_s_mode": self.agent_s_mode,
-            "extends_agent_s": True,  # This is the key difference
-            "execution_history_length": len(self.execution_history),
-            "current_task": self.current_task is not None,
-            "mock_mode": config.USE_MOCK_LLM
-        }
+        return self.agent_s_mode and AGENT_S_AVAILABLE and self.has_openai_key and not config.USE_MOCK_LLM
 
     # 💓 Heartbeat method to keep the system in sync!
     async def _send_heartbeat(self):
@@ -478,11 +535,12 @@ class QAAgentS2(BaseAgent):
             if hasattr(self, 'send_message') and hasattr(self, 'MessageType'):
                 await self.send_message(
                     "coordination_hub",
-                    self.MessageType.HEARTBEAT,
+                    MessageType.HEARTBEAT,
                     {
                         "agent_name": self.agent_name,
                         "status": "active",
                         "agent_s_active": self.is_agent_s_active(),
+                        "has_openai_key": self.has_openai_key,
                         "timestamp": time.time()
                     }
                 )
