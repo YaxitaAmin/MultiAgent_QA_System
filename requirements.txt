@@ -1,65 +1,50 @@
 # Agent-S dependencies
 gui-agents>=0.2.2
 pyautogui>=0.9.54
-pillow>=10.4.0
 numpy>=1.26.4
-
 # Core Framework Dependencies
 streamlit>=1.28.0
 asyncio-throttle>=1.0.2
 loguru>=0.7.0
 pandas>=2.0.0
-numpy>=1.24.0
 plotly>=5.15.0
-opencv-python-headless>=4.11.0.86  # Use only headless version for Streamlit cloud
-Pillow>=10.0.0
-
+opencv-python-headless>=4.8.0.76
+pillow>=10.4.0
 # LLM and AI Dependencies  
 google-generativeai>=0.3.0
 openai>=1.0.0
 anthropic>=0.7.0
 tiktoken>=0.5.0
-
 # Data Processing
 json5>=0.9.0
 pydantic>=2.0.0
 typing-extensions>=4.5.0
-
 # Web Scraping and UI Analysis
 beautifulsoup4>=4.12.0
 lxml>=4.9.0
 requests>=2.31.0
-
 # Image Processing and Computer Vision
 scikit-image>=0.21.0
 matplotlib>=3.7.0
 seaborn>=0.12.0
-
 # Async and Concurrency
 aiohttp>=3.8.0
 aiofiles>=23.0.0
-
 # Testing and Validation
 pytest>=7.4.0
 pytest-asyncio>=0.21.0
-
 # Development and Debugging
 tqdm>=4.65.0
-
 # Data Science and Analysis
 scipy>=1.11.0
 scikit-learn>=1.3.0
-
 # Configuration and Environment
 python-dotenv>=1.0.0
 pyyaml>=6.0
-
 # Networking and API
 httpx>=0.24.0
-
 # Performance Monitoring
 psutil>=5.9.0
-
 # Additional utility libraries
 rich>=13.5.0
 click>=8.1.0
