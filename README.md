@@ -2,10 +2,7 @@
 
 > **AI-Powered Android Testing with Intelligent Prompt Refinement & Agent-S Integration**
 
-[![Python 3.8+](https://img.shields.(https://img.shields/img.shields.io/badge/Agent--S-integrate Makes This Special?
-
-Transform casual language like **"hey do it turn wifi"** into sophisticated Android UI automation with AI-powered prompt refinement and multi-agent orchestration.
-
+https://multiagentssystem.streamlit.app/
 ```
 Input:  "hey do it turn wifi"
    ↓ 🤖 AI Enhancement
