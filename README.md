@@ -13,7 +13,25 @@ Task:   settings_wifi (87% confidence)
    ↓ 🚀 Multi-Agent Execution
 Result: ✅ PASS (3.2s, 8 steps)
 ```
+🚀 Main Orchestration Command
 
+To kickstart the full testing orchestration with your chosen task and options, just run this command:
+
+bash
+Copy
+Edit
+python main_orchestrator.py --task "Test turning Wi-Fi on and off" --mock-llm --max-steps 10 --force-virtual --no-android-env
+What it does:
+
+🛠️ Runs the entire multi-agent workflow on the given task
+
+🤖 Uses the Mock LLM mode for fast, cost-free testing
+
+⏳ Limits the execution to 10 steps max for efficiency
+
+🖥️ Runs in virtual mode without needing a real Android environment
+
+🎯 Perfect for quick experiments or CI pipelines
 ## 🚀 Key Features
 
 ### 🧠 **Intelligent Prompt Refinement**
